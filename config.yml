@@ -22,6 +22,7 @@ pipeline:
   constrain_similarities: True
   model_confidence: linear_norm 
 - name: EntitySynonymMapper
+- name: SpacyEntityExtractor
 #   - name: ResponseSelector
 #     epochs: 100
 - name: FallbackClassifier
