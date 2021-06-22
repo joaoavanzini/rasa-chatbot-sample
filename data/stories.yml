@@ -2,29 +2,44 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: o que é o vestibular?
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saudar
+  - action: utter_saudar
+  - intent: o_que_e_o_vestibular
+  - action: utter_o_que_e_o_vestibular
 
-- story: sad path 1
+- story: vai ter prova?
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: saudar
+  - action: utter_saudar
+  - intent: vai_ter_prova
+  - action: utter_vai_ter_prova
 
-- story: sad path 2
+- story: o que precisa para tentar vagas?
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: saudar
+  - action: utter_saudar
+  - intent: o_que_precisa_para_tentar_vagas
+  - action: utter_o_que_precisa_para_tentar_vagas
+
+- story: qual é a idade mínima?
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: idade_minima
+  - action: utter_idade_minima
+
+- story: funcionamento covid
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: funcionamento_covid
+  - action: utter_funcionamento_covid
+
+- story: principais etapas
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: principais_etapas
+  - action: utter_principais_etapas

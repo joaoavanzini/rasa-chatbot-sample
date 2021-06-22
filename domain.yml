@@ -54,10 +54,6 @@ responses:
   Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista \n
   Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista"
 
-
-
- 
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

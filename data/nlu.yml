@@ -141,19 +141,19 @@ nlu:
     - tem idade máxima para fazer os cursos
 
 
-intent: principais_etapas
+- intent: principais_etapas
   examples: |
-  - quais serão as principais datas e etapas do processo seletivo
-  - quais são as etapas do processo seletivo
-  - como será o processo seletivo
-  - como funciona o processo seletivo
-  - qual o cronograma do processo seletivo
+    - quais serão as principais datas e etapas do processo seletivo
+    - quais são as etapas do processo seletivo
+    - como será o processo seletivo
+    - como funciona o processo seletivo
+    - qual o cronograma do processo seletivo
 
 - intent: funcionamento_covid
   examples: |
-  - como serão as aulas por conta do covid
-  - as aulas serão presenciais
-  - as aulas serão online por conta do covid
-  - as aulas serão presenciais ou online
-  - como funciona as aulas nessa pandemia
-  - as aulas serão feitas remotamente ou presencial
+    - como serão as aulas por conta do covid
+    - as aulas serão presenciais
+    - as aulas serão online por conta do covid
+    - as aulas serão presenciais ou online
+    - como funciona as aulas nessa pandemia
+    - as aulas serão feitas remotamente ou presencial
