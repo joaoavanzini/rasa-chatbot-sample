@@ -1,0 +1,20 @@
+version: "2.0"
+
+# Regras são ações simples e curtas que são ativadas sempre que receber uma intent descrita.
+
+rules:
+
+rule: despedir sempre que receber uma despedida
+steps:
+- intents: tchau
+- actions: utter_despedir
+
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
