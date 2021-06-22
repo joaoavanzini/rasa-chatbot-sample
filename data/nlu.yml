@@ -1,92 +1,159 @@
 version: "2.0"
 
 nlu:
-- intent: greet
+- intent: saudar
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - oi
+    - olá
+    - eae
+    - fala ae
+    - salve
+    - ei
+    - olá, tudo bem?
+    - oi, tudo bem?
+    - eae, blz?
+    - eae, tudo bem?
 
-- intent: goodbye
+- intent: adeus
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - tchau
+    - flw
+    - até mais
+    - até a próxima
+    - até mais tarde
+    - obrigado, tchau
+    - fui
+    - vou embora
+    - quero ir embora
+    - vou sair
+    - quero sair
+    - qro sair
+    - qro ir embora
+    - obg
 
-- intent: affirm
+- intent: afirmacao
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
+    - sim
+    - siim
+    - siiim
+    - s
+    - ok
+    - com certeza
+    - ctza
+    - claro
+    - qro
+    - quero
+- intent: negacao
   examples: |
     - no
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - não
+    - acho que não
+    - acho q não
+    - talvez não
+    - não quero
+    - não qro
 
-- intent: mood_great
+- intent: felicidade
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfeito
+    - ótimo
+    - dahora
+    - blz
+    - foda demais
+    - adorei
+    - estou feliz
+    - que dahora
 
-- intent: mood_unhappy
+- intent: tristeza
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - meu dia foi horrivel
+    - estou na bad
+    - estou triste
+    - estou péssimo
+    - to ruim
+    - estou na merda
 
-- intent: bot_challenge
+- intent: perguntar_se_e_bot
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - você é um bot?
+    - vc é um bot?
+    - vc é um humano?
+    - você é uma humano?
+    - estou falando com um humano?
+    - estou falando com um bot?
+    - quem é você?
+    - qm é vc?
+    - quem é vc?
+
+
+- intent: o_que_e_o_vestibular
+  examples: |
+    - o que é o vestibular da fatec
+    - o que é o vestibular
+    - como é o vestibular
+    - como funciona o vestibular
+    - vai ter vestibular
+    - processo seletivo
+    - vestibular
+    - prova
+    - processo classificatório
+    - rendimento escolar
+
+- intent: vai_ter_prova
+  examples: |
+    - vai ter prova
+    - quando é a prova
+    - as provas serão presenciais
+    - vai ter prova presencial na pandemia
+    - as provas são aplicadas remotamente
+    - qual será o critério adotado para seleção
+    - como será feita a classificação final
+    - pandemia
+    - prova
+    - processo seletivo
+    - rendimento escolar
+    - processo classificatório
+
+- intent: o_que_precisa_para_tentar_vagas
+  examples: |
+    - quem pode tentar vaga nos cursos superiores
+    - o que é preciso para tentar vaga em cursos superiores
+    - o que preciso para tentar o vestibular
+    - quem pode disputar vagas nos cursos
+    - quem pode fazer o vestibular
+    - precisa ter terminado o ensino médio
+    - precisa ter o ensino médio completo
+    - processo seletivo
+    - vestibular
+    - prova
+    - processo classificatório
+    - rendimento escolar
+    - certificado de conclusão do ensino médio
+
+- intent: idade_minima
+  examples: |
+    - qual a idade minima para fazer o vestibular
+    - preciso ter quantos anos para fazer o vestibular
+    - tem idade máxima para fazer o vestibular
+    - qual a idade minima para fazer os cursos
+    - preciso ter quantos anos para fazer os cursos
+    - tem idade máxima para fazer os cursos
+
+
+intent: principais_etapas
+  examples: |
+  - quais serão as principais datas e etapas do processo seletivo
+  - quais são as etapas do processo seletivo
+  - como será o processo seletivo
+  - como funciona o processo seletivo
+  - qual o cronograma do processo seletivo
+
+- intent: funcionamento_covid
+  examples: |
+  - como serão as aulas por conta do covid
+  - as aulas serão presenciais
+  - as aulas serão online por conta do covid
+  - as aulas serão presenciais ou online
+  - como funciona as aulas nessa pandemia
+  - as aulas serão feitas remotamente ou presencial
