@@ -1,33 +1,56 @@
 version: "2.0"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - saudar
+  - adeus
+  - afirmacao
+  - negacao
+  - felicidade
+  - tristeza
+  - perguntar_se_e_bot
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saudar:
+  - text: "Olá! Como qual o seu nome?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+
+  utter_cumprimentar:
+  - text: "Ola {nome}, tudo bem?"
+
+  utter_alegrar:
+  - text: "Aqui está algo que possa animalo:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_oferecer_ajuda:
+  - text: "Em que posso ajudar?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_feliz:
+  - text: "Que ótimo!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_despedir:
+  - text: "Até mais! Espero ter ajudado"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_eu_sou_um_bot:
+  - text: "Eu sou um bot, construido em Rasa!"
+
+
+actions:
+  - validate_nome
+
+slots:
+  nome:
+    type: text
+    influence_conversation: true
+
+entities:
+  - nome
+
+forms:
+  nome_form:
+    required_slots:
+      nome:
+        - entity: nome
+          type: from_text
 
 session_config:
   session_expiration_time: 60

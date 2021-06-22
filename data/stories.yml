@@ -2,29 +2,39 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: Cumprimento
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saudar
+  - action: utter_saudar
+  - action: nome_form
+  - active_loop: nome_form
+  - slot_was_set:
+    - requested_slot: nome
+  - slot_was_set:
+    - nome: Caio
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  #- action: validate_nome
+  - action: utter_cumprimentar 
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+#- story: estou triste
+#  steps:
+#  - intent: saudar
+#  - action: utter_saudar
+#  - intent: tristeza
+#  - action: utter_alegrar
+#  - action: utter_oferecer_ajuda
+#  - intent: afirmacao
+#  - action: utter_feliz
+#
+#- story: estou triste 2
+#  steps:
+#  - intent: saudar
+#  - action: utter_saudar
+#  - intent: tristeza
+#  - action: utter_alegrar
+#  - action: utter_oferecer_ajuda
+#  - intent: negacao
+#  - action: utter_despedir
+#

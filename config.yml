@@ -1,13 +1,13 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: pt
 
 pipeline:
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 - name: SpacyNLP
-  model: pt_cores_news_md
+  model: pt_core_news_md
 - name: SpacyTokenizer
 - name: SpacyFeaturizer
 - name: RegexFeaturizer

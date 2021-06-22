@@ -2,12 +2,32 @@ version: "2.0"
 
 rules:
 
+- rule: Hello world
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - action: nome_form
+  - active_loop: nome_form
+
+
+- rule: desliga formulario
+  condition: 
+  - active_loop: nome_form
+  steps:
+  - action: utter_saudar
+  - action: nome_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_cumprimentar 
+
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: adeus
+  - action: utter_despedir
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: perguntar_se_e_bot
+  - action: utter_eu_sou_um_bot
