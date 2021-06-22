@@ -96,9 +96,7 @@ nlu:
     - vai ter vestibular
     - processo seletivo
     - vestibular
-    - prova
     - processo classificatório
-    - rendimento escolar
 
 - intent: vai_ter_prova
   examples: |
@@ -111,9 +109,7 @@ nlu:
     - como será feita a classificação final
     - pandemia
     - prova
-    - processo seletivo
     - rendimento escolar
-    - processo classificatório
 
 - intent: o_que_precisa_para_tentar_vagas
   examples: |
@@ -125,15 +121,13 @@ nlu:
     - precisa ter terminado o ensino médio
     - precisa ter o ensino médio completo
     - processo seletivo
-    - vestibular
-    - prova
     - processo classificatório
     - rendimento escolar
     - certificado de conclusão do ensino médio
 
 - intent: idade_minima
   examples: |
-    - qual a idade minima para fazer o vestibular
+    - qual a idade minima?
     - preciso ter quantos anos para fazer o vestibular
     - tem idade máxima para fazer o vestibular
     - qual a idade minima para fazer os cursos
