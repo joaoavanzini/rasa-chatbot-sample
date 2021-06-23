@@ -59,26 +59,6 @@ nlu:
     - sem caminho
     - na realidade não
 
-# - intent: felicidade
-#   examples: |
-#     - perfeito
-#     - ótimo
-#     - dahora
-#     - blz
-#     - foda demais
-#     - adorei
-#     - estou feliz
-#     - que dahora
-
-# - intent: tristeza
-#   examples: |
-#     - meu dia foi horrivel
-#     - estou na bad
-#     - estou triste
-#     - estou péssimo
-#     - to ruim
-#     - estou na merda
-
 - intent: perguntar_se_e_bot
   examples: |
     - você é um bot
@@ -90,71 +70,8 @@ nlu:
     - de onde você vem
     - bot
 
-# # - intent: o_que_e_o_vestibular
-# #   examples: |
-# #     - o que é o vestibular da fatec
-# #     - o que é o vestibular
-# #     - como é o vestibular
-# #     - como funciona o vestibular
-# #     - vai ter vestibular
-# #     - vestibular
-# #     - processo classificatório
 
-# - intent: vai_ter_prova
-#   examples: |
-#     - vai ter prova
-#     - quando é a prova
-#     - as provas serão presenciais
-#     - vai ter prova presencial na pandemia
-#     - as provas são aplicadas remotamente
-#     - qual será o critério adotado para seleção
-#     - como será feita a classificação final
-#     - pandemia
-#     - prova
-#     - rendimento escolar
-
-# - intent: o_que_precisa_para_tentar_vagas
-#   examples: |
-#     - quem pode tentar vaga nos cursos superiores
-#     - o que é preciso para tentar vaga em cursos superiores
-#     - o que preciso para tentar o vestibular
-#     - quem pode disputar vagas nos cursos
-#     - quem pode fazer o vestibular
-#     - precisa ter terminado o ensino médio
-#     - precisa ter o ensino médio completo
-#     - processo classificatório
-#     - rendimento escolar
-#     - certificado de conclusão do ensino médio
-
-# - intent: idade_minima
-#   examples: |
-#     - qual a idade minima?
-#     - preciso ter quantos anos para fazer o vestibular
-#     - tem idade máxima para fazer o vestibular
-#     - qual a idade minima para fazer os cursos
-#     - preciso ter quantos anos para fazer os cursos
-#     - tem idade máxima para fazer os cursos
-#     - preciso ter quantos anos para fazer o vestibular
-
-# - intent: principais_etapas
-#   examples: |
-#     - quais serão as principais datas e etapas do processo seletivo
-#     - quais são as etapas do processo seletivo
-
-
-# - intent: funcionamento_covid
-#   examples: |
-#     - como serão as aulas por conta do covid
-#     - as aulas serão presenciais
-#     - as aulas serão online por conta do covid
-#     - as aulas serão presenciais ou online
-#     - como funciona as aulas nessa pandemia
-#     - as aulas serão feitas remotamente ou presencial
-
-
-# Aqui começa
-
-- intent: processo_seletivo # Aqui só fica as coisas relacionadas ao processo seletivo.
+- intent: processo_seletivo 
   examples: |
     - processo seletivo
     - datas
@@ -170,7 +87,7 @@ nlu:
     - quero saber sobre as etapas do processo seletivo
     - como o processo seletivo vai ser realizado
   
-- intent: vestibular_fatec # Aqui só fica as coisas relacionadas ao vestibular da FATEC.
+- intent: vestibular_fatec 
   examples: |
     - vestibular fatec
     - FATEC
@@ -189,7 +106,7 @@ nlu:
     - me diga sobre o processo classificatório
     - informações sobre o processo classificatório
   
-- intent: idade_minima # Aqui só fica as coisas relacionadas a idade/ano do participante.
+- intent: idade_minima 
   examples: |
     - idade
     - qual a idade minima
@@ -202,7 +119,7 @@ nlu:
     - quantos anos preciso ter para participar
     - até qual idade pode participar  
   
-- intent: prova # Aqui só fica as coisas relacionadas a prova.
+- intent: prova 
   examples: | 
     - prova
     - vai ter prova
@@ -214,7 +131,7 @@ nlu:
     - qual o dia da prova
     - como vai ser a prova
 
-- intent: aula # Aqui só fica as coisas relacionadas as aulas.
+- intent: aula 
   examples: |
     - aulas por conta da pandemia
     - aulas por conta do covid
@@ -231,7 +148,7 @@ nlu:
     - aulas serão onlines
     - as aulas serão remotas
 
-- intent: vagas # Aqui só fica as coisas relacionadas as vagas/quem pode fazer o vestibular
+- intent: vagas 
   examples: |
     - tentar vagas
     - vagas

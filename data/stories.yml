@@ -53,14 +53,7 @@ stories:
   steps:
   - intent: perguntar_se_e_bot
   - action: utter_perguntar_se_e_bot
-#- story: interactive_story_1
-#  steps:
-#  - intent: saudacao
-#  - action: utter_saudacao
-#  - intent: idade_minima
-#  - action: utter_idade_minima
 
-# Falta story para o vestibular
 - story: vestibular
   steps:
   - intent: saudacao
