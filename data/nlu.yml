@@ -126,9 +126,7 @@ nlu:
     - tenho dúvidas sobre as etapas do processo seletivo
     - tenho dúvidas com o processo seletivo
     - tenho dúvidas com a seletiva
-    - tenho dúvidas com as etapas do processo seletivo
-    
-    
+    - tenho dúvidas com as etapas do processo seletivo   
   
 - intent: vestibular_fatec 
   examples: |
@@ -187,7 +185,6 @@ nlu:
     - qual o dia da prova
     - prova na pandemia
     - prova online
-
     
 # Victor
 - intent: aula 
@@ -240,7 +237,6 @@ nlu:
     - por conta do corona nao teremos aulas presenciais
     - por conta do virus nao teremos aulas presenciais
     
-
 - intent: vagas 
   examples: |
     - tentar vagas
