@@ -187,7 +187,8 @@ nlu:
     - qual o dia da prova
     - prova na pandemia
     - prova online
-    -  
+
+    
 # Victor
 - intent: aula 
   examples: |
