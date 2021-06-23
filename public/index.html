@@ -1,20 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bot da FATEC</title>
-  
-    <link rel="stylesheet" type="text/css" href="index.css" />
-</head>
-
-<body>
-
-    <div class="chat-container">
+    <link rel="stylesheet" type="text/css" href="./dist/Chatroom.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Chatroom Demo</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="chat-container">
         <script type="text/javascript">
-            const ut = new SpeechSynthesisUtterance('No warning should arise');
-            speechSynthesis.speak(ut);
+          const ut = new SpeechSynthesisUtterance('No warning should arise');
+          speechSynthesis.speak(ut);
         </script>
         <script
             src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"></script>
@@ -22,12 +19,13 @@
         <script type="text/javascript">
             window.chatroom = new window.Chatroom({
                 host: "http://localhost:5005",
-                title: "Bot da FATEC Mogi Mirim - Vestibulares",
+                title: "Fatec",
                 container: document.querySelector(".chat-container"),
                 welcomeMessage:"Olá!",
             });
                     window.chatroom.openChat();
-        </script>
+        </script>   
+      </div>
     </div>
-    </body>    
+  </body>
 </html>
