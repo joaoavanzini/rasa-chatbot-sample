@@ -7,7 +7,6 @@ rules:
   - intent: adeus
   - action: utter_adeus
 
-    
 - rule: voce é um bot
   steps:
   - intent: perguntar_se_e_bot

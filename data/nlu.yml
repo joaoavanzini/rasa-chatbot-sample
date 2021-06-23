@@ -70,7 +70,6 @@ nlu:
     - de onde você vem
     - bot
 
-
 - intent: processo_seletivo 
   examples: |
     - processo seletivo
