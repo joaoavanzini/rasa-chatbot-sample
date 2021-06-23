@@ -2,7 +2,55 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: dizer adeus
   steps:
   - intent: adeus
   - action: utter_adeus
+
+# - rule: o que e vestibular
+#   steps:
+#   - intent: saudacao
+#   - action: utter_saudacao
+#   - intent: processo_seletivo
+#   - action: utter_principais_etapas
+
+#   - rule: vai ter prova
+#     steps:
+#     - intent: saudacao
+#     - action: utter_saudacao
+#     - intent: vai_ter_prova
+#     - action: utter_vai_ter_prova
+
+#   - rule: tentar vagas
+#     steps:
+#     - intent: saudacao
+#     - action: utter_saudacao
+#     - intent: o_que_precisa_para_tentar_vagas
+#     - action: utter_o_que_precisa_para_tentar_vagas
+
+#   - rule: idade minima
+#     steps:
+#     - intent: saudacao
+#     - action: utter_saudacao
+#     - intent: idade_minima
+#     - action: utter_idade_minima
+
+#   - rule: funcionamento covid
+#     steps:
+#     - intent: saudacao
+#     - action: utter_saudacao
+#     - intent: saudacao
+#     - action: utter_funcionamento_covid
+
+    
+#   - rule: principais etapas
+#     steps:
+#     - intent: saudacao
+#     - action: utter_saudacao
+#     - intent: principais_etapas
+#     - action: utter_principais_etapas
+    
+- rule: voce é um bot
+  steps:
+  - intent: perguntar_se_e_bot
+  - action: utter_perguntar_se_e_bot

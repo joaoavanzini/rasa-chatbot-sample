@@ -1,153 +1,244 @@
 version: "2.0"
-
 nlu:
-- intent: saudar
+- intent: saudacao
   examples: |
     - oi
     - olá
-    - eae
+    - ola
+    - hey
     - fala ae
     - salve
     - ei
-    - olá, tudo bem?
-    - oi, tudo bem?
-    - eae, blz?
-    - eae, tudo bem?
+    - vamos lá
+    - beleza
+    - blz
+    - e ai
+    - oi, tudo bem
+    - eae, blz
+    - eae, tudo bem
+    - olá, tudo bem
+    - ola, beleza
 
 - intent: adeus
   examples: |
+    - te vejo mais tarde
     - tchau
     - flw
+    - falou
     - até mais
     - até a próxima
     - até mais tarde
     - obrigado, tchau
     - fui
     - vou embora
-    - quero ir embora
+    - saindo
     - vou sair
-    - quero sair
-    - qro sair
-    - qro ir embora
-    - obg
+    - se vemos por ai
+    - valeu falou
 
 - intent: afirmacao
   examples: |
     - sim
-    - siim
-    - siiim
-    - s
-    - ok
     - com certeza
-    - ctza
     - claro
-    - qro
-    - quero
+    - positivo
+    - isso me parece bom
+    - correto
+    - bom
+    - ótimo
+    - pode ser
+    - ok
+
 - intent: negacao
   examples: |
-    - no
-    - n
     - não
-    - acho que não
-    - acho q não
-    - talvez não
-    - não quero
-    - não qro
+    - nunca
+    - nem
+    - eu não acho isso
+    - não gosto
+    - sem caminho
+    - na realidade não
 
-- intent: felicidade
-  examples: |
-    - perfeito
-    - ótimo
-    - dahora
-    - blz
-    - foda demais
-    - adorei
-    - estou feliz
-    - que dahora
+# - intent: felicidade
+#   examples: |
+#     - perfeito
+#     - ótimo
+#     - dahora
+#     - blz
+#     - foda demais
+#     - adorei
+#     - estou feliz
+#     - que dahora
 
-- intent: tristeza
-  examples: |
-    - meu dia foi horrivel
-    - estou na bad
-    - estou triste
-    - estou péssimo
-    - to ruim
-    - estou na merda
+# - intent: tristeza
+#   examples: |
+#     - meu dia foi horrivel
+#     - estou na bad
+#     - estou triste
+#     - estou péssimo
+#     - to ruim
+#     - estou na merda
 
 - intent: perguntar_se_e_bot
   examples: |
-    - você é um bot?
-    - vc é um bot?
-    - vc é um humano?
-    - você é uma humano?
-    - estou falando com um humano?
-    - estou falando com um bot?
-    - quem é você?
-    - qm é vc?
-    - quem é vc?
+    - você é um bot
+    - você é uma humano
+    - estou falando com um humano
+    - estou falando com um bot
+    - quem é você
+    - me explique quem é você
+    - de onde você vem
+    - bot
+
+# # - intent: o_que_e_o_vestibular
+# #   examples: |
+# #     - o que é o vestibular da fatec
+# #     - o que é o vestibular
+# #     - como é o vestibular
+# #     - como funciona o vestibular
+# #     - vai ter vestibular
+# #     - vestibular
+# #     - processo classificatório
+
+# - intent: vai_ter_prova
+#   examples: |
+#     - vai ter prova
+#     - quando é a prova
+#     - as provas serão presenciais
+#     - vai ter prova presencial na pandemia
+#     - as provas são aplicadas remotamente
+#     - qual será o critério adotado para seleção
+#     - como será feita a classificação final
+#     - pandemia
+#     - prova
+#     - rendimento escolar
+
+# - intent: o_que_precisa_para_tentar_vagas
+#   examples: |
+#     - quem pode tentar vaga nos cursos superiores
+#     - o que é preciso para tentar vaga em cursos superiores
+#     - o que preciso para tentar o vestibular
+#     - quem pode disputar vagas nos cursos
+#     - quem pode fazer o vestibular
+#     - precisa ter terminado o ensino médio
+#     - precisa ter o ensino médio completo
+#     - processo classificatório
+#     - rendimento escolar
+#     - certificado de conclusão do ensino médio
+
+# - intent: idade_minima
+#   examples: |
+#     - qual a idade minima?
+#     - preciso ter quantos anos para fazer o vestibular
+#     - tem idade máxima para fazer o vestibular
+#     - qual a idade minima para fazer os cursos
+#     - preciso ter quantos anos para fazer os cursos
+#     - tem idade máxima para fazer os cursos
+#     - preciso ter quantos anos para fazer o vestibular
+
+# - intent: principais_etapas
+#   examples: |
+#     - quais serão as principais datas e etapas do processo seletivo
+#     - quais são as etapas do processo seletivo
 
 
-- intent: o_que_e_o_vestibular
+# - intent: funcionamento_covid
+#   examples: |
+#     - como serão as aulas por conta do covid
+#     - as aulas serão presenciais
+#     - as aulas serão online por conta do covid
+#     - as aulas serão presenciais ou online
+#     - como funciona as aulas nessa pandemia
+#     - as aulas serão feitas remotamente ou presencial
+
+
+# Aqui começa
+
+- intent: processo_seletivo # Aqui só fica as coisas relacionadas ao processo seletivo.
   examples: |
-    - o que é o vestibular da fatec
-    - o que é o vestibular
-    - como é o vestibular
-    - como funciona o vestibular
-    - vai ter vestibular
     - processo seletivo
-    - vestibular
-    - processo classificatório
-
-- intent: vai_ter_prova
-  examples: |
-    - vai ter prova
-    - quando é a prova
-    - as provas serão presenciais
-    - vai ter prova presencial na pandemia
-    - as provas são aplicadas remotamente
-    - qual será o critério adotado para seleção
-    - como será feita a classificação final
-    - pandemia
-    - prova
-    - rendimento escolar
-
-- intent: o_que_precisa_para_tentar_vagas
-  examples: |
-    - quem pode tentar vaga nos cursos superiores
-    - o que é preciso para tentar vaga em cursos superiores
-    - o que preciso para tentar o vestibular
-    - quem pode disputar vagas nos cursos
-    - quem pode fazer o vestibular
-    - precisa ter terminado o ensino médio
-    - precisa ter o ensino médio completo
-    - processo seletivo
-    - processo classificatório
-    - rendimento escolar
-    - certificado de conclusão do ensino médio
-
-- intent: idade_minima
-  examples: |
-    - qual a idade minima?
-    - preciso ter quantos anos para fazer o vestibular
-    - tem idade máxima para fazer o vestibular
-    - qual a idade minima para fazer os cursos
-    - preciso ter quantos anos para fazer os cursos
-    - tem idade máxima para fazer os cursos
-
-
-- intent: principais_etapas
-  examples: |
+    - datas
+    - etapas
     - quais serão as principais datas e etapas do processo seletivo
     - quais são as etapas do processo seletivo
     - como será o processo seletivo
     - como funciona o processo seletivo
     - qual o cronograma do processo seletivo
-
-- intent: funcionamento_covid
+    - preciso de informações sobre o processo seletivo
+    - quero datas do processo seletivo
+    - quero saber sobre o processo seletivo
+    - quero saber sobre as etapas do processo seletivo
+    - como o processo seletivo vai ser realizado
+  
+- intent: vestibular_fatec # Aqui só fica as coisas relacionadas ao vestibular da FATEC.
   examples: |
-    - como serão as aulas por conta do covid
-    - as aulas serão presenciais
-    - as aulas serão online por conta do covid
-    - as aulas serão presenciais ou online
-    - como funciona as aulas nessa pandemia
-    - as aulas serão feitas remotamente ou presencial
+    - vestibular fatec
+    - FATEC
+    - o que é o vestibular da fatec
+    - o que é o vestibular
+    - como é o vestibular
+    - como funciona o vestibular
+    - vai ter vestibular
+    - preciso saber sobre o vestibular
+    - como vai ser o vestibular
+    - vestibular
+    - me conte sobre o vestibular
+    - me diga sobre o vestibular
+    - processo classificatório
+    - sobre o processo classificatório
+    - me diga sobre o processo classificatório
+    - informações sobre o processo classificatório
+  
+- intent: idade_minima # Aqui só fica as coisas relacionadas a idade/ano do participante.
+  examples: |
+    - idade
+    - qual a idade minima
+    - qual a idade máxima
+    - preciso ter quantos anos para fazer
+    - tem idade máxima
+    - tem idade mínima
+    - com quantos anos pode participar
+    - qual idade para participar
+    - quantos anos preciso ter para participar
+    - até qual idade pode participar  
+  
+- intent: prova # Aqui só fica as coisas relacionadas a prova.
+  examples: | 
+    - prova
+    - vai ter prova
+    - quando é a prova
+    - as provas serão aplicadas remotamente
+    - prova remota
+    - como será feita a prova
+    - dia da prova
+    - qual o dia da prova
+    - como vai ser a prova
+
+- intent: aula # Aqui só fica as coisas relacionadas as aulas.
+  examples: |
+    - aulas por conta da pandemia
+    - aulas por conta do covid
+    - aulas por conta do corona
+    - covid 19
+    - covid-19
+    - aulas presenciais
+    - aulas
+    - covid
+    - pandemia
+    - corona
+    - aula covid
+    - aulas serão presenciais
+    - aulas serão onlines
+    - as aulas serão remotas
+
+- intent: vagas # Aqui só fica as coisas relacionadas as vagas/quem pode fazer o vestibular
+  examples: |
+    - tentar vagas
+    - vagas
+    - curso superior
+    - quem pode vagas
+    - quantas vagas
+    - ensino médio completo
+    - certificado ensino médio
+    - quem pode fazer
+    - quem pode disputar vaga nos cursos
