@@ -1,0 +1,10 @@
+version: "2.0"
+
+rules:
+
+- rule: saudando
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+
+

@@ -1,0 +1,131 @@
+version: "2.0"
+
+nlu:
+- intent: saudar
+  examples: |
+    - oi
+    - olá
+    - eae
+    - fala ae
+    - salve
+    - ei
+    - olá, tudo bem?
+    - oi, tudo bem?
+    - eae, blz?
+    - eae, tudo bem?
+- intent: adeus
+  examples: |
+    - tchau
+    - flw
+    - até mais
+    - até a próxima
+    - até mais tarde
+    - obrigado, tchau
+    - fui
+    - vou embora
+    - quero ir embora
+    - vou sair
+    - quero sair
+    - qro sair
+    - qro ir embora
+    - obg
+- intent: afirmacao
+  examples: |
+    - sim
+    - siim
+    - siiim
+    - s
+    - ok
+    - com certeza
+    - ctza
+    - claro
+    - qro
+    - quero
+- intent: negacao
+  examples: |
+    - no
+    - n
+    - não
+    - acho que não
+    - acho q não
+    - talvez não
+    - não quero
+    - não qro
+- intent: felicidade
+  examples: |
+    - perfeito
+    - ótimo
+    - dahora
+    - blz
+    - foda demais
+    - adorei
+    - estou feliz
+    - que dahora
+- intent: tristeza
+  examples: |
+    - meu dia foi horrivel
+    - estou na bad
+    - estou triste
+    - estou péssimo
+    - to ruim
+    - estou na merda
+- intent: perguntar_se_e_bot
+  examples: |
+    - você é um bot?
+    - vc é um bot?
+    - vc é um humano?
+    - você é uma humano?
+    - estou falando com um humano?
+    - estou falando com um bot?
+    - quem é você?
+    - qm é vc?
+    - quem é vc?
+- intent: o_que_e_o_vestibular
+  examples: |
+    - o que é o vestibular da fatec
+    - o que é o vestibular
+    - como é o vestibular
+    - como funciona o vestibular
+    - vai ter vestibular
+    - processo seletivo
+    - vestibular
+    - prova
+    - processo classificatório
+    - rendimento escolar
+    
+- intent: vai_ter_prova
+  examples: |
+    - vai ter prova
+    - quando é a prova
+    - as provas serão presenciais
+    - vai ter prova presencial na pandemia
+    - as provas são aplicadas remotamente
+    - qual será o critério adotado para seleção
+    - como será feita a classificação final
+    - pandemia
+    - prova
+    - processo seletivo
+    - rendimento escolar
+    - processo classificatório
+
+- intent: o_que_precisa_para_tentar_vagas
+  examples: |
+    - quem pode tentar vaga nos cursos superiores
+    - o que é preciso para tentar vaga em cursos superiores
+    - quem pode disputar vagas nos cursos
+    - precisa ter terminado o ensino médio
+    - precisa ter o ensino médio completo
+    - processo seletivo
+    - prova
+    - processo classificatório
+    - rendimento escolar
+    - certificado de conclusão do ensino médio
+
+- intent: funcionamento_covid
+  examples: |
+    - como serão as aulas por conta do covid
+    - as aulas serão presenciais
+    - as aulas serão online por conta do covid
+    - as aulas serão presenciais ou online
+    - como funciona as aulas nessa pandemia
+    - as aulas serão feitas remotamente ou presencial
