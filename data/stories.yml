@@ -67,3 +67,8 @@ stories:
   - action: utter_saudacao
   - intent: aula
   - action: utter_vai_ter_prova
+
+- story: nlu_fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nlu_fallback

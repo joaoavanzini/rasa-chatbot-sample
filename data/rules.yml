@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: perguntar_se_e_bot
   - action: utter_perguntar_se_e_bot
+
+- rule: nlu fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nlu_fallback
