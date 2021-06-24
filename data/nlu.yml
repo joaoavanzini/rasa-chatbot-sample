@@ -226,7 +226,7 @@ nlu:
     - por conta da pandemia teremos aula presencial
     - por conta do covid teremos aula presencial
     - por conta do corona teremos aula presencial
-    - por vonta do virus teremos aula presencial
+    - por conta do virus teremos aula presencial
     - teremos aula presencial
     - em relação as aulas como serão
     - em relação as aulas elas serão presenciais
@@ -298,6 +298,7 @@ nlu:
     - qual o sentido da vida
     - receita de bolo
     - estados brasileiros
+    - poemo
     - 0
     - 1
     - 2
