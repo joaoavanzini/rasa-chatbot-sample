@@ -15,24 +15,31 @@ intents:
 - aula
 - vagas
 - principais_etapas
+- trocar_curso
+- aproveitar_disciplinas
+- matricula_sem_historico
+- escolaridade_publica
+- vestibular_novamente
+- dois_cursos
+- cursar_outra_faculdade
+- posso_usar_cnh
+- posso_usar_rg
+- perdi_documento
+- aulas_na_pandemia
+- nlu_fallback
 
 responses:
   utter_saudacao:
   - text: "Olá, tudo bem?! Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :) \nEscreva a sua dúvida abaixo."
+
   utter_adeus:
   - text: "Tchau"
   - text: "Até mais!"
-  utter_o_que_e_o_vestibular:
-  - text: "É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), \nneste semestre por conta da pandemia do COVID-19, o  processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia."
-  utter_vai_ter_prova:
-  - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da análise do histórico escolar. \nA classificação final vai considerar a média aritmética simples das notas das disciplinas de português e matemática da 2ª série do Ensino Médio."
-  utter_o_que_precisa_para_tentar_vagas:
-  - text: "Para os candidatos que concluiram o ensino médio regular, ENCCEJA e afins."
-  utter_idade_minima:
-  - text: "Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula, \nrespeitando-se o Parecer CNE/CEB 19/2007 e demais Legislações vigentes acerca da especificidade deste curso."
-  utter_funcionamento_aulas: 
-  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), \naté que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
-  utter_principais_etapas:
+
+  utter_perguntar_se_e_bot:
+  - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
+  
+  utter_processo_seletivo:
   - text: |-
        O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma: 
        De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo
@@ -49,10 +56,88 @@ responses:
        Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
        Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
        Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
-
-  utter_perguntar_se_e_bot:
-  - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
+  
+  utter_vestibular:
+  - text: "É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), \nneste semestre por conta da pandemia do COVID-19, o  processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia."
+  
+  utter_prova:
+  - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da análise do histórico escolar. \nA classificação final vai considerar a média aritmética simples das notas das disciplinas de português e matemática da 2ª série do Ensino Médio. \nA prova será "
+  
+  utter_vagas:
+  - text: "Para os candidatos que concluiram o ensino médio regular, ENCCEJA e afins."
+ 
+  utter_idade_minima:
+  - text: "Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula, \nrespeitando-se o Parecer CNE/CEB 19/2007 e demais Legislações vigentes acerca da especificidade deste curso."
+  
+  utter_aula: 
+  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), \naté que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
+  
 
   utter_nlu_fallback:
   - text: "Não entendi o que você disse. Poderia repetir?"
-    
+
+# linha 11 da planilha
+  utter_trocar_curso:
+  - text: "Infelizmente não, somente prestando o vestibular novamente para o curso que deseja."
+
+# linha 12 da planilha
+  utter_aproveitar_disciplinas:
+  - text: |-
+      "Conforme o Manual do Candidato, que consta no site do vestibular da Fatec, em https://www.vestibularfatec.com.br/documentos/:\n 
+       No dia da matrícula
+       "O candidato que pretenda obter aproveitamento de estudos em disciplina(s) já realizada(s) em outro curso superior deverá fazer 
+       o upload da documentação referente à carga horária, ementa e programa da(s) disciplina(s) cursada(s) e histórico escolar da 
+       instituição de ensino superior de origem.""
+
+# linha 13 da planilha
+  utter_matricula_sem_historico:
+  - text: "No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o Histórico fique pronto."
+
+# linha 14 da planilha
+  utter_escolaridade_publica:
+  - text: |-
+      "Caso o seu histórico não tenha o detalhamento dos três anos do ensino médio com o nome de cada escola, \n
+       você deverá solicitar na última escola em que concluiu o ensino médio, uma Declaração de Escolaridade Pública, \n
+       conforme o modelo do ANEXO II disponível no Manual do Candidato em https://www.vestibularfatec.com.br/documentos/."
+  
+# linha 15 da planilha
+  utter_vestibular_novamente:
+  - text: "Sim, você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula."
+
+# linha 16 da planilha
+  utter_dois_cursos:
+  - text: |-
+       "Não pode cursar dois cursos da Fatec simultaneamente, também não pode trancar um e iniciar o outro.
+        De acordo com o Regulamento Geral dos Cursos de Graduação das Faculdades de Tecnologia do Centro Estadual de Educação Tecnológica \n
+        “Paula Souza”- CEETEPS: Capítulo II  - MATRÍCULAS E ASSUNTOS CORRELATOS  
+        Artigo 16 -O aluno das Faculdades de Tecnologia (FATEC) do Centro Paula Souza não pode estar matriculado simultaneamente \n
+        em outra instituição pública e gratuita de ensino superior, seja ela municipal, estadual ou federal, \n
+        nem tampouco em duas FATECs ou dois cursos distintos na mesma FATEC. "
+
+# linha 17 da planilha
+  utter_cursar_outra_faculdade:
+  - text: "Se for instituição particular sim, se for pública não. Caso venha a matricular-se em outra instituição \n
+           pública de ensino superior no decorrer do curso, o aluno deve solicitar imediatamente à Secretaria Acadêmica o \n
+           cancelamento de sua matrícula."
+
+# linha 18 da planilha
+  utter_posso_usar_cnh:
+  - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de Habilitação - CNH - ou \n
+           documentos expedidos por Ordem ou Conselho Profissional (exemplo: OAB, Crea, Coren, CRC e outros)."
+
+# linha 19 da planilha
+  utter_posso_usar_rg:
+  - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
+
+# linha 20 da planilha
+  utter_perdi_documento:
+  - text: |-
+       "Considera-se, para upload no sistema, arquivos com os seguintes documentos que comprovem o número do CPF:
+       - CPF como documento exclusivo;
+       - RG, desde que contenha o número do CPF;
+       - Carteira Nacional de Habilitação - CNH expedida nos termos da Lei Federal 9.503/97."
+
+# linha 21 da planilha
+  # utter_aulas_na_pandemia:
+  # - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social \n
+  #          sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."

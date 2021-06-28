@@ -310,3 +310,100 @@ nlu:
     - 8
     - 9
     - 19
+
+# linha 11 da planilha
+- intent: trocar_curso        
+  examples: |
+    - fiz o vestibular para um curso e gostaria de trocar de curso, tem como
+    - fiz o vestibular e quero trocar de curso, posso
+    - posso trocar de curso depois de prestar o vestibular
+    - mudei de ideia depois que fiz o vestibular, quero mudar de curso
+    - gostaria de mudar de curso, mas ja fiz o vestibular
+
+# linha 12 da planilha
+- intent: aproveitar_disciplinas        
+  examples: |
+    - como faço o aproveitamento de disciplinas
+    - como faço o aproveitamento das disciplinas que ja fiz
+    - como faço o aproveitamento das materias que ja fiz
+    - posso reaproveitar diciplinas que ja cursei
+    - posso eliminar as materias que ja cursei
+
+# linha 13 da planilha
+- intent: matricula_sem_historico 
+  examples: |
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
+    - ja terminei o ensino médio e ainda não tenho o Histórico Escolar, vou ter algum problema na matrícula
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico, posso fazer a matrícula
+    - consigo fazer a matricula sem ter recebido o Histórico Escolar
+    - posso fazer a matricula sem o Histórico
+
+# linha 14 da planilha
+- intent: escolaridade_publica
+  examples: |
+    - como eu comprovo escolaridade pública
+    - como posso comprovar que estudei em escola pública
+    - qual documento preciso para comprovar que estudei em escola pública
+    - de que forma comprovo que estudei em escola pública
+    - no meu histórico não consta os nomes das escolas, como comprovo que estudei em escola pública
+    
+# linha 15 da planilha
+- intent: vestibular_novamente
+  examples: |
+    - cursava um curso na Fatec e parei, posso fazer o vestibular novamente
+    - cursei na Fatec e parei, tem algum problema em fazer o vestibular outra vez
+    - ja fiz um curso na Fatec, posso fazer o vestibular novamente
+    - posso fazer o vestibular novamente, mesmo ja tendo feito um curso na fatec sem terminar
+    - tem problema em prestar novamente o vestibular mesmo tendo cursado na fatec anteriormente
+
+# linha 16 da planilha
+- intent: dois_cursos
+  examples: |
+    - posso cursar dois cursos da Fatec
+    - pode cursar dois cursos da Fatec
+    - é possivel cursar dois cursos da Fatec
+    - tem algum problema em cursar dois cursos da Fatec
+    - pode cursar dois cursos simultâneamente
+
+# linha 17 a 21 da planilha
+- intent: cursar_outra_faculdade
+  examples: |
+    - posso fazer outra faculdade mesmo cursando na Fatec
+    - tenho que fazer somente uma faculdade na fatec
+    - posso estar cursando outra faculdade na fatec
+    - posso cursar outro curso na fatec
+    - posso fazer outra faculdade que não seja fatec
+    - estou fazendo outra faculdade alem da fatec, posso continuar
+    - posso fazer duas faculdades em lugares diferentes
+
+- intent: posso_usar_cnh
+  examples: |
+    - Posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
+    - qual documento posso utilizar para matricula
+    - qual documento e necessario para matricula
+    - posso utilizar outro documento para matricula
+    - qual documento eu nao posso utilizar para matricula
+  
+- intent: posso_usar_rg
+  examples: |
+    - Perdi meu RG, como faço
+    - estou sem rg, o que faço
+    - o que posso fazer sem rg
+    - como faço sem rg
+    - aceita um comprovante do rg para matricula
+
+- intent: perdi_documento
+  examples: |
+    - Perdi meu CPF ou não tenho o cartão do CPF, como faço na matrícula
+    - quais documentos posso usaar para matricula
+    - estou sem cpf, e agora como faço a matricula
+    - perdi cpf como faço a matricula
+    - no caso de perda do cpf, o que posso fazer
+
+# - intent: aulas_na_pandemia
+#   examples: |
+#     - Como serão as aulas por conta da pandemia Covid-19
+#     - as aulas seram presenciais
+#     - as aulas seram remotas
+#     - qual a regra para aulas na pandemia
+#     - como sera as aulas na pandemia
