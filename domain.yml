@@ -14,7 +14,6 @@ intents:
 - prova
 - aula
 - vagas
-<<<<<<< HEAD
 - candidato_estrangeiro
 - pagamento_taxa_inscricao
 - como_faco_inscricao_vestibular
@@ -24,21 +23,6 @@ intents:
 - pagamento_efetivado
 - segunda_via_boleto
 - segunda_chamada
-=======
-- principais_etapas
-- trocar_curso
-- aproveitar_disciplinas
-- matricula_sem_historico
-- escolaridade_publica
-- vestibular_novamente
-- dois_cursos
-- cursar_outra_faculdade
-- posso_usar_cnh
-- posso_usar_rg
-- perdi_documento
-- aulas_na_pandemia
-- nlu_fallback
->>>>>>> a6796c3187bf5d39d4657a8cf9c137be9514636e
 
 responses:
   utter_saudacao:
