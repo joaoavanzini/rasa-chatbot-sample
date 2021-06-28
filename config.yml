@@ -37,9 +37,12 @@ policies:
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
 - name: RulePolicy
+  # core_fallback_threshold: 0.2
+  # core_fallback_action_name: utter_nlu_fallback
+  # enable_fallback_prediction: False
 - name: MemoizationPolicy
 - name: TEDPolicy
-  max_history: 5
+  max_history: 100
   epochs: 100
   constrain_similarities: True
   model_confidence: linear_norm
