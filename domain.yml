@@ -14,7 +14,15 @@ intents:
 - prova
 - aula
 - vagas
-- principais_etapas
+- candidato_estrangeiro
+- pagamento_taxa_inscricao
+- como_faco_inscricao_vestibular
+- valor_mensalidade
+- curso_tecnico_ou_tecnologo
+- upload
+- pagamento_efetivado
+- segunda_via_boleto
+- segunda_chamada
 
 responses:
   utter_saudacao:
@@ -52,6 +60,40 @@ responses:
 
   utter_perguntar_se_e_bot:
   - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
+
+  utter_candidato_estrangeiro:
+  - text: "De acordo com o Manual do Candidato (disponível em https://www.vestibularfatec.com.br/documentos/), no que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
+DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO: \n •	Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem.
+ \n •	Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; OU
+ \n •	Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; OU 
+ \n •	Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; OU
+ \n •	 As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos documentos."
+
+  utter_pagamento_taxa_inscricao:
+  - text: "O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, no horário de expediente, mediante a apresentação do boleto impresso no momento da inscrição eletrônica ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet (pagamento com cartão de crédito) disponível no site www.vestibularfatec.com.br."
+
+  utter_faco_inscricao_vestibular:
+  - text: "Pelo site www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, fazer upload dos documentos solicitados e pagar a taxa de inscrição. O dinheiro pago não será devolvido. Se não pagar até a data de vencimento, a inscrição será cancelada."
+
+  utter_valor_mensalidade:
+  - text: "Os cursos da Fatec são gratuitos"
+  - text: "Não tem mensalidade, pois são cursos gratuitos"
+
+  utter_curso_tecnico_ou_tecnologo:
+  - text: "Os cursos não são técnicos e sim tecnólogos, ou seja são cursos superiores de tecnologia"
+  - text: "Os cursos da Fatec são tecnólogos, ou seja são cursos superiores de tecnologia"
+
+  utter_upload:
+  - text: "Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente."
+  
+  utter_pagamento_efetivado:
+  - text: "A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. A inscrição somente será efetivada após o pagamento e compensação do boleto bancário dentro do período estabelecido para a inscrição e confirmação da quitação pela rede bancária."
+  
+  utter_segunda_via_boleto:
+  - text: "Acesse o site www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, clique no link “2ª via do boleto bancário”. Ele só poderá ser impresso até as 20 horas da data-limite do encerramento das inscrições."
+  
+  utter_segunda_chamada:
+  - text: "A chamada de candidatos em 2ª opção só ocorrerá a partir de 2ª lista de convocação, \n ou seja, após serem convocados todos os candidatos aptos em 1ª opção da 1ª lista de convocação. \n A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados\n dentro do limite de vagas fixados para o curso escolhido em 1ª opção"
 
   utter_nlu_fallback:
   - text: "Não entendi o que você disse. Poderia repetir?"

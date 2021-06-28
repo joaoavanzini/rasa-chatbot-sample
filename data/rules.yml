@@ -2,6 +2,11 @@ version: "2.0"
 
 rules:
 
+# - rule: dizer oi
+#   steps:
+#   - intent: saudacao
+#   - action: utter_saudacao
+
 - rule: dizer adeus
   steps:
   - intent: adeus

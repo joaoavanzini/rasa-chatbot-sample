@@ -13,6 +13,8 @@ nlu:
     - beleza
     - blz
     - e ai
+    - eae
+    - eai
     - oi, tudo bem
     - eae, blz
     - eae, tudo bem
@@ -285,6 +287,228 @@ nlu:
     - gostaria de saber se preciso ensino médio completo
     - gostaria de saber sobre vagas
     - vagas fatec vestibular
+
+
+- intent: candidato_estrangeiro
+  examples: |
+    - sou estrangeiro
+    - vim de outro país
+    - como faço para ingressar se sou estrangeiro
+    - sou gringo
+    - gringo
+    - sou um candidato estrangeiro
+    - ensino exterior
+    - histórico escolar de outro país
+    - método estrangeiro
+    - estudar no exterior
+    - o que preciso fazer para estudar vindo do exterior
+    - requisitos do exterior
+    - conseguir bolsa
+    - bolsa de estudo
+    - idioma estrangeiro
+    - exigência de requisitos para estrangeiros
+    - obrigação de históricos estrangeiros
+    - sou de outro país e quero fazer fatec
+    - sou de outro país e quero fazer o curso
+    - idioma fluente
+    - o curso é pago para quem vem de outro país
+    - curso pago para gringo
+    - curso pago para estrangeiro
+    - estudos no estrangeiro
+
+- intent: pagamento_taxa_inscricao
+  examples: |
+    - como faço o pagamento da taxa de inscrição
+    - quero pagar a inscrição
+    - quero pagar a inscricao
+    - pagar o vestibular
+    - pagamento em dinheiro
+    - como faço para pagar
+    - qual é o valor da inscrição
+    - quero pagar
+    - pagamento da taxa
+    - preciso pagar em agência bancária
+    - pagamento em boleto
+    - pagamento via internet
+    - pagamento ferramenta getnet
+    - quero pagar via internet
+    - quero pagar via boleto
+    - pagamento da prova
+    - pagamento do vestibular
+    - preciso pagar a prova
+    - como pago a prova
+    - como pago o vestibular
+    - qual é a taxa do pagamento
+    - taxa vestibular
+    - taxa prova
+    - valor da prova
+    - valor do vestibular
+
+- intent: como_faco_inscricao_vestibular
+  examples: |
+    - como faço a inscrição do vestibular
+    - quero me inscrever para a prova
+    - quero fazer a prova
+    - quero fazer a inscrição da prova
+    - quero fazer o vestibular
+    - como faço para me inscrever na prova
+    - como faço para me inscrever no vestibular
+    - quero me inscrever
+    - quero fazer o vestibular
+    - preenchimento de ficha de inscrição
+    - preencher ficha de inscrição
+    - como faço o vestibular   
+    - quero me inscrever na fatec
+    - quero fazer a prova da fatec
+    - quero fazer o vestibular da fatec
+    - quero me qualificar 
+    - prova da fatec
+    - prova do vestibular
+
+- intent: valor_mensalidade
+  examples: |
+    - o curso é pago
+    - os cursos da fatec são gratuitos
+    - quanto custa um curso na fatec
+    - os cursos são gratuitos
+    - os cursos são de graça
+    - qual o valor da mensalidade
+    - tem mensalidade
+    - qual o custo do curso
+    - quanto pago por mês
+    - quanto irei pagar por mês
+    - mensalidade dos cursos
+    - qual o valor dos cursos da fatec
+    - qual o valor dos cursos
+    - quanto paga para fazer o curso da fatec
+
+- intent: curso_tecnico_ou_tecnologo
+  examples: |
+    - os cursos da fatec são cursos técnicos
+    - são cursos técnicos
+    - os cursos da fatec são técnicos ou tecnólogos
+    - o curso da fatec é técnico ou tecnólogo
+    - o curso da fatec é técnico
+    - o curso da fatec é tecnólogo
+    - os cursos são tecnólogos
+    - os cursos da fatec são cursos superiores
+    - são cursos superiores
+    - os cursos são superiores
+    - o curso da fatec é superior
+    - os cursos da fatec são técnicos ou superiores
+    - o curso da fatec é técnico ou superior
+    - os cursos são técnicos ou superiores
+    - o curso é técnico ou superior
+
+- intent: upload
+  examples: |
+    - upload
+    - o que e fazer upload
+    - preciso upload
+    - quero upload
+    - duvida upload
+    - duvidas acerca upload
+    - como faz upload
+    - como upload
+    - faz upload
+    - fazer upload
+    - nao sei upload
+    - nao sei fazer upload
+    - o que seria upload
+    - o que upload
+    - nao entendi upload
+    - explicar upload
+    - me explica upload
+    - explique upload
+    - o upload e feito como
+    - como e feito o upload
+    - feito upload
+    - como faço upload
+    - faço como o upload
+
+- intent: pagamento_efetivado
+  examples: |
+    - como sei quando o pagamento da taxa de inscriçao foi efetivado
+    - taxa de inscriçao foi efetivado
+    - pagamento efetivado
+    - paguei a taxa 
+    - paguei a taxa de inscriçao
+    - a taxa de inscriçao foi paga
+    - taxa de inscriçao paga
+    - o pagamento foi realizado
+    - eu paguei a taxa de inscriçao
+    - efetuei taxa inscriçao
+    - efetuei o pagamento da taxa de inscriçao
+    - como saber se a taxa de inscriçao foi paga
+    - com saber se paguei a taxa de inscriçao
+    - taxa de inscriçao paguei
+    - gostaria de saber se a taxa de inscriçao foi paga
+    - poderia me dizer se consegui pagar a taxa de inscriçao
+    - quero saber taxa de inscriçao
+    - quero saber se consegui pagar a taxa de inscriçao
+    - pagamento taxa inscriçao
+    - taxa inscriçao
+    - taxa de inscriçao
+    - realizei o pagamento da taxa de inscriçao
+
+- intent: segunda_via_boleto
+  examples: |
+    - como posso imprimir a segunda via do boleto bancario
+    - segunda via boleto
+    - segunda via boleto bancario
+    - boleto bancario
+    - imprimir boleto
+    - imprimir segunda via boleto
+    - imprimir boleto bancario
+    - imprimir segunda via boleto bancario
+    - imprimir via boleto
+    - 2 via boleto bancario
+    - 2º via boleto bancario
+    - segunda boleto bancario
+    - via boleto bancario
+    - via boleto
+    - quero imprimir 2 via boleto
+    - quero imprimir segunda via boleto
+    - como faço para imprimir segunda via boleto bancario
+    - como faço para imprimir 2 via boleto bancario
+    - como faço para imprimir 2º via boleto bancerio
+    - imprimir 2 via
+    - imprimir 2º via
+    - 2 via
+    - 2 boleto
+    - 2º via
+    - 2º boleto
+    - segunda via
+    - segundo boleto
+
+- intent: segunda_chamada
+  examples: |
+    - posso ser chamado para a segunda opção
+    - posso ser chamado para 2ª opção
+    - posso ser chamado para 2 opção
+    - como funciona a segunda opção
+    - como funciona a 2ª opção
+    - como funciona a 2 opção
+    - posso ser chamado para a segunda chamada
+    - posso ser chamado para 2ª chamada
+    - posso ser chamado para 2 chamada
+    - como funciona a segunda chamada
+    - como funciona a 2ª chamada
+    - como funciona a 2 chamada
+    - posso ser chamado para a segunda lista de convocação
+    - posso ser chamado para 2ª lista de convocação
+    - posso ser chamado para 2 lista de convocação
+    - como funciona a segunda lista de convocação
+    - como funciona a 2ª lista de convocação
+    - como funciona a 2 lista de convocação
+    - vai ter 2ª lista de convocação
+    - vai ter 2 lista de convocação
+    - vai ter a segunda lista de convocação
+    - vai ter a 2ª lista de convocação
+    - vai ter a 2 lista de convocação
+    - vai ter a segunda chamada
+    - vai ter a 2ª chamada
+    - vai ter a 2 chamada
 
 - intent: nlu_fallback
   examples: | 
