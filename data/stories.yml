@@ -1,125 +1,125 @@
 version: "2.0"
 
 stories:
-<<<<<<< HEAD
-=======
+
+- story: o que é o vestibular?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: o_que_e_o_vestibular
+  - action: utter_o_que_e_o_vestibular
+
+- story: vai ter prova?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: vai_ter_prova
+  - action: utter_vai_ter_prova
+
+- story: quem pode tentar uma vaga nos cursos superiores?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: quem_pode_tentar_vaga_nos_cursos_superiores
+  - action: utter_quem_pode_tentar_vaga
+
+- story: qual é a idade mínima?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: tem_idade_minima
+  - action: utter_idade_minima
+
+- story: funcionamento das aulas por conta da pandemia?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: como_serao_as_aulas_por_conta_da_pandemia
+  - action: utter_funcionamento_aulas_pandemia
+
+- story: quais são as principais data e etapas do processo?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo
+  - action: utter_principais_etapas
+
+- story: candidato estrangeiro
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: candidato_estrangeiro
+  - action: utter_candidato_estrangeiro
+
+- story: pagamento da taxa de inscricao
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: pagamento_taxa_inscricao
+  - action: utter_pagamento_taxa_inscricao
+
+- story: como faço a inscrição do vestibular?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: como_faco_inscricao_vestibular
+  - action: utter_faco_inscricao_vestibular
+
+- story: quanto paga para fazer o curso da fatec? Tem mensalidade?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: valor_mensalidade
+  - action: utter_valor_mensalidade
+
+- story: tem mensalidade?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: valor_mensalidade
+  - action: utter_valor_mensalidade
+
+- story: curso tecnico ou tecnologo?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: curso_tecnico_ou_tecnologo
+  - action: utter_curso_tecnico_ou_tecnologo
+
+- story: o que é fazer upload?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: upload
+  - action: utter_upload
+
+- story: como sei quando o pagamento da taxa de inscrição foi efetivado?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: pagamento_efetivado
+  - action: utter_pagamento_efetivado
+
+- story: Como posso imprimir a segunda via do boleto bancário?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: segunda_via_boleto
+  - action: utter_segunda_via_boleto
+
+- story: Posso ser chamado para a 2ª opção? Como funciona a 2ª opção?
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: segunda_chamada
+  - action: utter_segunda_chamada
+
+- story: voce é um bot?
+  steps:
+  - intent: perguntar_se_e_bot
+  - action: utter_perguntar_se_e_bot
 
 - story: adeus
   steps:
   - intent: adeus
   - action: utter_adeus
-
-- story: bot
-  steps:
-  - intent: perguntar_se_e_bot
-  - action: utter_perguntar_se_e_bot
-
-- story: processo seletivo
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: processo_seletivo
-  - action: utter_processo_seletivo
-
-- story: vestibular
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: vestibular_fatec
-  - action: utter_vestibular
-
-- story: prova
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: prova
-  - action: utter_prova
-
-- story: vagas
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: vagas
-  - action: utter_vagas
-
-- story: idade minima
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: idade_minima
-  - action: utter_idade_minima
-
-- story: aulas
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: aula
-  - action: utter_aula
-
-# linha 11 da planilha
-- story: trocar_curso
-  steps:
-  - intent: trocar_curso
-  - action: utter_trocar_curso
-
-# linha 12 da planilha
-- story: aproveitar_disciplinas
-  steps:
-  - intent: aproveitar_disciplinas
-  - action: utter_aproveitar_disciplinas
-
-# linha 13 da planilha
-- story: matricula_sem_historico
-  steps:
-  - intent: matricula_sem_historico
-  - action: utter_matricula_sem_historico
-
-# linha 14 da planilha
-- story: escolaridade_publica
-  steps:
-  - intent: escolaridade_publica
-  - action: utter_escolaridade_publica
-
-# linha 15 da planilha
-- story: vestibular_novamente
-  steps:
-  - intent: vestibular_novamente
-  - action: utter_vestibular_novamente
-
-# linha 16 da planilha
-- story: dois_cursos
-  steps:
-  - intent: dois_cursos
-  - action: utter_dois_cursos
-
-# linha 17 da planilha
-- story: cursar_outra_faculdade
-  steps:
-  - intent: cursar_outra_faculdade
-  - action: utter_cursar_outra_faculdade
-
-# linha 18 da planilha
-- story: posso_usar_cnh
-  steps:
-  - intent: posso_usar_cnh
-  - action: utter_posso_usar_cnh
-
-# linha 19 da planilha
-- story: posso_usar_rg
-  steps:
-  - intent: posso_usar_rg
-  - action: utter_posso_usar_rg
-
-# linha 20 da planilha
-- story: perdi_documento
-  steps:
-  - intent: perdi_documento
-  - action: utter_perdi_documento
-
-# # linha 21 da planilha
-# - story: aulas_na_pandemia
-#   steps:
-#   - intent: aulas_na_pandemia
-#   - action: utter_aulas_na_pandemia
-
->>>>>>> a6796c3187bf5d39d4657a8cf9c137be9514636e
