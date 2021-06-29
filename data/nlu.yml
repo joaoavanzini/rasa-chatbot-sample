@@ -664,7 +664,6 @@ nlu:
     - mudar o curso escolhido depois de ter feito a inscrição para o vestibular
     - é possivel trocar o curso que escolhi depois de concluir a inscrição para o vestibular
 
-
 - intent: vai_ter_prova
   examples: | 
     - prova
