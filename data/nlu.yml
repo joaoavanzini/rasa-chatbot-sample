@@ -358,8 +358,29 @@ nlu:
     - prova da fatec
     - prova do vestibular
 
-#- intent: quando_comecam_inscricoes_vestibular
-
+- intent: quando_comecam_inscricoes_vestibular
+  examples: |
+    - quando inscriçao vestibular
+    - começa inscriçao vestibular
+    - inscriçao vestibular começa
+    - inscriçao vestibular quando  
+    - saber quando inscriçao vestibular
+    - começa quando inscriçao vestibular
+    - começam inscriçoes para vestibular
+    - inscriçao vestibular começa quando
+    - inscriçao vestibular quando começa
+    - gostaria saber inscriçao vestibular
+    - quando começam inscriçoes vestibular
+    - quando começam inscriçoes vestibular
+    - as incriçoes vestibular começam quando
+    - saber inscriçao vestibular quando começa
+    - quando inscriçao para o vestibular começa
+    - quando começam as inscriçoes para o vestibular
+    - quando as inscriçoes para o vestibular começam
+    - começam as inscriçoes para o vestibular quando
+    - as inscriçoes para o vestibular começam quando
+    - quero saber quando começa as inscriçoes para o vestibular
+    
 - intent: upload
   examples: |
     - upload
@@ -578,7 +599,29 @@ nlu:
     - gostaria de saber sobre vagas
     - vagas fatec vestibular
 
-#- intent: fiz_minha_inscricao_vestibular_quero_mudar_curso
+- intent: fiz_minha_inscricao_vestibular_quero_mudar_curso
+  examples: |
+    - mudar o curso após concluir a inscrição
+    - trocar o curso depois de fazer a inscrição
+    - posso mudar de curso após concluir a inscrição
+    - trocar de curso depois de concluir a inscrição
+    - posso alterar o curso depois de fazer a inscrição
+    - mudar de curso após fazer a inscrição do vestibular
+    - é possivel alterar o curso depois de ter feito a inscrição
+    - fiz minha inscrição para o vestibular e quero mudar de curso
+    - como faço para mudar de curso depois de ter feito a inscrição
+    - posso trocar de curso após concluir a inscrição do vestibular
+    - é possivel mudar de curso após fazer a inscrição do vestibular
+    - alterar o curso depois de fazer a inscrição para o vestibular
+    - como faço para alterar o curso depois de ter feito a inscrição
+    - posso mudar de curso depois de fazer a inscrição para o vestibular
+    - como altero o curso depois de ter feito a inscrição para o vestibular
+    - conclui minha inscrição para o vestibular, como faço para mudar o curso
+    - tem como mudar de curso depois de concluir a inscrição para o vestibular
+    - tem como mudar de curso depois de ter feito a inscrição para o vestibular
+    - mudar o curso escolhido depois de ter feito a inscrição para o vestibular
+    - é possivel trocar o curso que escolhi depois de concluir a inscrição para o vestibular
+
 
 - intent: vai_ter_prova
   examples: | 
