@@ -70,115 +70,88 @@ nlu:
     - de onde você vem
     - bot
 
-- intent: o_que_e_o_vestibular
+- intent: trocar_curso        
   examples: |
-    - o que é vestibular
-    - vestibular fatec
-    - FATEC
-    - o que é o vestibular da fatec
-    - o que é o vestibular
-    - como é o vestibular
-    - como funciona o vestibular
-    - vai ter vestibular
-    - preciso saber sobre o vestibular
-    - como vai ser o vestibular
-    - vestibular
-    - me conte sobre o vestibular
-    - me diga sobre o vestibular
-    - processo classificatório
-    - sobre o processo classificatório
-    - me diga sobre o processo classificatório
-    - informações sobre o processo classificatório
+    - fiz o vestibular para um curso e gostaria de trocar de curso, tem como
+    - fiz o vestibular e quero trocar de curso, posso
+    - posso trocar de curso depois de prestar o vestibular
+    - mudei de ideia depois que fiz o vestibular, quero mudar de curso
+    - gostaria de mudar de curso, mas ja fiz o vestibular
 
-- intent: vai_ter_prova
-  examples: | 
-    - prova
-    - vai ter prova
-    - quando é a prova
-    - ate quando vai a prova
-    - as provas serão aplicadas remotamente
-    - prova remota
-    - as provas serão aplicadas presenciais
-    - prova presencial
-    - prova virtual
-    - prova na fatec
-    - como será feita a prova
-    - como vai ser a prova
-    - dia da prova
-    - qual o dia da prova
-    - prova na pandemia
-    - prova online
-
-- intent: quem_pode_tentar_vaga_nos_cursos_superiores
+- intent: aproveitamento_de_disciplinas        
   examples: |
-    - tentar vagas
-    - vaga
-    - vagas
-    - vagas quem pode fazer
-    - curso superior
-    - quem pode vagas
-    - ensino médio completo
-    - certificado ensino médio
-    - quem pode fazer
-    - quem pode disputar vaga nos cursos
-    - quero vagas
-    - preciso ter ensino medio completo
-    - quantas vagas
-    - as vagas são quantas
-    - para concorrer a uma vaga preciso ter ensino medio completo
-    - é necesário ensino médio completo para uma vaga
-    - o certificado do ensino médio completo é necessário para a vaga
-    - quero vagas no curso superior
-    - quem vagas
-    - quero saber sobre as vagas
-    - sobre as vagas
-    - saber vagas
-    - vagas sobre
-    - quero ver vagas
-    - ver vagas
-    - certificado para vagas
-    - fatec vagas
-    - vestibular vagas
-    - prova vagas
-    - vagas para o vestibular
-    - vagas para a fatec
-    - vagas para a prova
-    - como faço para ver as vagas
-    - como faço para saber sobre as vagas
-    - duvidas relação a vagas
-    - gostaria de informações sobre as vagas
-    - informação vagas
-    - informar vagas
-    - me conte sobre vagas
-    - sobre vagas
-    - vagas informações
-    - vagas informar
-    - poderia informar sobre vagas
-    - poderia me mandar informações sobre vagas
-    - gostaria de saber se preciso ensino médio completo
-    - gostaria de saber sobre vagas
-    - vagas fatec vestibular
+    - como faço o aproveitamento de disciplinas
+    - como faço o aproveitamento das disciplinas que ja fiz
+    - como faço o aproveitamento das materias que ja fiz
+    - posso reaproveitar diciplinas que ja cursei
+    - posso eliminar as materias que ja cursei
 
-- intent: tem_idade_minima 
+- intent: matricula_sem_historico 
   examples: |
-    - idade
-    - qual a idade minima
-    - qual a idade máxima
-    - tem idade máxima
-    - tem idade mínima
-    - qualquer idade
-    - preciso ter quantos anos para fazer
-    - qual idade que posso fazer
-    - posso fazer com qual idade
-    - com quantos anos pode participar
-    - qual idade para participar
-    - quantos anos preciso ter para participar 
-    - até qual idade pode participar
-    - qual idade nao posso participar
-    - quando nao consigo participar
-    - com qual idade nao participo
-    - quando nao consigo inscrever
-    
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
+    - ja terminei o ensino médio e ainda não tenho o Histórico Escolar, vou ter algum problema na matrícula
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico, posso fazer a matrícula
+    - consigo fazer a matricula sem ter recebido o Histórico Escolar
+    - posso fazer a matricula sem o Histórico
+
+- intent: escolaridade_publica
+  examples: |
+    - como eu comprovo escolaridade pública
+    - como posso comprovar que estudei em escola pública
+    - qual documento preciso para comprovar que estudei em escola pública
+    - de que forma comprovo que estudei em escola pública
+    - no meu histórico não consta os nomes das escolas, como comprovo que estudei em escola pública
+
+- intent: vestibular_novamente
+  examples: |
+    - cursava um curso na Fatec e parei, posso fazer o vestibular novamente
+    - cursei na Fatec e parei, tem algum problema em fazer o vestibular outra vez
+    - ja fiz um curso na Fatec, posso fazer o vestibular novamente
+    - posso fazer o vestibular novamente, mesmo ja tendo feito um curso na fatec sem terminar
+    - tem problema em prestar novamente o vestibular mesmo tendo cursado na fatec anteriormente
+
+- intent: dois_cursos
+  examples: |
+    - posso cursar dois cursos da Fatec
+    - pode cursar dois cursos da Fatec
+    - é possivel cursar dois cursos da Fatec
+    - tem algum problema em cursar dois cursos da Fatec
+    - pode cursar dois cursos simultâneamente
+
+- intent: cursar_outra_faculdade
+  examples: |
+    - posso fazer outra faculdade mesmo cursando na Fatec
+    - tenho que fazer somente uma faculdade na fatec
+    - posso estar cursando outra faculdade na fatec
+    - posso cursar outro curso na fatec
+    - posso fazer outra faculdade que não seja fatec
+    - estou fazendo outra faculdade alem da fatec, posso continuar
+    - posso fazer duas faculdades em lugares diferentes
+
+- intent: posso_usar_cnh
+  examples: |
+    - Posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
+    - qual documento posso utilizar para matricula
+    - qual documento e necessario para matricula
+    - posso utilizar outro documento para matricula
+    - qual documento eu nao posso utilizar para matricula
+
+- intent: perdi_meu_rg
+  examples: |
+    - Perdi meu RG, como faço
+    - estou sem rg, o que faço
+    - o que posso fazer sem rg
+    - como faço sem rg
+    - aceita um comprovante do rg para matricula
+
+- intent: perdi_meu_cpf
+  examples: |
+    - Perdi meu CPF ou não tenho o cartão do CPF, como faço na matrícula
+    - quais documentos posso usaar para matricula
+    - estou sem cpf, e agora como faço a matricula
+    - perdi cpf como faço a matricula
+    - no caso de perda do cpf, o que posso fazer
+
 - intent: como_serao_as_aulas_por_conta_da_pandemia
   examples: |
     - aulas por conta da pandemia
@@ -228,66 +201,32 @@ nlu:
     - por conta do covid nao teremos aulas presenciais
     - por conta do corona nao teremos aulas presenciais
     - por conta do virus nao teremos aulas presenciais
-    
-- intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo 
+ 
+- intent: tem_idade_minima 
   examples: |
-    - processo seletivo
-    - seletiva
-    - datas
-    - data
-    - data da prova
-    - etapas
-    - etapas do processo seletivo
-    - etapas da seletiva
-    - quais serão as principais datas e etapas do processo seletivo
-    - principais etapas
-    - quais são as etapas do processo seletivo
-    - como será o processo seletivo
-    - como será o processo
-    - como vai ser o cronograma da seletiva
-    - como vai ser o cronograma do processo seletivo
-    - como funciona o processo seletivo
-    - qual o cronograma do processo seletivo
-    - qual o cronograma da seletiva
-    - sobre o cronograma do processo seletivo
-    - sobre o cronograma da seletiva
-    - cronograma do processo
-    - cronograma da seletiva
-    - preciso de informações sobre o processo seletivo
-    - informações sobre o processo seletivo
-    - informações sobre a seletiva
-    - quero datas do processo seletivo
-    - quero datas da seletiva
-    - quero saber sobre o processo seletivo
-    - quero saber mais sobre o processo seletivo
-    - quero saber sobre as etapas do processo seletivo
-    - como o processo seletivo vai ser realizado
-    - sobre o processo seletivo
-    - me conte sobre o processo seletivo
-    - me conte sobre a seletiva
-    - como vai ser a seletiva
-    - como será a seletiva
-    - como vai ser o processo seletivo
-    - como será o processo seletivo
-    - gostaria de informações sobre o processo seletivo
-    - gostaria de informações sobre a seletiva
-    - poderia me informar sobre o processo seletivo
-    - poderia me informar sobre a seletiva
-    - tem datas da seletiva
-    - tem datas do processo seletivo
-    - me mande as datas do processo seletivo
-    - me mande o cronograma do processo seletivo
-    - me fale sobre o processo seletivo
-    - me fale sobre a seletiva
-    - tenho dúvidas sobre o processo seletivo
-    - tenho dúvidas sobre a seletiva
-    - tenho dúvidas sobre o cronograma do processo seletivo
-    - tenho dúvidas sobre as etapas do processo seletivo
-    - tenho dúvidas com o processo seletivo
-    - tenho dúvidas com a seletiva
-    - tenho dúvidas com as etapas do processo seletivo   
+    - idade
+    - qual a idade minima
+    - qual a idade máxima
+    - tem idade máxima
+    - tem idade mínima
+    - qualquer idade
+    - preciso ter quantos anos para fazer
+    - qual idade que posso fazer
+    - posso fazer com qual idade
+    - com quantos anos pode participar
+    - qual idade para participar
+    - quantos anos preciso ter para participar 
+    - até qual idade pode participar
+    - qual idade nao posso participar
+    - quando nao consigo participar
+    - com qual idade nao participo
+    - quando nao consigo inscrever
 
-- intent: valor_mensalidade
+#- intent: quem_pode_fazer_vestibular
+
+#- intent: quanto_paga_fazer_curso
+
+- intent: tem_mensalidade
   examples: |
     - qual é o valor da mensalidade
     - o curso é pago
@@ -378,6 +317,26 @@ nlu:
     - valor da prova
     - valor do vestibular
 
+- intent: o_que_e_o_vestibular
+  examples: |
+    - o que é vestibular
+    - vestibular fatec
+    - FATEC
+    - o que é o vestibular da fatec
+    - o que é o vestibular
+    - como é o vestibular
+    - como funciona o vestibular
+    - vai ter vestibular
+    - preciso saber sobre o vestibular
+    - como vai ser o vestibular
+    - vestibular
+    - me conte sobre o vestibular
+    - me diga sobre o vestibular
+    - processo classificatório
+    - sobre o processo classificatório
+    - me diga sobre o processo classificatório
+    - informações sobre o processo classificatório
+
 - intent: como_faco_inscricao_vestibular
   examples: |
     - como faço a inscrição do vestibular
@@ -398,6 +357,8 @@ nlu:
     - quero me qualificar 
     - prova da fatec
     - prova do vestibular
+
+#- intent: quando_comecam_inscricoes_vestibular
 
 - intent: upload
   examples: |
@@ -479,7 +440,7 @@ nlu:
     - 2º boleto
     - segunda via
     - segundo boleto
-    
+   
 - intent: segunda_chamada
   examples: |
     - posso ser chamado para a segunda opção
@@ -508,3 +469,132 @@ nlu:
     - vai ter a segunda chamada
     - vai ter a 2ª chamada
     - vai ter a 2 chamada
+  
+- intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo 
+  examples: |
+    - processo seletivo
+    - seletiva
+    - datas
+    - data
+    - data da prova
+    - etapas
+    - etapas do processo seletivo
+    - etapas da seletiva
+    - quais serão as principais datas e etapas do processo seletivo
+    - principais etapas
+    - quais são as etapas do processo seletivo
+    - como será o processo seletivo
+    - como será o processo
+    - como vai ser o cronograma da seletiva
+    - como vai ser o cronograma do processo seletivo
+    - como funciona o processo seletivo
+    - qual o cronograma do processo seletivo
+    - qual o cronograma da seletiva
+    - sobre o cronograma do processo seletivo
+    - sobre o cronograma da seletiva
+    - cronograma do processo
+    - cronograma da seletiva
+    - preciso de informações sobre o processo seletivo
+    - informações sobre o processo seletivo
+    - informações sobre a seletiva
+    - quero datas do processo seletivo
+    - quero datas da seletiva
+    - quero saber sobre o processo seletivo
+    - quero saber mais sobre o processo seletivo
+    - quero saber sobre as etapas do processo seletivo
+    - como o processo seletivo vai ser realizado
+    - sobre o processo seletivo
+    - me conte sobre o processo seletivo
+    - me conte sobre a seletiva
+    - como vai ser a seletiva
+    - como será a seletiva
+    - como vai ser o processo seletivo
+    - como será o processo seletivo
+    - gostaria de informações sobre o processo seletivo
+    - gostaria de informações sobre a seletiva
+    - poderia me informar sobre o processo seletivo
+    - poderia me informar sobre a seletiva
+    - tem datas da seletiva
+    - tem datas do processo seletivo
+    - me mande as datas do processo seletivo
+    - me mande o cronograma do processo seletivo
+    - me fale sobre o processo seletivo
+    - me fale sobre a seletiva
+    - tenho dúvidas sobre o processo seletivo
+    - tenho dúvidas sobre a seletiva
+    - tenho dúvidas sobre o cronograma do processo seletivo
+    - tenho dúvidas sobre as etapas do processo seletivo
+    - tenho dúvidas com o processo seletivo
+    - tenho dúvidas com a seletiva
+    - tenho dúvidas com as etapas do processo seletivo   
+
+- intent: quem_pode_tentar_vaga_nos_cursos_superiores
+  examples: |
+    - tentar vagas
+    - vaga
+    - vagas
+    - vagas quem pode fazer
+    - curso superior
+    - quem pode vagas
+    - ensino médio completo
+    - certificado ensino médio
+    - quem pode fazer
+    - quem pode disputar vaga nos cursos
+    - quero vagas
+    - preciso ter ensino medio completo
+    - quantas vagas
+    - as vagas são quantas
+    - para concorrer a uma vaga preciso ter ensino medio completo
+    - é necesário ensino médio completo para uma vaga
+    - o certificado do ensino médio completo é necessário para a vaga
+    - quero vagas no curso superior
+    - quem vagas
+    - quero saber sobre as vagas
+    - sobre as vagas
+    - saber vagas
+    - vagas sobre
+    - quero ver vagas
+    - ver vagas
+    - certificado para vagas
+    - fatec vagas
+    - vestibular vagas
+    - prova vagas
+    - vagas para o vestibular
+    - vagas para a fatec
+    - vagas para a prova
+    - como faço para ver as vagas
+    - como faço para saber sobre as vagas
+    - duvidas relação a vagas
+    - gostaria de informações sobre as vagas
+    - informação vagas
+    - informar vagas
+    - me conte sobre vagas
+    - sobre vagas
+    - vagas informações
+    - vagas informar
+    - poderia informar sobre vagas
+    - poderia me mandar informações sobre vagas
+    - gostaria de saber se preciso ensino médio completo
+    - gostaria de saber sobre vagas
+    - vagas fatec vestibular
+
+#- intent: fiz_minha_inscricao_vestibular_quero_mudar_curso
+
+- intent: vai_ter_prova
+  examples: | 
+    - prova
+    - vai ter prova
+    - quando é a prova
+    - ate quando vai a prova
+    - as provas serão aplicadas remotamente
+    - prova remota
+    - as provas serão aplicadas presenciais
+    - prova presencial
+    - prova virtual
+    - prova na fatec
+    - como será feita a prova
+    - como vai ser a prova
+    - dia da prova
+    - qual o dia da prova
+    - prova na pandemia
+    - prova online
