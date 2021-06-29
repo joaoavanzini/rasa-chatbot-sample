@@ -8,21 +8,35 @@ intents:
 - afirmacao
 - negacao
 - perguntar_se_e_bot
-- o_que_e_o_vestibular
-- vai_ter_prova
-- quem_pode_tentar_vaga_nos_cursos_superiores
-- tem_idade_minima
+- trocar_curso
+- aproveitamento_de_disciplinas 
+- matricula_sem_historico
+- escolaridade_publica
+- vestibular_novamente
+- dois_cursos
+- cursar_outra_faculdade
+- posso_usar_cnh
+- perdi_meu_rg
+- perdi_meu_cpf
 - como_serao_as_aulas_por_conta_da_pandemia
-- quais_sao_as_principais_datas_e_etapas_processo_seletivo
-- valor_mensalidade
+- tem_idade_minima
+- quem_pode_fazer_vestibular
+- quanto_paga_fazer_curso
+- tem_mensalidade
 - curso_tecnico_ou_tecnologo
 - candidato_estrangeiro
 - pagamento_taxa_inscricao
+- o_que_e_o_vestibular
 - como_faco_inscricao_vestibular
+- quando_comecam_inscricoes_vestibular
 - upload
 - pagamento_efetivado
 - segunda_via_boleto
 - segunda_chamada
+- quais_sao_as_principais_datas_e_etapas_processo_seletivo
+- quem_pode_tentar_vaga_nos_cursos_superiores
+- fiz_minha_inscricao_vestibular_quero_mudar_curso
+- vai_ter_prova
 
 responses:
   utter_saudacao:

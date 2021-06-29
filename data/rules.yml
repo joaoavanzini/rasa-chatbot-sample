@@ -17,87 +17,166 @@ rules:
   - intent: perguntar_se_e_bot
   - action: utter_perguntar_se_e_bot
 
-- rule: nlu fallback
-  steps:
-  - intent: nlu_fallback
-  - action: utter_retorno
+# trocar_curso
+# - rule: 
+#   steps:
+#   - intent:
+#   - action: 
 
-- rule: o que é o vestibular?
-  steps:
-  - intent: o_que_e_o_vestibular
-  - action: utter_o_que_e_o_vestibular
+# aproveitamento de disciplinas
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
 
-- rule: vai ter prova?
-  steps:
-  - intent: vai_ter_prova
-  - action: utter_vai_ter_prova
+# matricula sem histórico
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
 
-- rule: quem pode tentar uma vaga nos cursos superiores?
-  steps:
-  - intent: quem_pode_tentar_vaga_nos_cursos_superiores
-  - action: utter_quem_pode_tentar_vaga
+# escolaridade pública
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
 
-- rule: qual é a idade mínima?
-  steps:
-  - intent: tem_idade_minima
-  - action: utter_idade_minima
+# vestibular novamente
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
 
+# dois cursos
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
+
+# cursar outra faculdade
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
+
+# posso usar CNH
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
+
+# perdi meu RG
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
+
+# perdi meu CPF
+# - rule: 
+#   steps:
+#   - intent:
+#   - action:
+
+# como serão as aulas por conta da pandemia
 - rule: funcionamento das aulas por conta da pandemia?
   steps:
   - intent: como_serao_as_aulas_por_conta_da_pandemia
   - action: utter_funcionamento_aulas_pandemia
 
-- rule: quais são as principais data e etapas do processo?
+# tem idade mínima
+- rule: qual é a idade mínima?
   steps:
-  - intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo
-  - action: utter_principais_etapas
-  
-- rule: candidato estrangeiro
-  steps:
-  - intent: candidato_estrangeiro
-  - action: utter_candidato_estrangeiro
+  - intent: tem_idade_minima
+  - action: utter_idade_minima
 
-- rule: pagamento da taxa de inscricao
-  steps:
-  - intent: pagamento_taxa_inscricao
-  - action: utter_pagamento_taxa_inscricao
-
-- rule: como faço a inscrição do vestibular?
-  steps:
-  - intent: como_faco_inscricao_vestibular
-  - action: utter_faco_inscricao_vestibular
-
-- rule: quanto paga para fazer o curso da fatec? Tem mensalidade?
-  steps:
-  - intent: valor_mensalidade
-  - action: utter_valor_mensalidade
-
+# tem mensalidade
 - rule: tem mensalidade?
   steps:
   - intent: valor_mensalidade
   - action: utter_valor_mensalidade
 
+#-------------> rule duplicada
+# - rule: quanto paga para fazer o curso da fatec? Tem mensalidade?
+#   steps:
+#   - intent: valor_mensalidade
+#   - action: utter_valor_mensalidade
+
+# curso técnico ou tecnólogo
 - rule: curso tecnico ou tecnologo?
   steps:
   - intent: curso_tecnico_ou_tecnologo
   - action: utter_curso_tecnico_ou_tecnologo
 
+# candidato estrangeiro
+- rule: candidato estrangeiro
+  steps:
+  - intent: candidato_estrangeiro
+  - action: utter_candidato_estrangeiro
+
+# pagamento taxa inscrição
+- rule: pagamento da taxa de inscricao
+  steps:
+  - intent: pagamento_taxa_inscricao
+  - action: utter_pagamento_taxa_inscricao
+
+# o que é vestibular
+- rule: o que é o vestibular?
+  steps:
+  - intent: o_que_e_o_vestibular
+  - action: utter_o_que_e_o_vestibular
+
+# como faço inscrição vestibular
+- rule: como faço a inscrição do vestibular?
+  steps:
+  - intent: como_faco_inscricao_vestibular
+  - action: utter_faco_inscricao_vestibular
+
+# upload
 - rule: o que é fazer upload?
   steps:
   - intent: upload
   - action: utter_upload
 
+# pagamento efetivado
 - rule: como sei quando o pagamento da taxa de inscrição foi efetivado?
   steps:
   - intent: pagamento_efetivado
   - action: utter_pagamento_efetivado
 
+# segunda via boleto
 - rule: Como posso imprimir a segunda via do boleto bancário?
   steps:
   - intent: segunda_via_boleto
   - action: utter_segunda_via_boleto
 
+# segunda chamada
 - rule: Posso ser chamado para a 2ª opção? Como funciona a 2ª opção?
   steps:
   - intent: segunda_chamada
   - action: utter_segunda_chamada
+
+# quais são as principais datas e etapas do processo seletivo
+- rule: quais são as principais data e etapas do processo?
+  steps:
+  - intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo
+  - action: utter_principais_etapas
+
+# quem pode tentar vaga nos cursos superiores
+- rule: quem pode tentar uma vaga nos cursos superiores?
+  steps:
+  - intent: quem_pode_tentar_vaga_nos_cursos_superiores
+  - action: utter_quem_pode_tentar_vaga
+
+# vai ter prova
+- rule: vai ter prova?
+  steps:
+  - intent: vai_ter_prova
+  - action: utter_vai_ter_prova
+
+# fallback
+- rule: nlu fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_retorno
+
+
