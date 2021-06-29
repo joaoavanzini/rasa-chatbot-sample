@@ -16,24 +16,86 @@ stories:
   - action: utter_perguntar_se_e_bot
 
 # trocar de curso
+- story: migrar_de_curso
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: trocar_curso
+  - action: utter_trocar_curso
 
 # aproveitamento de disciplinas
+- story: reaproveitamento_de_materias
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: aproveitamento_de_disciplinas
+  - action: utter_aproveitamento_de_disciplinas
 
 # matricula sem histórico
+- story: sem_historico
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: matricula_sem_historico
+  - action: utter_matricula_sem_historico
 
 # escolaridade pública
+- story: estudo_publico
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: escolaridade_publica
+  - action: utter_escolaridade_publica
 
 # vestibular novamente
+- story: fazer_vestibular_novamente
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: vestibular_novamente
+  - action: utter_vestibular_novamente
 
 # dois cursos 
+- story: mais_de_um_curso
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: dois_cursos
+  - action: utter_dois_cursos
 
 # cursar outra faculdade
+- story: outra_faculdade
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: cursar_outra_faculdade
+  - action: utter_cursar_outra_faculdade
 
 # posso usar CNH
+- story: uso_da_cnh
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: posso_usar_cnh
+  - action: utter_posso_usar_cnh
+
 
 # perdi meu RG
+- story: sem_rg
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: perdi_meu_rg
+  - action: utter_perdi_meu_rg
+
 
 # perdi meu CPF
+- story: sem_cpf
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: perdi_meu_cpf
+  - action: utter_perdi_meu_cpf
 
 # como serão as aulas por conta da pandemia
 - story: funcionamento das aulas por conta da pandemia?
