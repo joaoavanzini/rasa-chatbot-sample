@@ -222,9 +222,51 @@ nlu:
     - com qual idade nao participo
     - quando nao consigo inscrever
 
-#- intent: quem_pode_fazer_vestibular
+- intent: quem_pode_fazer_vestibular
+    examples: |
+    - quem pode fazer o vestibular
+    - eu posso fazer o vestibular
+    - como posso fazer curso da fatec
+    - eu posso fazer curso da fatec
+    - posso cursar na fatec
+    - posso fazer qualquer curso da fatec
+    - quero fazer um curso na fatec
+    - quero fazer o vestibular
+    - como posso estudar na fatec
+    - quero estudar na fatec
+    - quero fazer o vestibular
+    - conclui o ensino médio, posso fazer o vestibular
+    - terminei o ensino médio
+    - pessoa PCD pode fazer vestibular
+    - qualquer um pode fazer vestibular
+    - não terminei o ensino médio, posso fazer o vestibular
+    - não terminei o ensino médio
+    - não terminei meus estudos
+    - não fiz o ensino médio
+    - não fiz ensino fundamental
 
-#- intent: quanto_paga_fazer_curso
+- intent: quanto_paga_fazer_curso
+  examples: |
+  - quanto paga para fazer o curso da fatec
+  - o curso da fatec tem valor
+  - valor do curso da fatec
+  - o curso é gratuito
+  - pagamento do curso
+  - quanto eu vou pagar para fazer o curso
+  - qual o valor para o curso
+  - tem valor
+  - o curso é caro
+  - o curso tem valor
+  - quanto eu posso pagar
+  - quanto eu vou pagar
+  - não quero pagar o curso da fatec
+  - não vou pagar o curso
+  - não vou pagar
+  - não vou pagar a mensalidade
+  - não quero pagar mensalidade
+  - quais são as mensalidades
+  - quais são os planos de mensalidade
+  - devo pagar
 
 - intent: tem_mensalidade
   examples: |
