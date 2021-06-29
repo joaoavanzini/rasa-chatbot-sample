@@ -70,7 +70,7 @@ nlu:
     - de onde você vem
     - bot
 
-- intent: trocar_curso        
+- intent: faq/trocar_curso        
   examples: |
     - fiz o vestibular para um curso e gostaria de trocar de curso, tem como
     - fiz o vestibular e quero trocar de curso, posso
@@ -78,7 +78,7 @@ nlu:
     - mudei de ideia depois que fiz o vestibular, quero mudar de curso
     - gostaria de mudar de curso, mas ja fiz o vestibular
 
-- intent: aproveitamento_de_disciplinas        
+- intent: faq/aproveitamento_de_disciplinas        
   examples: |
     - como faço o aproveitamento de disciplinas
     - como faço o aproveitamento das disciplinas que ja fiz
@@ -86,7 +86,7 @@ nlu:
     - posso reaproveitar diciplinas que ja cursei
     - posso eliminar as materias que ja cursei
 
-- intent: matricula_sem_historico 
+- intent: faq/matricula_sem_historico 
   examples: |
     - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
     - ja terminei o ensino médio e ainda não tenho o Histórico Escolar, vou ter algum problema na matrícula
@@ -94,7 +94,7 @@ nlu:
     - consigo fazer a matricula sem ter recebido o Histórico Escolar
     - posso fazer a matricula sem o Histórico
 
-- intent: escolaridade_publica
+- intent: faq/escolaridade_publica
   examples: |
     - como eu comprovo escolaridade pública
     - como posso comprovar que estudei em escola pública
@@ -102,7 +102,7 @@ nlu:
     - de que forma comprovo que estudei em escola pública
     - no meu histórico não consta os nomes das escolas, como comprovo que estudei em escola pública
 
-- intent: vestibular_novamente
+- intent: faq/vestibular_novamente
   examples: |
     - cursava um curso na Fatec e parei, posso fazer o vestibular novamente
     - cursei na Fatec e parei, tem algum problema em fazer o vestibular outra vez
@@ -110,7 +110,7 @@ nlu:
     - posso fazer o vestibular novamente, mesmo ja tendo feito um curso na fatec sem terminar
     - tem problema em prestar novamente o vestibular mesmo tendo cursado na fatec anteriormente
 
-- intent: dois_cursos
+- intent: faq/dois_cursos
   examples: |
     - posso cursar dois cursos da Fatec
     - pode cursar dois cursos da Fatec
@@ -118,7 +118,7 @@ nlu:
     - tem algum problema em cursar dois cursos da Fatec
     - pode cursar dois cursos simultâneamente
 
-- intent: cursar_outra_faculdade
+- intent: faq/cursar_outra_faculdade
   examples: |
     - posso fazer outra faculdade mesmo cursando na Fatec
     - tenho que fazer somente uma faculdade na fatec
@@ -128,7 +128,7 @@ nlu:
     - estou fazendo outra faculdade alem da fatec, posso continuar
     - posso fazer duas faculdades em lugares diferentes
 
-- intent: posso_usar_cnh
+- intent: faq/posso_usar_cnh
   examples: |
     - Posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
     - qual documento posso utilizar para matricula
@@ -136,7 +136,7 @@ nlu:
     - posso utilizar outro documento para matricula
     - qual documento eu nao posso utilizar para matricula
 
-- intent: perdi_meu_rg
+- intent: faq/perdi_meu_rg
   examples: |
     - Perdi meu RG, como faço
     - estou sem rg, o que faço
@@ -144,7 +144,7 @@ nlu:
     - como faço sem rg
     - aceita um comprovante do rg para matricula
 
-- intent: perdi_meu_cpf
+- intent: faq/perdi_meu_cpf
   examples: |
     - Perdi meu CPF ou não tenho o cartão do CPF, como faço na matrícula
     - quais documentos posso usaar para matricula
@@ -152,7 +152,7 @@ nlu:
     - perdi cpf como faço a matricula
     - no caso de perda do cpf, o que posso fazer
 
-- intent: como_serao_as_aulas_por_conta_da_pandemia
+- intent: faq/como_serao_as_aulas_por_conta_da_pandemia
   examples: |
     - aulas por conta da pandemia
     - aulas por conta do covid
@@ -202,7 +202,7 @@ nlu:
     - por conta do corona nao teremos aulas presenciais
     - por conta do virus nao teremos aulas presenciais
  
-- intent: tem_idade_minima 
+- intent: faq/tem_idade_minima 
   examples: |
     - idade
     - qual a idade minima
@@ -222,8 +222,8 @@ nlu:
     - com qual idade nao participo
     - quando nao consigo inscrever
 
-- intent: quem_pode_fazer_vestibular
-    examples: |
+- intent: faq/quem_pode_fazer_vestibular
+  examples: |
     - quem pode fazer o vestibular
     - eu posso fazer o vestibular
     - como posso fazer curso da fatec
@@ -245,30 +245,30 @@ nlu:
     - não fiz o ensino médio
     - não fiz ensino fundamental
 
-- intent: quanto_paga_fazer_curso
+- intent: faq/quanto_paga_fazer_curso
   examples: |
-  - quanto paga para fazer o curso da fatec
-  - o curso da fatec tem valor
-  - valor do curso da fatec
-  - o curso é gratuito
-  - pagamento do curso
-  - quanto eu vou pagar para fazer o curso
-  - qual o valor para o curso
-  - tem valor
-  - o curso é caro
-  - o curso tem valor
-  - quanto eu posso pagar
-  - quanto eu vou pagar
-  - não quero pagar o curso da fatec
-  - não vou pagar o curso
-  - não vou pagar
-  - não vou pagar a mensalidade
-  - não quero pagar mensalidade
-  - quais são as mensalidades
-  - quais são os planos de mensalidade
-  - devo pagar
+    - quanto paga para fazer o curso da fatec
+    - o curso da fatec tem valor
+    - valor do curso da fatec
+    - o curso é gratuito
+    - pagamento do curso
+    - quanto eu vou pagar para fazer o curso
+    - qual o valor para o curso
+    - tem valor
+    - o curso é caro
+    - o curso tem valor
+    - quanto eu posso pagar
+    - quanto eu vou pagar
+    - não quero pagar o curso da fatec
+    - não vou pagar o curso
+    - não vou pagar
+    - não vou pagar a mensalidade
+    - não quero pagar mensalidade
+    - quais são as mensalidades
+    - quais são os planos de mensalidade
+    - devo pagar
 
-- intent: tem_mensalidade
+- intent: faq/tem_mensalidade
   examples: |
     - qual é o valor da mensalidade
     - o curso é pago
@@ -286,7 +286,7 @@ nlu:
     - qual o valor dos cursos
     - quanto paga para fazer o curso da fatec
 
-- intent: curso_tecnico_ou_tecnologo
+- intent: faq/curso_tecnico_ou_tecnologo
   examples: |
     - os cursos da fatec são cursos técnicos
     - são cursos técnicos
@@ -304,7 +304,7 @@ nlu:
     - os cursos são técnicos ou superiores
     - o curso é técnico ou superior
 
-- intent: candidato_estrangeiro
+- intent: faq/candidato_estrangeiro
   examples: |
     - sou estrangeiro
     - vim de outro país
@@ -331,7 +331,7 @@ nlu:
     - curso pago para estrangeiro
     - estudos no estrangeiro
 
-- intent: pagamento_taxa_inscricao
+- intent: faq/pagamento_taxa_inscricao
   examples: |
     - como faço o pagamento da taxa de inscrição
     - quero pagar a inscrição
@@ -359,7 +359,7 @@ nlu:
     - valor da prova
     - valor do vestibular
 
-- intent: o_que_e_o_vestibular
+- intent: faq/o_que_e_o_vestibular
   examples: |
     - o que é vestibular
     - vestibular fatec
@@ -379,7 +379,7 @@ nlu:
     - me diga sobre o processo classificatório
     - informações sobre o processo classificatório
 
-- intent: como_faco_inscricao_vestibular
+- intent: faq/como_faco_inscricao_vestibular
   examples: |
     - como faço a inscrição do vestibular
     - quero me inscrever para a prova
@@ -400,7 +400,7 @@ nlu:
     - prova da fatec
     - prova do vestibular
 
-- intent: quando_comecam_inscricoes_vestibular
+- intent: faq/quando_comecam_inscricoes_vestibular
   examples: |
     - quando inscriçao vestibular
     - começa inscriçao vestibular
@@ -423,7 +423,7 @@ nlu:
     - as inscriçoes para o vestibular começam quando
     - quero saber quando começa as inscriçoes para o vestibular
     
-- intent: upload
+- intent: faq/upload
   examples: |
     - upload
     - o que e fazer upload
@@ -449,7 +449,7 @@ nlu:
     - como faço upload
     - faço como o upload
 
-- intent: pagamento_efetivado
+- intent: faq/pagamento_efetivado
   examples: |
     - como sei quando o pagamento da taxa de inscriçao foi efetivado
     - taxa de inscriçao foi efetivado
@@ -474,7 +474,7 @@ nlu:
     - taxa de inscriçao
     - realizei o pagamento da taxa de inscrição
 
-- intent: segunda_via_boleto
+- intent: faq/segunda_via_boleto
   examples: |
     - como posso imprimir a segunda via do boleto bancario
     - segunda via boleto
@@ -504,7 +504,7 @@ nlu:
     - segunda via
     - segundo boleto
    
-- intent: segunda_chamada
+- intent: faq/segunda_chamada
   examples: |
     - posso ser chamado para a segunda opção
     - posso ser chamado para 2ª opção
@@ -533,7 +533,7 @@ nlu:
     - vai ter a 2ª chamada
     - vai ter a 2 chamada
   
-- intent: quais_sao_as_principais_datas_e_etapas_processo_seletivo 
+- intent: faq/quais_sao_as_principais_datas_e_etapas_processo_seletivo 
   examples: |
     - processo seletivo
     - seletiva
@@ -591,7 +591,7 @@ nlu:
     - tenho dúvidas com a seletiva
     - tenho dúvidas com as etapas do processo seletivo   
 
-- intent: quem_pode_tentar_vaga_nos_cursos_superiores
+- intent: faq/quem_pode_tentar_vaga_nos_cursos_superiores
   examples: |
     - tentar vagas
     - vaga
@@ -641,7 +641,7 @@ nlu:
     - gostaria de saber sobre vagas
     - vagas fatec vestibular
 
-- intent: fiz_minha_inscricao_vestibular_quero_mudar_curso
+- intent: faq/fiz_minha_inscricao_vestibular_quero_mudar_curso
   examples: |
     - mudar o curso após concluir a inscrição
     - trocar o curso depois de fazer a inscrição
@@ -664,7 +664,7 @@ nlu:
     - mudar o curso escolhido depois de ter feito a inscrição para o vestibular
     - é possivel trocar o curso que escolhi depois de concluir a inscrição para o vestibular
 
-- intent: vai_ter_prova
+- intent: faq/vai_ter_prova
   examples: | 
     - prova
     - vai ter prova

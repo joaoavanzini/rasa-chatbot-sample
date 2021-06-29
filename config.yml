@@ -26,8 +26,14 @@ pipeline:
 - name: SpacyEntityExtractor
 #   - name: ResponseSelector
 #     epochs: 100
+- name: ResponseSelector
+  epochs: 100
+  retrieval_intent: faq
+  model_confidence: linear_norm
+  constrain_similarities: true
+
 - name: FallbackClassifier
-  threshold: 0.4
+  threshold: 0.6
   #ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
@@ -38,8 +44,8 @@ policies:
 # # See https://rasa.com/docs/rasa/policies for more information.
 - name: RulePolicy
 - name: MemoizationPolicy
-- name: TEDPolicy
-  max_history: 5
-  epochs: 100
-  constrain_similarities: True
-  model_confidence: linear_norm
+# - name: TEDPolicy
+  # max_history: 5
+  # epochs: 100
+  # constrain_similarities: True
+  # model_confidence: linear_norm
