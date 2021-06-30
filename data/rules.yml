@@ -2,30 +2,27 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: hi
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: greet
+  - action: utter_greet
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: bye
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: bye
+  - action: utter_bye
 
-- rule: activate name form
-  steps: 
-  - intent: name_intent
-  - action: name_form
-  - active_loop: name_form
-
-- rule: deactivate name form
-  condition:
-  - active_loop: name_form
+- rule: bot
   steps:
-  - action: name_form
-  - active_loop: null
-  - slot_was_set:
-    - requested_slot: null
-  - action: utter_submit
-  - action: utter_name
+  - intent: bot
+  - action: utter_bot
 
+- rule: fb
+  steps:
+  - intent: fallback_intent
+  - action: utter_return
+
+- rule: faq
+  steps:
+  - intent: faq
+  - action: utter_faq

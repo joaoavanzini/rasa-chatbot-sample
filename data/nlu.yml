@@ -3,97 +3,104 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - oi
+    - ola
+    - oie
+    - oii
+    - olá
+    - oiee
 
-- intent: goodbye
+- intent: bye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - te vejo mais tarde
+    - tchau
+    - flw
+    - falou
+    - até mais
+    - até a próxima
 
-- intent: affirm
+- intent: bot
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - você é um bot
+    - você é uma humano
+    - estou falando com um humano
+    - estou falando com um bot
+    - quem é você
+    - me explique quem é você
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+# FAQs start here
 
-- intent: mood_great
+- intent: faq/mood
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - como voce esta
+    - voce esta bem
+    - voce esta legal
+    - tudo em cima
+    - se sentindo bem
+    - tudo bem
 
-- intent: mood_unhappy
+- intent: faq/eat
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - o que voce comeu hoje
+    - se alimentou bem
+    - comeu alguma coisa
+    - comeu algo
+    - se alimentou hoje 
+    - comeu
 
-- intent: bot_challenge
+- intent: faq/music
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - que tipo de musica voce gosta
+    - qual seu estilo musical
+    - que genero de musica voce aprecia
+    - que musica curte
+    - gosta de qual som
+    - me recomenda uma musica
 
-- intent: name_intent
+- intent: faq/series
   examples: |
-    - i want to give you my name
-    - give name
-    - you need to know my name
-    - do you know my name?
+    - me recomenda uma serie
+    - que serie voce esta assistindo
+    - qual sua serie preferida
+    - que serie voce gosta
+    - que serie voce curte
+    - qual sua serie favorita
+
+- intent: faq/game
+  examples: |
+    - gosta de algum jogo
+    - curte algum game
+    - joga algum game
+    - voce joga alguma coisa
+    - gosta de algum game
+    - curte algum jogo
+
+- intent: faq/pet
+  examples: |
+    - tem pet
+    - tem animal
+    - tem algum pet
+    - tem algum animal
+    - voce tem algum pet
+    - voce tem algum animal
+
+# Fallback
+
+- intent: fallback_intent
+  examples: |
+    - fjaijrelkrjekal
+    - fkldfjklhajkswehkjasd
+    - iqwopeiqwope
+    - awhuiehuifdhjasuidos
+    - grçgkrekjopaá
+    - mnkvnsjknwiofjwo
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
