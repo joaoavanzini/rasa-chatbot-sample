@@ -18,29 +18,6 @@ from rasa_sdk.events import SlotSet
 #
 #
 
-class ValidaNomeForm(FormValidationAction):
-    
-    def name(self) -> Text:
-        return "validate_nome_form"
-
-    def validate_nome(
-        self,
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,
-    ) -> Dict[Text, Any]:
-
-        print(slot_value)
-        nome = slot_value
-
-        dispatcher.utter_message(text=f"Prazer em conhecer você {nome}!")
-
-        return {'nome': nome}
-
-
-# Backup da action 
-
 # class ActionHelloWorld(Action):
 #
 #     def name(self) -> Text:

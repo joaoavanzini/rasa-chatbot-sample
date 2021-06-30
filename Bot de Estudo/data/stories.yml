@@ -1,20 +1,6 @@
-version: "2.0"
+# version: "2.0"
 
-stories:
-
-- story: iniciando
-  steps:
-  - intent: introducao
-  - action: utter_introducao
-  - action: utter_ask_nome
-  - action: validate_nome_form
-  - active_loop: validate_nome_form
-  - slot_was_set:
-    - nome: João
-  - slot_was_set:
-    - nome: null
-  - active_loop: null
-
+# stories:
 
 # - story: happy path
 #   steps:

@@ -1,0 +1,21 @@
+version: "2.0"
+
+# arquivo de respostas para as faq's
+
+responses:
+  utter_introducao:
+  - text: "Olá!"
+  - text: "Oi!"
+
+  utter_despedida:
+  - text: "Até a próxima!"
+
+  utter_faq/ask_quem_vc_e:
+  - text: "Eu sou o FAQBot, um Bot de estudos que serve como modelo para responder FAQ's!"
+
+  utter_faq/ask_oque_vc_faz:
+  - text: "Fui treinado para responder FAQ's, mas só de exemplo"
+
+  utter_fallback_intent:
+  - text: "Eu não fui treinado para responder isso..."
+
