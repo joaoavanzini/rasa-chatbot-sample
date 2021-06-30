@@ -26,54 +26,46 @@ nlu:
     - tenha um bom dia
     - se vemos por ai
 
-- intent: afirmacao
+- intent: faq/ask_cardapio
   examples: |
-    - sim
-    - com certeza
-    - claro
-    - positivo
-    - isso me parece bom
-    - correto
-
-- intent: negacao
+    - qual o menu
+    - qual o cardapio
+    - qual a comida do dia
+    - quero o menu
+    - quero o cardapio
+    - quero comer
+    - estou com fome
+  
+- intent: faq/ask_qual_o_contato
   examples: |
-    - não
-    - nunca
-    - nem
-    - eu não acho isso
-    - não gosto
-    - sem caminho
-    - na realidade não
-
-- intent: humor_bom
+    - qual o contato
+    - qual o whatsapp
+    - qual o email
+    - qual o facebook
+    - quero entrar em contato
+    - qual o telefone
+  
+- intent: faq/ask_agradecer
   examples: |
-    - perfeito
-    - ótimo
-    - incrível
-    - uma boa
-    - excelente
-    - estou me sentindo ótimo
-    - estou ótimo
-    - sou incrível
-    - eu estou indo salvar o mundo
-    - extremamente bem
-    - isso é perfeito
+    - obrigado
+    - gostei muito da comida
+    - achei delicioso
+    - fenomenal
     - muito bom
+    - bom
+    - parabéns
+    - ótima comida
 
-- intent: humor_triste
+- intent: faq/ask_reclamar
   examples: |
-    - meu dia esta horrível
-    - estou triste
-    - não me sinto bem
-    - estou desapontado
-    - muito triste
-    - tristérrimo
-    - triste
-    - muito mal
-    - descontente
-    - malzão
-    - não tão bem
-    - extremamente triste
+    - credo
+    - não gostei da comida
+    - péssimo
+    - péssimo atendimento
+    - horrível
+    - lugar horroroso
+    - não volto mais aqui
+
 
 - intent: bot_desafio
   examples: |
@@ -81,3 +73,21 @@ nlu:
     - você é um humano?
     - estou falando com um bot?
     - estou falando com um humano?
+  
+  
+- intent: fallback_intent
+  examples: |
+    - 123634
+    - 0
+    - 000
+    - 765432
+    - 234
+    - 1987654321345
+    - 23069
+    - 0000
+    - 35285rohgoeir 
+    - ewhfowiejfepoje
+    - sdfp
+    - fdp
+    - oewiju209358
+    - ikdfdse12423545

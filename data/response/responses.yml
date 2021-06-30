@@ -1,0 +1,27 @@
+version: "2.0"
+
+responses:
+
+  utter_faq/ask_cardapio:
+  - text: "arroz: R$10.00 - feijão: R$5.00 - carne: R$20.00"
+
+  utter_faq/ask_qual_o_contato:
+  - text: "telefone/whats: (19) 91254785 - email: teste@teste.com - facebook: teste"
+  
+  utter_faq/ask_agradecer:
+  - text: "Ficamos felizes em saber que você gostou!"
+
+  utter_faq/ask_reclamar:
+  - text: "Problema seu!"
+
+  utter_saudacao:
+  - text: "Ola!"
+
+  utter_tchau:
+  - text: "Até!"
+
+  utter_desafio:
+  - text: "Tá achando que sou o que?!"
+
+  utter_retorno:
+  - text: "Não entendi o que você disse. Poderia repetir?"
