@@ -1,39 +1,12 @@
 version: "2.0"
 
 intents:
-  - saudar
+  - saudacao
   - adeus
-  - afirmacao
-  - negacao
-  - felicidade
-  - tristeza
   - perguntar_se_e_bot
-
-responses:
-  utter_saudar:
-  - text: "Olá! Como qual o seu nome?"
-
-
-  utter_cumprimentar:
-  - text: "Ola {nome}, tudo bem?"
-
-  utter_alegrar:
-  - text: "Aqui está algo que possa animalo:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_oferecer_ajuda:
-  - text: "Em que posso ajudar?"
-
-  utter_feliz:
-  - text: "Que ótimo!"
-
-  utter_despedir:
-  - text: "Até mais! Espero ter ajudado"
-
-  utter_eu_sou_um_bot:
-  - text: "Eu sou um bot, construido em Rasa!"
-
-
+  - fallback_intent
+  - faq:
+      is_retrieval_intent: true
 actions:
   - validate_nome
 

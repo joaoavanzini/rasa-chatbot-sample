@@ -1,21 +1,39 @@
 version: "2.0"
 
 stories:
-- story: Cumprimento
-  steps:
-  - intent: saudar
-  - action: utter_saudar
-  - action: nome_form
-  - active_loop: nome_form
-  - slot_was_set:
-    - requested_slot: nome
-  - slot_was_set:
-    - nome: Caio
-  - slot_was_set:
-    - requested_slot: null
-  - active_loop: null
-  #- action: validate_nome
-  - action: utter_cumprimentar 
+
+# - story: Cumprimento
+#   steps:
+#   - intent: saudacao
+#   - action: utter_saudacao
+#   - action: nome_form
+#   - active_loop: nome_form
+#   - slot_was_set:
+#     - requested_slot: nome
+#   - slot_was_set:
+#     - nome: Caio
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: validate_nome
+#   - action: utter_faq/ask_name
+
+# stories:
+# - story: Cumprimento
+#   steps:
+#   - intent: saudar
+#   - action: utter_saudar
+#   - action: nome_form
+#   - active_loop: nome_form
+#   - slot_was_set:
+#     - requested_slot: nome
+#   - slot_was_set:
+#     - nome: Caio
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   #- action: validate_nome
+#   - action: utter_cumprimentar 
 
 #- story: estou triste
 #  steps:

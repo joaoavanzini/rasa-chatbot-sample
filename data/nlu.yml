@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-- intent: saudar
+- intent: saudacao
   examples: |
     - oi
     - olá
@@ -30,49 +30,7 @@ nlu:
     - qro sair
     - qro ir embora
     - obg
-
-- intent: afirmacao
-  examples: |
-    - sim
-    - siim
-    - siiim
-    - s
-    - ok
-    - com certeza
-    - ctza
-    - claro
-    - qro
-    - quero
-- intent: negacao
-  examples: |
-    - no
-    - n
-    - não
-    - acho que não
-    - acho q não
-    - talvez não
-    - não quero
-    - não qro
-
-- intent: felicidade
-  examples: |
-    - perfeito
-    - ótimo
-    - dahora
-    - blz
-    - foda demais
-    - adorei
-    - estou feliz
-    - que dahora
-
-- intent: tristeza
-  examples: |
-    - meu dia foi horrivel
-    - estou na bad
-    - estou triste
-    - estou péssimo
-    - to ruim
-    - estou na merda
+    - adeus
 
 - intent: perguntar_se_e_bot
   examples: |
@@ -86,74 +44,76 @@ nlu:
     - qm é vc?
     - quem é vc?
 
-
-- intent: o_que_e_o_vestibular
+- intent: faq/ask_estou_triste        
   examples: |
-    - o que é o vestibular da fatec
-    - o que é o vestibular
-    - como é o vestibular
-    - como funciona o vestibular
-    - vai ter vestibular
-    - processo seletivo
-    - vestibular
-    - prova
-    - processo classificatório
-    - rendimento escolar
+    - estou triste
+    - não estou feliz
+    - estou na bad
+    - acabou pra mim
+    - estou muito triste
+    - estou chorando
 
-- intent: vai_ter_prova
+- intent: faq/ask_problema_da_vida
   examples: |
-    - vai ter prova
-    - quando é a prova
-    - as provas serão presenciais
-    - vai ter prova presencial na pandemia
-    - as provas são aplicadas remotamente
-    - qual será o critério adotado para seleção
-    - como será feita a classificação final
-    - pandemia
-    - prova
-    - processo seletivo
-    - rendimento escolar
-    - processo classificatório
+    - Me meti em uma enrascada
+    - Estou com depressão
+    - estou sendo ignorado por todos
+    - perdi um membro da minha família
+    - estou com problemas familiares
+    - fiz muitas coisas erradas na minha vida
+    - Perdi um amigo 
+    - perdi meu pai
+    - perdi minha mãe
+    - perdi minha irmã
+    - perdi meu irmão
+    - estou sofrendo bullying
 
-- intent: o_que_precisa_para_tentar_vagas
+- intent: faq/ask_contar_mais
   examples: |
-    - quem pode tentar vaga nos cursos superiores
-    - o que é preciso para tentar vaga em cursos superiores
-    - o que preciso para tentar o vestibular
-    - quem pode disputar vagas nos cursos
-    - quem pode fazer o vestibular
-    - precisa ter terminado o ensino médio
-    - precisa ter o ensino médio completo
-    - processo seletivo
-    - vestibular
-    - prova
-    - processo classificatório
-    - rendimento escolar
-    - certificado de conclusão do ensino médio
+    - estou tendo dificuldades de me enturmar
+    - estou tendo problemas de ansiedades
+    - estou chorando todos os dias
+    - virei chacota de todos, não consigo me defender
+    - estou perdendo a vontade de viver
+    - estou desananimado
+    - não tenho mais animo pra nada
 
-- intent: idade_minima
+- intent: faq/ask_melhor_nao
   examples: |
-    - qual a idade minima para fazer o vestibular
-    - preciso ter quantos anos para fazer o vestibular
-    - tem idade máxima para fazer o vestibular
-    - qual a idade minima para fazer os cursos
-    - preciso ter quantos anos para fazer os cursos
-    - tem idade máxima para fazer os cursos
+    - acho que não
+    - melhor não
+    - não quero
+    - não
+    - obrigado, melhor não
+    - quero não
+    - vlw, não quero
 
 
-intent: principais_etapas
+
+
+- intent: faq/ask_name
   examples: |
-  - quais serão as principais datas e etapas do processo seletivo
-  - quais são as etapas do processo seletivo
-  - como será o processo seletivo
-  - como funciona o processo seletivo
-  - qual o cronograma do processo seletivo
+    - Meu nome é [Caio](nome)
+    - Me chamo [Rafael](nome)
+    - [Daniel](nome)
+    - Eu sou [Ana](nome)
+    - Pode me chamar de [Bia](nome)
+    - [Edu](nome), esse é meu nome
 
-- intent: funcionamento_covid
+- intent: fallback_intent
   examples: |
-  - como serão as aulas por conta do covid
-  - as aulas serão presenciais
-  - as aulas serão online por conta do covid
-  - as aulas serão presenciais ou online
-  - como funciona as aulas nessa pandemia
-  - as aulas serão feitas remotamente ou presencial
+    - 123634
+    - 0
+    - 000
+    - 765432
+    - 234
+    - 1987654321345
+    - 23069
+    - 0000
+    - 35285rohgoeir 
+    - ewhfowiejfepoje
+    - sdfp
+    - fdp
+    - oewiju209358
+    - ikdfdse12423545
+    - clear

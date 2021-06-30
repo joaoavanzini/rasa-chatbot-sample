@@ -2,32 +2,52 @@ version: "2.0"
 
 rules:
 
-- rule: Hello world
+- rule: o1
   steps:
-  - intent: saudar
-  - action: utter_saudar
+  - intent: saudacao
+  - action: utter_saudacao
+
+- rule: o2
+  steps:
+  - intent: adeus
+  - action: utter_adeus
+
+- rule: o3
+  steps:
+  - intent: perguntar_se_e_bot
+  - action: utter_perguntar_se_e_bot
+
+- rule: o4
+  steps:
+  - or:
+    - intent: nlu_fallback
+    - intent: fallback_intent
+  - action: utter_desculpa
+
+- rule: o5
+  steps:
+  - action: utter_saudacao
   - action: nome_form
   - active_loop: nome_form
-
 
 - rule: desliga formulario
   condition: 
   - active_loop: nome_form
   steps:
-  - action: utter_saudar
+  - action: utter_saudacao
   - action: nome_form
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - action: utter_cumprimentar 
+  - action: utter_faq/ask_name
 
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: o6
   steps:
-  - intent: adeus
-  - action: utter_despedir
+  - action: utter_faq/ask_problema_da_vida
+  - action: utter_faq/ask_contar_mais
 
-- rule: Say 'I am a bot' anytime the user challenges
+
+- rule: o7
   steps:
-  - intent: perguntar_se_e_bot
-  - action: utter_eu_sou_um_bot
+  - intent: faq
+  - action: utter_faq

@@ -1,0 +1,33 @@
+version: "2.0"
+
+responses:
+  utter_faq/ask_estou_triste  :
+  - text: "Poxa não fique triste! 😭"
+
+  utter_faq/ask_name:
+  - text: "Muito prazer {nome}!😊"
+  - text: "Olá {nome}! Muito prazer!😊"
+
+  utter_faq/ask_problema_da_vida:
+  - text: "Poxa, quer me contar mais sobre isso?🙁"
+  - text: "Poxa, que conversar sobre isso?🙁"
+
+  utter_faq/ask_contar_mais:
+  - text: "Aguente firme {nome}!☺ \nIrei te mandar algo que possa te ajudar: \n https://www.youtube.com/watch?v=LBF27_w_49k"
+
+
+  utter_faq/ask_melhor_nao:
+  - text: "Tudo bem {nome}! Aguente firme! 😁👌"
+
+  utter_saudacao:
+  - text: "Olá, qual é seu nome?"
+
+  utter_adeus:
+  - text: "Até mais, foi um prazer ajudar!😊"
+  - text: "Espero que eu tenha te ajudado! Até mais! 😁"
+
+  utter_perguntar_se_e_bot:
+  - text: "Eu sou um bot criado em RASA! 🤖"
+
+  utter_desculpa:
+  - text: "Desculpe, não entendi o que disse, poderia repetir? 😬"
