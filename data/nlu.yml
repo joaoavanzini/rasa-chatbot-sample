@@ -30,7 +30,7 @@ nlu:
 
 # FAQs start here
 
-- intent: faq/mood
+- intent: faq/ask_mood
   examples: |
     - como voce esta
     - voce esta bem
@@ -39,7 +39,7 @@ nlu:
     - se sentindo bem
     - tudo bem
 
-- intent: faq/eat
+- intent: faq/ask_eat
   examples: |
     - o que voce comeu hoje
     - se alimentou bem
@@ -48,7 +48,7 @@ nlu:
     - se alimentou hoje 
     - comeu
 
-- intent: faq/music
+- intent: faq/ask_music
   examples: |
     - que tipo de musica voce gosta
     - qual seu estilo musical
@@ -57,7 +57,7 @@ nlu:
     - gosta de qual som
     - me recomenda uma musica
 
-- intent: faq/series
+- intent: faq/ask_series
   examples: |
     - me recomenda uma serie
     - que serie voce esta assistindo
@@ -66,7 +66,7 @@ nlu:
     - que serie voce curte
     - qual sua serie favorita
 
-- intent: faq/game
+- intent: faq/ask_game
   examples: |
     - gosta de algum jogo
     - curte algum game
@@ -75,7 +75,7 @@ nlu:
     - gosta de algum game
     - curte algum jogo
 
-- intent: faq/pet
+- intent: faq/ask_pet
   examples: |
     - tem pet
     - tem animal

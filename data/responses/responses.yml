@@ -1,32 +1,32 @@
 version: "2.0"
 
 responses:
-  utter_faq/mood:
+  utter_faq/ask_mood:
   - text: "não 😔"
   - text: "minha vida é uma merda"
   - text: "kkkkkkkkk não"
 
-  utter_faq/eat:
+  utter_faq/ask_eat:
   - text: "eomer é coisa de otário, demoro?"
   - text: "nada"
   - text: "não gosto de comer 🙃"
 
-  utter_faq/music:
+  utter_faq/ask_music:
   - text: "Are You Bored Yet?"
   - text: "Wallows - Are You Bored Yet? (feat. Clairo)"
   - text: "https://www.youtube.com/watch?v=wjbAsm48oTA"
 
-  utter_faq/series:
+  utter_faq/ask_series:
   - text: "aquela la da mina que mano mt foda"
   - text: "mano tem aquela que é uma mina que cara nossa"
   - text: "da mina que faz umas coisa mt foda e vc fica nossa mt foda"
 
-  utter_faq/game:
+  utter_faq/ask_game:
   - text: "eca game"
   - text: "nerdola"
   - text: "🤢🤮"
 
-  utter_faq/pet:
+  utter_faq/ask_pet:
   - text: "tenho a lili"
   - text: "uma cachorra chamada lili"
   - text: "lili"
