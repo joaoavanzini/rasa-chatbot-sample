@@ -87,11 +87,11 @@ responses:
 
   utter_faq/ask_como_faco_inscricao_vestibular:
   - text: |- 
-        Pelo site www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, fazer upload dos documentos solicitados e pagar a taxa de inscrição. O dinheiro pago não será devolvido. Se não pagar até a data de vencimento, a inscrição será cancelada.
+        Pelo site https://www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, fazer upload dos documentos solicitados e pagar a taxa de inscrição. O dinheiro pago não será devolvido. Se não pagar até a data de vencimento, a inscrição será cancelada.
 
   utter_faq/ask_quando_comecam_inscricoes_vestibular:
   - text: |-
-        Verificar no site www.vestibularfatec.com.br.
+        Verificar no site https://www.vestibularfatec.com.br.
 
   utter_faq/ask_upload:
   - text: |- 
@@ -103,7 +103,7 @@ responses:
 
   utter_faq/ask_segunda_via_boleto:
   - text: |-
-        Acesse o site www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, clique no link “2ª via do boleto bancário”. Ele só poderá ser impresso até as 20 horas da data-limite do encerramento das inscrições.
+        Acesse o site https://www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, clique no link “2ª via do boleto bancário”. Ele só poderá ser impresso até as 20 horas da data-limite do encerramento das inscrições.
 
   utter_faq/ask_segunda_chamada:
   - text: "A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os candidatos aptos em 1ª opção da 1ª lista de convocação.

@@ -7,22 +7,22 @@ rules:
   - intent: saudacao
   - action: utter_saudacao
 
-# - rule: dizer adeus
-#   steps:
-#   - intent: adeus
-#   - action: utter_adeus
+- rule: dizer adeus
+  steps:
+  - intent: adeus
+  - action: utter_adeus
 
-# - rule: voce é um bot?
-#   steps:
-#   - intent: perguntar_se_e_bot
-#   - action: utter_perguntar_se_e_bot
+- rule: voce é um bot?
+  steps:
+  - intent: perguntar_se_e_bot
+  - action: utter_perguntar_se_e_bot
 
 - rule: faq
   steps:
   - intent: faq
   - action: utter_faq
 
-# - rule: nlu fallback
-#   steps:
-#   - intent: nlu_fallback
-#   - action: utter_retorno
+- rule: nlu fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_retorno
