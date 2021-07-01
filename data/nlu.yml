@@ -201,7 +201,9 @@ nlu:
     - por conta do covid nao teremos aulas presenciais
     - por conta do corona nao teremos aulas presenciais
     - por conta do virus nao teremos aulas presenciais
- 
+
+
+# grupo 2
 - intent: faq/ask_tem_idade_minima 
   examples: |
     - idade
