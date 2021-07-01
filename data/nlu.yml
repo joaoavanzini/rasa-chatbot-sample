@@ -18,7 +18,27 @@ nlu:
     - eae, tudo bem
     - olá, tudo bem
     - ola, beleza
-
+    - bom dia
+    - boa tarde
+    - boa noite
+    - dia
+    - tarde
+    - noite
+    - manhã
+    - e ae
+    - tudo bom
+    - e ai tudo bom
+    - e ae tudo bom
+    - beleza meu mano bot
+    - beleza meu mano
+    - beleza mano
+    - beleza bot
+    - falae bot
+    - fala ae bot
+    - suave
+    - eai
+    - olar
+    
 - intent: adeus
   examples: |
     - te vejo mais tarde
@@ -35,6 +55,8 @@ nlu:
     - vou sair
     - se vemos por ai
     - valeu falou
+    - adeus
+    - a deus
 
 - intent: afirmacao
   examples: |
@@ -202,8 +224,6 @@ nlu:
     - por conta do corona nao teremos aulas presenciais
     - por conta do virus nao teremos aulas presenciais
 
-
-# grupo 2
 - intent: faq/ask_tem_idade_minima 
   examples: |
     - idade
@@ -332,7 +352,6 @@ nlu:
     - curso pago para estrangeiro
     - estudos no estrangeiro
 
-# joão
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
     - como faço o pagamento da taxa de inscrição
@@ -476,7 +495,6 @@ nlu:
     - taxa de inscriçao
     - realizei o pagamento da taxa de inscrição
 
-# thiago
 - intent: faq/ask_segunda_via_boleto
   examples: |
     - como posso imprimir a segunda via do boleto bancario
@@ -698,7 +716,27 @@ nlu:
     - 0000
     - 35285rohgoeir 
     - ewhfowiejfepoje
-    - sdfp
-    - fdp
     - oewiju209358
     - ikdfdse12423545
+    - pizza
+    - carro
+    - moto
+    - frango
+    - my friend
+    - chaves
+    - bicicletinha
+    - bicicletinha de rodinha
+    - bicicleta
+    - celta
+    - corsa
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - sdifjguayh23y45tksjdflgksjdfDPOFGPSDKLÇJKLJDSKJSDKFGLSJDLFKGJ
