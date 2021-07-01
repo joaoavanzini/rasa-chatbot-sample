@@ -8,6 +8,9 @@ responses:
   - text: "Tchau"
   - text: "Até mais!"
 
+  utter_palavrao:
+  - text: "Desculpe, ainda estou aprendendo! Seja mais educado."
+
   utter_perguntar_se_e_bot:
   - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
 

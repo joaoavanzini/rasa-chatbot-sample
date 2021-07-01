@@ -5,6 +5,7 @@ intents:
   - afirmacao
   - negacao
   - adeus
+  - palavrao
   - perguntar_se_e_bot
   - fallback_intent
   - faq:
