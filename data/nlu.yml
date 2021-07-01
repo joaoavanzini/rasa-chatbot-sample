@@ -99,6 +99,26 @@ nlu:
     - posso trocar de curso depois de prestar o vestibular
     - mudei de ideia depois que fiz o vestibular, quero mudar de curso
     - gostaria de mudar de curso, mas ja fiz o vestibular
+    - mudar o curso
+    - mudar meu curso
+    - trocar de curso
+    - troca de cursos
+    - trocar meu curso
+    - mudança de curso
+    - como mudo de curso
+    - como troco de curso
+    - posso mudar meu curso
+    - posso trocar de curso
+    - posso trocar meu curso
+    - queria trocar de curso
+    - queria mudar meu curso
+    - poderia trocar de curso
+    - eu posso trocar de curso
+    - mudar de curso, tem como
+    - posso eu trocar meu curso
+    - poderia eu mudar meu curso
+    - gostaria de trocar de curso
+    - quero trocar de curso, tem como
 
 - intent: faq/ask_aproveitamento_de_disciplinas        
   examples: |
