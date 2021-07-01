@@ -685,3 +685,20 @@ nlu:
     - qual o dia da prova
     - prova na pandemia
     - prova online
+
+- intent: fallback_intent
+  examples: |
+    - 123634
+    - 0
+    - 000
+    - 765432
+    - 234
+    - 1987654321345
+    - 23069
+    - 0000
+    - 35285rohgoeir 
+    - ewhfowiejfepoje
+    - sdfp
+    - fdp
+    - oewiju209358
+    - ikdfdse12423545
