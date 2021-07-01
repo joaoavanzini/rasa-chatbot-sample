@@ -1,3 +1,59 @@
 version: "2.0"
 
 responses:
+
+  utter_saudacao:
+  - text: "Olá, tudo bem?! Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :) \nEscreva a sua dúvida abaixo."
+  
+  utter_adeus:
+  - text: "Tchau"
+  - text: "Até mais!"
+
+  utter_perguntar_se_e_bot:
+  - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
+
+  utter_retorno:
+  - text: "Não entendi o que você disse. Poderia repetir?"
+
+  utter_faq/ask_trocar_curso:
+  - text: "Infelizmente não, somente prestando o vestibular novamente para o curso que deseja."
+
+  utter_faq/ask_aproveitamento_de_disciplinas:
+  - text: "Conforme o Manual do Candidato, que consta no site do vestibular da Fatec, em https://www.vestibularfatec.com.br/documentos/: No dia da matrícula - O candidato que pretenda obter aproveitamento de estudos em disciplina(s) já realizada(s) em outro curso superior deverá fazer o upload da documentação referente à carga horária, ementa e programa da(s) disciplina(s) cursada(s) e histórico escolar da instituição de ensino superior de origem."
+
+  utter_faq/ask_matricula_sem_historico:
+  - text: "No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o Histórico fique pronto."
+
+  utter_faq/ask_escolaridade_publica:
+  - text: "Caso o seu histórico não tenha o detalhamento dos três anos do ensino médio com o nome de cada escola, você deverá solicitar, na última escola em que concluiu o ensino médio, uma Declaração de Escolaridade Pública, conforme o modelo do ANEXO II disponível no Manual do Candidato em https://www.vestibularfatec.com.br/documentos/."
+
+  utter_faq/ask_vestibular_novamente:
+  - text: "Sim, você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula."
+
+  utter_faq/ask_dois_cursos:
+  - text: "Não pode cursar dois cursos da Fatec simultaneamente, também não pode trancar um e iniciar o outro. De acordo com o Regulamento Geral dos Cursos de Graduação das Faculdades de Tecnologia do Centro Estadual de Educação Tecnológica “Paula Souza”- CEETEPS: Capítulo II  - MATRÍCULAS E ASSUNTOS CORRELATOS Artigo 16 -O aluno das Faculdades de Tecnologia (FATEC) do Centro Paula Souza não pode estar matriculado simultaneamente em outra instituição pública e gratuita de ensino superior, seja ela municipal, estadual ou federal, nem tampouco em duas FATECs ou dois cursos distintos na mesma FATEC."
+
+  utter_faq/ask_cursar_outra_faculdade:
+  - text: "Se for instituição particular sim, se for pública não. Caso venha a matricular-se em outra instituição pública de ensino superior no decorrer do curso, o aluno deve solicitar imediatamente à Secretaria Acadêmica o cancelamento de sua matrícula."
+  
+  utter_faq/ask_posso_usar_cnh:
+  - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional (exemplo: OAB, Crea, Coren, CRC e outros)."
+  
+  utter_faq/ask_perdi_meu_rg:
+  - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
+  
+  utter_faq/ask_perdi_meu_cpf:
+  - text: |- 
+    Considera-se, para upload no sistema, arquivos com os seguintes documentos que comprovem o número do CPF:
+      - CPF como documento exclusivo;
+      - RG, desde que contenha o número do CPF;
+      - Carteira Nacional de Habilitação - CNH expedida nos termos da Lei Federal 9.503/97.
+  
+  utter_faq/ask_como_serao_as_aulas_por_conta_da_pandemia:
+  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
+  
+  utter_faq/ask_tem_idade_minima: 
+  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
+
+  utter_faq/ask_quem_pode_fazer_vestibular:
+  - text: "Quem concluiu o Ensino Médio."
