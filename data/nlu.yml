@@ -305,7 +305,6 @@ nlu:
     - o curso da fatec é técnico ou superior
     - os cursos são técnicos ou superiores
     - o curso é técnico ou superior
-
 - intent: faq/ask_candidato_estrangeiro
   examples: |
     - sou estrangeiro
@@ -333,6 +332,7 @@ nlu:
     - curso pago para estrangeiro
     - estudos no estrangeiro
 
+# joão
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
     - como faço o pagamento da taxa de inscrição
@@ -424,7 +424,7 @@ nlu:
     - começam as inscriçoes para o vestibular quando
     - as inscriçoes para o vestibular começam quando
     - quero saber quando começa as inscriçoes para o vestibular
-    
+
 - intent: faq/ask_upload
   examples: |
     - upload
@@ -476,6 +476,7 @@ nlu:
     - taxa de inscriçao
     - realizei o pagamento da taxa de inscrição
 
+# thiago
 - intent: faq/ask_segunda_via_boleto
   examples: |
     - como posso imprimir a segunda via do boleto bancario
