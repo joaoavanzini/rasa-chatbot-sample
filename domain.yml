@@ -1,16 +1,13 @@
-version: '2.0'
+version: "2.0"
+
+intents:
+  - saudacao
+  - adeus
+  - perguntar_se_e_bot
+  - fallback_intent
+  - faq:
+      is_retrieval_intent: true
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-intents:
-- faq:
-    is_retrievalversion: '2.0'
-- faq:
-    is_retrieval_intent: true
-- saudacao
-- adeus
-- afirmacao
-- perguntar_se_e_bot
-
-actions: 
-- utter_faq
