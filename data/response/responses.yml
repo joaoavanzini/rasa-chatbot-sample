@@ -1,84 +1,134 @@
 version: "2.0"
 
 responses:
+  utter_saudacao:
+  - text: "Olá, tudo bem?! Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :) \nEscreva a sua dúvida abaixo."
+  
+  utter_adeus:
+  - text: "Tchau"
+  - text: "Até mais!"
 
+  utter_perguntar_se_e_bot:
+  - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
 
+  utter_retorno:
+  - text: "Não entendi o que você disse. Poderia repetir?"
 
-utter_faq/ask_quem_pode_fazer_vestibular:
-- text: "Quem concluiu o Ensino Médio"
+  utter_faq/ask_trocar_curso:
+  - text: "Infelizmente não, somente prestando o vestibular novamente para o curso que deseja."
 
-utter_faq/ask_quanto_paga_fazer_curso:
-- text: "Os cursos da Fatec são gratuitos."
+  utter_faq/ask_aproveitamento_de_disciplinas:
+  - text: "Conforme o Manual do Candidato, que consta no site do vestibular da Fatec, em https://www.vestibularfatec.com.br/documentos/: No dia da matrícula - O candidato que pretenda obter aproveitamento de estudos em disciplina(s) já realizada(s) em outro curso superior deverá fazer o upload da documentação referente à carga horária, ementa e programa da(s) disciplina(s) cursada(s) e histórico escolar da instituição de ensino superior de origem."
 
-utter_faq/ask_tem_mensalidade:
-- text: "Não tem mensalidade, pois são cursos gratuitos."
+  utter_faq/ask_matricula_sem_historico:
+  - text: "No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o Histórico fique pronto."
 
-utter_faq/ask_curso_tecnico_ou_tecnologo:
-- text: "Não são cursos técnicos e sim tecnólogos, ou seja são cursos superiores de tecnologia."
+  utter_faq/ask_escolaridade_publica:
+  - text: "Caso o seu histórico não tenha o detalhamento dos três anos do ensino médio com o nome de cada escola, você deverá solicitar, na última escola em que concluiu o ensino médio, uma Declaração de Escolaridade Pública, conforme o modelo do ANEXO II disponível no Manual do Candidato em https://www.vestibularfatec.com.br/documentos/."
 
-utter_faq/ask_candidato_estrangeiro:
-- text: |-
-      De acordo com o Manual do Candidato (disponível em https://www.vestibularfatec.com.br/documentos/), no que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
-      DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
-      •	Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
-      •	Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; OU
-      •	Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; OU 
-      •	Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; OU
-      •	 As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos documentos.
+  utter_faq/ask_vestibular_novamente:
+  - text: "Sim, você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula."
 
-utter_faq/ask_pagamento_taxa_inscricao:
-- text: |- 
-      O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, no horário de expediente, mediante a apresentação do boleto impresso no momento da inscrição eletrônica ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet (pagamento com cartão de crédito) disponível no site www.vestibularfatec.com.br.
+  utter_faq/ask_dois_cursos:
+  - text: "Não pode cursar dois cursos da Fatec simultaneamente, também não pode trancar um e iniciar o outro. De acordo com o Regulamento Geral dos Cursos de Graduação das Faculdades de Tecnologia do Centro Estadual de Educação Tecnológica “Paula Souza”- CEETEPS: Capítulo II  - MATRÍCULAS E ASSUNTOS CORRELATOS Artigo 16 -O aluno das Faculdades de Tecnologia (FATEC) do Centro Paula Souza não pode estar matriculado simultaneamente em outra instituição pública e gratuita de ensino superior, seja ela municipal, estadual ou federal, nem tampouco em duas FATECs ou dois cursos distintos na mesma FATEC."
 
-utter_faq/ask_o_que_e_o_vestibular:
-- text: |-
-      É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, o  processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
-      Excepcionalmente não será aplicada prova presencial para o presente Processo Seletivo."
+  utter_faq/ask_cursar_outra_faculdade:
+  - text: "Se for instituição particular sim, se for pública não. Caso venha a matricular-se em outra instituição pública de ensino superior no decorrer do curso, o aluno deve solicitar imediatamente à Secretaria Acadêmica o cancelamento de sua matrícula."
+  
+  utter_faq/ask_posso_usar_cnh:
+  - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional (exemplo: OAB, Crea, Coren, CRC e outros)."
+  
+  utter_faq/ask_perdi_meu_rg:
+  - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
+  
+  utter_faq/ask_perdi_meu_cpf:
+  - text: |- 
+    Considera-se, para upload no sistema, arquivos com os seguintes documentos que comprovem o número do CPF:
+      - CPF como documento exclusivo;
+      - RG, desde que contenha o número do CPF;
+      - Carteira Nacional de Habilitação - CNH expedida nos termos da Lei Federal 9.503/97.
+  
+  utter_faq/ask_como_serao_as_aulas_por_conta_da_pandemia:
+  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
+  
+  utter_faq/ask_tem_idade_minima: 
+  - text: Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula, respeitando-se o Parecer CNE/CEB 19/2007 e demais Legislações vigentes acerca da especificidade deste curso."
 
-utter_faq/ask_como_faco_inscricao_vestibular:
-- text: |- 
-      Pelo site www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, fazer upload dos documentos solicitados e pagar a taxa de inscrição. O dinheiro pago não será devolvido. Se não pagar até a data de vencimento, a inscrição será cancelada.
+  utter_faq/ask_quem_pode_fazer_vestibular:
+  - text: "Quem concluiu o Ensino Médio."
 
-utter_faq/ask_quando_comecam_inscricoes_vestibular:
-- text: |-
-      Verificar no site www.vestibularfatec.com.br.
+  utter_faq/ask_quanto_paga_fazer_curso:
+  - text: "Os cursos da Fatec são gratuitos."
 
-utter_faq/ask_upload:
-- text: |- 
-      Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente.
+  utter_faq/ask_tem_mensalidade:
+  - text: "Não tem mensalidade, pois são cursos gratuitos."
 
-utter_faq/ask_pagamento_efetivado:
-- text: |-
-      A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. A inscrição somente será efetivada após o pagamento e compensação do boleto bancário dentro do período estabelecido para a inscrição e confirmação da quitação pela rede bancária.
+  utter_faq/ask_curso_tecnico_ou_tecnologo:
+  - text: "Não são cursos técnicos e sim tecnólogos, ou seja são cursos superiores de tecnologia."
 
-utter_faq/ask_segunda_via_boleto:
-- text: |-
-      Acesse o site www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, clique no link “2ª via do boleto bancário”. Ele só poderá ser impresso até as 20 horas da data-limite do encerramento das inscrições.
+  utter_faq/ask_candidato_estrangeiro:
+  - text: |-
+        De acordo com o Manual do Candidato (disponível em https://www.vestibularfatec.com.br/documentos/), no que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
+        DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
+        •	Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
+        •	Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; OU
+        •	Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; OU 
+        •	Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; OU
+        •	 As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos documentos.
 
-utter_faq/ask_segunda_chamada:
-- text: "A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os candidatos aptos em 1ª opção da 1ª lista de convocação.
-A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados dentro do limite de vagas fixados para o curso escolhido em 1ª opção."
+  utter_faq/ask_pagamento_taxa_inscricao:
+  - text: |- 
+        O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, no horário de expediente, mediante a apresentação do boleto impresso no momento da inscrição eletrônica ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet (pagamento com cartão de crédito) disponível no site www.vestibularfatec.com.br.
 
-utter_faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo:
-- text: |-
-      O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma:        De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo   Dia 16-06-2021 a partir das 15 horas - Divulgação da Lista preliminar
-       Dias 17-06 e 18-06-2021 - Período para recurso contra a lista preliminar de inscrições
-       Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
-       Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
-       Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista   Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
-       Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
-       Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
-       Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista 
-       Dia 27-07-2021 - Matrícula da 2ª lista 
-       Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
-       Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
-       Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+  utter_faq/ask_o_que_e_o_vestibular:
+  - text: |-
+        É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, o  processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
+        Excepcionalmente não será aplicada prova presencial para o presente Processo Seletivo."
 
-utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
-- text: "O Processo Seletivo Vestibular, do 2º Semestre de 2021, destina-se ao ingresso nos Cursos Superiores de Tecnologia oferecidos pelas Fatecs - Faculdades de Tecnologia do CEETEPS, devendo o candidato ter concluído obrigatoriamente o Ensino Médio até a data da matrícula, atendendo a um dos seguintes pré-requisitos: Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino Médio; Para o candidato que concluiu o Ensino Médio por meio de provas ou exames de certificação de competências ou de avaliação de jovens e adultos, que sejam decorrentes do Exame Nacional do Ensino Médio – ENEM, do Exame Nacional para Certificação de Competências de Jovens e Adultos – ENCCEJA e afins: possuir certificação de conclusão do Ensino Médio, expedida por órgão competente. Para o candidato que estiver concluindo o Ensino Médio na modalidade de Educação de Jovens e Adultos – EJA, ou afins: possuir Histórico Escolar com Certificado de Conclusão do Ensino Médio no ato da matrícula."
+  utter_faq/ask_como_faco_inscricao_vestibular:
+  - text: |- 
+        Pelo site www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, fazer upload dos documentos solicitados e pagar a taxa de inscrição. O dinheiro pago não será devolvido. Se não pagar até a data de vencimento, a inscrição será cancelada.
 
-utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
-- text: "Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, “curso e período” e no Sistema de Pontuação Acrescida (“afrodescendência” e “escolaridade pública”), após o encerramento do período de inscrições e ou pagamento da taxa de inscrição do Processo Seletivo Vestibular."
+  utter_faq/ask_quando_comecam_inscricoes_vestibular:
+  - text: |-
+        Verificar no site www.vestibularfatec.com.br.
 
-utter_faq/ask_vai_ter_prova:
-- text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das disciplinas de português e matemática da 2ª série do Ensino Médio."
+  utter_faq/ask_upload:
+  - text: |- 
+        Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente.
+
+  utter_faq/ask_pagamento_efetivado:
+  - text: |-
+        A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. A inscrição somente será efetivada após o pagamento e compensação do boleto bancário dentro do período estabelecido para a inscrição e confirmação da quitação pela rede bancária.
+
+  utter_faq/ask_segunda_via_boleto:
+  - text: |-
+        Acesse o site www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, clique no link “2ª via do boleto bancário”. Ele só poderá ser impresso até as 20 horas da data-limite do encerramento das inscrições.
+
+  utter_faq/ask_segunda_chamada:
+  - text: "A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os candidatos aptos em 1ª opção da 1ª lista de convocação.
+  A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados dentro do limite de vagas fixados para o curso escolhido em 1ª opção."
+
+  utter_faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo:
+  - text: |-
+        O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma:        De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo   Dia 16-06-2021 a partir das 15 horas - Divulgação da Lista preliminar
+        Dias 17-06 e 18-06-2021 - Período para recurso contra a lista preliminar de inscrições
+        Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
+        Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
+        Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista   Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+        Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
+        Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+        Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista 
+        Dia 27-07-2021 - Matrícula da 2ª lista 
+        Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
+        Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
+        Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+
+  utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
+  - text: "O Processo Seletivo Vestibular, do 2º Semestre de 2021, destina-se ao ingresso nos Cursos Superiores de Tecnologia oferecidos pelas Fatecs - Faculdades de Tecnologia do CEETEPS, devendo o candidato ter concluído obrigatoriamente o Ensino Médio até a data da matrícula, atendendo a um dos seguintes pré-requisitos: Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino Médio; Para o candidato que concluiu o Ensino Médio por meio de provas ou exames de certificação de competências ou de avaliação de jovens e adultos, que sejam decorrentes do Exame Nacional do Ensino Médio – ENEM, do Exame Nacional para Certificação de Competências de Jovens e Adultos – ENCCEJA e afins: possuir certificação de conclusão do Ensino Médio, expedida por órgão competente. Para o candidato que estiver concluindo o Ensino Médio na modalidade de Educação de Jovens e Adultos – EJA, ou afins: possuir Histórico Escolar com Certificado de Conclusão do Ensino Médio no ato da matrícula."
+
+  utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
+  - text: "Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, “curso e período” e no Sistema de Pontuação Acrescida (“afrodescendência” e “escolaridade pública”), após o encerramento do período de inscrições e ou pagamento da taxa de inscrição do Processo Seletivo Vestibular."
+
+  utter_faq/ask_vai_ter_prova:
+  - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das disciplinas de português e matemática da 2ª série do Ensino Médio."
