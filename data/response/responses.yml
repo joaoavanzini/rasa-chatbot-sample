@@ -53,7 +53,7 @@ responses:
   - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
   
   utter_faq/ask_tem_idade_minima: 
-  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs."
+  - text: Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula, respeitando-se o Parecer CNE/CEB 19/2007 e demais Legislações vigentes acerca da especificidade deste curso."
 
   utter_faq/ask_quem_pode_fazer_vestibular:
   - text: "Quem concluiu o Ensino Médio."
