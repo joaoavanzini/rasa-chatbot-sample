@@ -7,10 +7,7 @@ responses:
   utter_adeus:
   - text: "Tchau"
   - text: "Até mais!"
-
-  utter_palavrao:
-  - text: "Desculpe, ainda estou aprendendo! Seja mais educado."
-
+  
   utter_perguntar_se_e_bot:
   - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! :)"
 
@@ -142,6 +139,6 @@ responses:
   utter_faq/ask_redes_sociais:
   - text: |-
         Você pode nos seguir em:
-         • LinkedIN  - https://www.linkedin.com/school/fatec163/ 
+         • LinkedIn  - https://www.linkedin.com/school/fatec163/ 
          • Facebook  - https://www.facebook.com/fatecmm/
          • Instagram - https://www.instagram.com/fatecmogimirim/"
