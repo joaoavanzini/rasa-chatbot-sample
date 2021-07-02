@@ -62,4 +62,4 @@ O objetivo desse projeto é criar um ChatBot para a instituição de ensino FATE
 
 # 🛒 Release
 
-Para verificar a versão do ChatBot, [clique aqui](https://google.com.br).
+Para verificar a versão do ChatBot, [clique aqui](https://github.com/vicpb/rasa-chatbot-sample/releases).
