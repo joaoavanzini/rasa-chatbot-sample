@@ -138,3 +138,10 @@ responses:
 
   utter_faq/ask_vai_ter_prova:
   - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das disciplinas de português e matemática da 2ª série do Ensino Médio."
+
+  utter_faq/ask_redes_sociais:
+  - text: |-
+        "Você pode nos seguir em:
+         • LinkedIN  - https://www.linkedin.com/school/fatec163/ 
+         • Facebook  - https://www.facebook.com/fatecmm/
+         • Instagram - https://www.instagram.com/fatecmogimirim/"

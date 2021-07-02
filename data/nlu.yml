@@ -1694,6 +1694,23 @@ nlu:
     - idiota
     - essa mensagem e um xingamento
 
+- intent: faq/ask_redes_sociais
+  examples: |
+    - redes sociais
+    - qual o face da fatec
+    - qual o facebook da fatec
+    - qual o insta da fatec
+    - qual o instagram da fatec
+    - qual o linkedin da fatec
+    - a fatec tem facebook
+    - quais as redes sociais da fatec
+    - a fatec tem rede social
+    - a fatec tem redes sociais
+    - a fatec tem página no facebook
+    - tem instagram
+    - tem linkedin
+    - quero o facebook da fatec
+
 - intent: fallback_intent
   examples: |
     - 123634
