@@ -141,7 +141,7 @@ responses:
 
   utter_faq/ask_redes_sociais:
   - text: |-
-        "Você pode nos seguir em:
+        Você pode nos seguir em:
          • LinkedIN  - https://www.linkedin.com/school/fatec163/ 
          • Facebook  - https://www.facebook.com/fatecmm/
          • Instagram - https://www.instagram.com/fatecmogimirim/"
