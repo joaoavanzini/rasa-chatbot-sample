@@ -17,11 +17,6 @@ rules:
   - intent: perguntar_se_e_bot
   - action: utter_perguntar_se_e_bot
 
-- rule: palavroes
-  steps:
-  - intent: palavrao
-  - action: utter_palavrao
-
 - rule: faq
   steps:
   - intent: faq
