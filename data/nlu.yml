@@ -38,7 +38,10 @@ nlu:
     - suave
     - eai
     - olar
-    
+    - eiin
+    - aoba
+    - alo
+
 - intent: adeus
   examples: |
     - te vejo mais tarde
@@ -106,7 +109,16 @@ nlu:
     - de onde você vem
     - bot
     - me explique o que vc faz
-    
+    - quem é você
+    - estou falando com quem
+    - com quem estou falando
+    - me explique cara, quem é vc afinal
+    - me explique, quem é vc
+    - quem é vc
+    - me conte mais sobre você
+    - poderia me contar quem é vc
+    - poderia me contar quem é você
+    - estou falando com um robô
 
 - intent: faq/ask_trocar_curso        
   examples: |
@@ -462,6 +474,7 @@ nlu:
     - é possivel estudar em outra faculdade também
     - é possivel me matricular em uma faculdade diferente
     - posso fazer uma matricula em outra faculdade
+    - quero fazer matricula em outra faculdade e continuar estudando na fatec
     
 
 - intent: faq/ask_posso_usar_cnh
@@ -1032,6 +1045,9 @@ nlu:
     - imigrantes podem fazer vestibular na fatec
     - imigrantes podem estudar 
     - quem não é Brasileiro pode entrar
+    - moro em outro país
+    - moro em outro país, posso fazer a prova
+    - venho de outro país e quero estudar na fatec
 
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
@@ -1521,6 +1537,7 @@ nlu:
     - quero as etapas
     - qual é o calendário
     - qual e o calendario
+    - quando é o dia da prova
 
 - intent: faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores
   examples: |
@@ -1614,6 +1631,7 @@ nlu:
     - gostaria de trocar o curso, mas ja me inscrevi no vestibular
     - gostaria de trocar o curso, mas ja me inscrevi
     - pode mudar de curso depois de ter feito a inscrição
+    - quero cursar ADS no lugar de mecatronica, posso
 
 - intent: faq/ask_vai_ter_prova
   examples: | 
