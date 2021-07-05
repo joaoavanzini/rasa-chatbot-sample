@@ -9,8 +9,6 @@ nlu:
     - fala ae
     - salve
     - ei
-    - vamos lá
-    - beleza
     - blz
     - e ai
     - oi, tudo bem
@@ -53,7 +51,6 @@ nlu:
     - vou embora
     - saindo
     - vou sair
-    - se vemos por ai
     - valeu falou
     - adeus
     - a deus
@@ -73,13 +70,9 @@ nlu:
     - vc e bot
     - você é um bot
     - você é uma humano
-    - estou falando com um humano
     - estou falando com um bot
-    - quem é você
-    - me explique quem é você
     - de onde você vem
     - bot
-    - me explique o que vc faz
     
 
 - intent: faq/ask_trocar_curso        
