@@ -38,6 +38,9 @@ nlu:
     - suave
     - eai
     - olar
+    - como você está
+    - como vc ta
+    - como vc esta
     
 - intent: adeus
   examples: |
@@ -333,6 +336,8 @@ nlu:
     - não completei o curso da fatec mas queria fazer outro vestibular
     - posso fazer o vestibular tendo parado com um curso da fatec no passado
     - posso fazer o vestibular denovo
+    - cursava um curso na fatec, quero continuar
+    - cursava na fatec, parei, mas quero continuar
 
 - intent: faq/ask_dois_cursos
   examples: |
@@ -1134,6 +1139,9 @@ nlu:
     - não faço ideia do que seja vestibular
     - esse vestibular é o que
     - vestibular é uma prova
+    - oq e fazer vestibular
+    - o q é fazer vestibular
+    - oq eh fazer vestibular
 
 - intent: faq/ask_como_faco_inscricao_vestibular
   examples: |
@@ -1607,6 +1615,7 @@ nlu:
     - qual o dia da prova
     - prova na pandemia
     - prova online
+    - prova vai ser online
 
 - intent: faq/ask_redes_sociais
   examples: |

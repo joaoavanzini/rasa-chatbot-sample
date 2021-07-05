@@ -78,7 +78,7 @@ responses:
 
   utter_faq/ask_pagamento_taxa_inscricao:
   - text: |- 
-        O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, no horário de expediente, mediante a apresentação do boleto impresso no momento da inscrição eletrônica ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet (pagamento com cartão de crédito) disponível no site www.vestibularfatec.com.br.
+        O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, no horário de expediente, mediante a apresentação do boleto impresso no momento da inscrição eletrônica ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet (pagamento com cartão de crédito) disponível no site https://www.vestibularfatec.com.br.
 
   utter_faq/ask_o_que_e_o_vestibular:
   - text: |-
