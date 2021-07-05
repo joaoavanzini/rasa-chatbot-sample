@@ -66,6 +66,7 @@ nlu:
     - não ligo
     - abraço
     - abraco
+    - cancelar
 
 - intent: perguntar_se_e_bot
   examples: |
@@ -229,6 +230,7 @@ nlu:
     - sem histórico é possivel se matricular
     - posso me matricular sem ter o histórico
     - consigo usar um comprovante no lugar do histórico escolar
+    - não tenho o documento da escola
 
 
 - intent: faq/ask_escolaridade_publica
@@ -385,7 +387,7 @@ nlu:
     - posso ser matriculado em outro curso diferente na mesma fatec mesmo sendo aluno da mesma
     - tem problema estudar em dois cursos diferentes ao mesmo tempo
     - posso estudar em quantos cursos ao mesmo tempo
-
+    - posso cursar outro curso
 
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
@@ -1495,6 +1497,7 @@ nlu:
     - quero as etapas
     - qual é o calendário
     - qual e o calendario
+    - hrs da prova
 
 - intent: faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores
   examples: |
