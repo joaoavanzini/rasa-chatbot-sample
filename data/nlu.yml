@@ -9,8 +9,6 @@ nlu:
     - fala ae
     - salve
     - ei
-    - vamos lá
-    - beleza
     - blz
     - e ai
     - oi, tudo bem
@@ -53,7 +51,6 @@ nlu:
     - vou embora
     - saindo
     - vou sair
-    - se vemos por ai
     - valeu falou
     - adeus
     - a deus
@@ -66,6 +63,7 @@ nlu:
     - não ligo
     - abraço
     - abraco
+    - cancelar
 
 - intent: perguntar_se_e_bot
   examples: |
@@ -73,13 +71,9 @@ nlu:
     - vc e bot
     - você é um bot
     - você é uma humano
-    - estou falando com um humano
     - estou falando com um bot
-    - quem é você
-    - me explique quem é você
     - de onde você vem
     - bot
-    - me explique o que vc faz
     
 
 - intent: faq/ask_trocar_curso        
@@ -230,6 +224,7 @@ nlu:
     - sem histórico é possivel se matricular
     - posso me matricular sem ter o histórico
     - consigo usar um comprovante no lugar do histórico escolar
+    - não tenho o documento da escola
 
 
 - intent: faq/ask_escolaridade_publica
@@ -386,7 +381,7 @@ nlu:
     - posso ser matriculado em outro curso diferente na mesma fatec mesmo sendo aluno da mesma
     - tem problema estudar em dois cursos diferentes ao mesmo tempo
     - posso estudar em quantos cursos ao mesmo tempo
-
+    - posso cursar outro curso
 
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
@@ -1497,6 +1492,7 @@ nlu:
     - quero as etapas
     - qual é o calendário
     - qual e o calendario
+    - hrs da prova
 
 - intent: faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores
   examples: |
