@@ -83,7 +83,7 @@ responses:
   utter_faq/ask_o_que_e_o_vestibular:
   - text: |-
         É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, o  processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
-        Excepcionalmente não será aplicada prova presencial para o presente Processo Seletivo."
+        Excepcionalmente não será aplicada prova presencial para o presente Processo Seletivo.
 
   utter_faq/ask_como_faco_inscricao_vestibular:
   - text: |- 
