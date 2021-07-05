@@ -147,6 +147,7 @@ nlu:
     - como faço o aproveitamento das disciplinas
     - me fale sobre apoveitamento das disciplinas
     - dizer sobre o aproveitamento das disciplinas
+    - como funciona o proveitamento da disciprina
     - me conte sobre aproveitamento das disciplinas
     - me diga sobre o aproveitamento das disciplinas
     - fale mais sobre aproveitamento das disciplinas
@@ -1012,6 +1013,7 @@ nlu:
     - como faço o pagamento da taxa de inscrição
     - quero pagar a inscrição
     - quero pagar a inscricao
+    - pagamento da taxa
     - pagar o vestibular
     - pagamento em dinheiro
     - como faço para pagar
@@ -1603,10 +1605,45 @@ nlu:
     - prova na fatec
     - como será feita a prova
     - como vai ser a prova
-    - dia da prova
-    - qual o dia da prova
     - prova na pandemia
     - prova online
+    - provinha
+    - provas
+    - me fala sobre a prova
+    - me diga sobre a prova
+    - sobre a prova
+    - prov
+    - queria saber a prova
+    - online prova
+    - queria saber sobre a prova
+    - qual e a da prova
+    - prova presencial vai ter
+    - vai ter prova presencial
+    - provitcha
+    - como vai ser a prova
+    - vai ser a prova
+    - tem prova
+    - tera prova
+    - teria prova
+    - a prova
+    - como que vai ser a prova
+    - e a prova
+    - e a prova vai ser como
+    - e a prova vai ter
+    - vai ter prova ou nao
+    - vai ter prova ou n
+    - teremos prova
+    - teremos a prova
+    - poderia dizer se teremos prova
+    - e a prova teremos
+    - prove
+    - provar
+    - prova de conhecimentos
+    - provis
+    - me fala da prova
+    - me fala sobre prova
+    - prova e presencial
+    - prova e online
 
 - intent: faq/ask_redes_sociais
   examples: |
@@ -1624,3 +1661,5 @@ nlu:
     - tem instagram
     - tem linkedin
     - quero o facebook da fatec
+    - quero o linkedin da fatec
+    - quero o instagram da fatec
