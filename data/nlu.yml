@@ -1686,3 +1686,13 @@ nlu:
     - quero o facebook da fatec
     - quero o linkedin da fatec
     - quero o instagram da fatec
+
+- intent: fallback_intent
+  examples: |
+    - 18123384
+    - 0
+    - 19
+    - oqiweoiqwenmwdoiqmeoimqwoem
+    - coisasaleatórias
+    - nadaacontecefeijoada
+    - 8/465984165498

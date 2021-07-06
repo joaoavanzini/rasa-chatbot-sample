@@ -26,3 +26,8 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_retorno
+
+- rule: fallback
+  steps:
+  - intent: fallback_intent
+  - action: utter_fallback_intent
