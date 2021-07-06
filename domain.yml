@@ -4,8 +4,14 @@ intents:
   - saudacao
   - adeus
   - perguntar_se_e_bot
+
   - faq:
       is_retrieval_intent: true
+      
+
+actions:
+- action_default_fallback
+
 
 session_config:
   session_expiration_time: 60
