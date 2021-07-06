@@ -22,7 +22,7 @@ rules:
   - intent: faq
   - action: utter_faq
 
-- rule: nlu fallback
-  steps:
-  - intent: nlu_fallback
-  - action: utter_retorno
+# - rule: nlu fallback
+#   steps:
+#   - intent: nlu_fallback
+#   - action: utter_retorno
