@@ -195,8 +195,5 @@ responses:
          • LinkedIn  - https://www.linkedin.com/school/fatec163/ 
 
          • Facebook  - https://www.facebook.com/fatecmm/
-
+         
          • Instagram - https://www.instagram.com/fatecmogimirim/
-
-  utter_fallback_intent:
-  - text: "Eu não fui treinado para responder isso..."

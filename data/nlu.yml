@@ -93,624 +93,604 @@ nlu:
 
 - intent: faq/ask_trocar_curso        
   examples: |
-    - fiz o vestibular para um curso e gostaria de trocar de curso, tem como
-    - fiz o vestibular e quero trocar de curso, posso
-    - posso trocar de curso depois de prestar o vestibular
-    - mudei de ideia depois que fiz o vestibular, quero mudar de curso
-    - gostaria de mudar de curso, mas ja fiz o vestibular
-    - mudar o curso
-    - mudar meu curso
-    - trocar de curso
-    - troca de cursos
-    - trocar meu curso
-    - mudança de curso
+    - consigo mudar de curso depois de fazer o vestibular
+    - consigo mudar o curso depois de ja ter feito o vestibular
     - como mudo de curso
     - como troco de curso
-    - posso mudar meu curso
-    - posso trocar de curso
-    - posso trocar meu curso
-    - queria trocar de curso
-    - queria mudar meu curso
-    - poderia trocar de curso
-    - eu posso trocar de curso
-    - mudar de curso, tem como
-    - posso eu trocar meu curso
-    - poderia eu mudar meu curso
-    - gostaria de trocar de curso
-    - quero trocar de curso, tem como
     - depois que fiz o vestibular mudei de ideia e gostaria de mudar de curso
-    - gostaria de mudar de curso depois de ja ter feito o vestibular
-    - pode mudar de curso depois de fazer o vestibular
-    - consigo mudar de curso depois de fazer o vestibular
-    - fiz o vestibular para um curso e gostaria de mudar de curso, tem como
+    - depois do vestibular pode mudar o curso
+    - eu posso trocar de curso
     - fiz o vestibular para um curso e gostaria de trocar de curso, tem como
-    - posso mudar de curso depois que ja fiz o vestibular
-    - posso mudar o curso que pretendo fazer depois de ter feito o vestibular
+    - fiz o vestibular para um curso e gostaria de mudar de curso, tem como
+    - fiz o vestibular e quero trocar de curso, posso
     - gostaria de mudar de curso, mas ja fiz o vestibular
+    - gostaria de trocar de curso
+    - gostaria de mudar de curso depois de ja ter feito o vestibular
+    - gostaria de mudar de curso, mas ja fiz o vestibular
+    - gostaria de mudar o curso que escolhi, mas ja fiz o vestibular
     - ja fiz o vestibular, posso mudar o curso
     - ja prestei o vestibular, posso escolher outro curso
     - ja fiz o vestibular, tem como mudar o curso para outro
-    - depois do vestibular pode mudar o curso
-    - posso escolher outro curso depois de ter feito o vestibular
-    - consigo mudar o curso depois de ja ter feito o vestibular
-    - gostaria de mudar o curso que escolhi, mas ja fiz o vestibular
-    - posso mudar de curso mesmo depois de ter feito o vestibular
-    - queria mudar o curso que escolhi, mas ja fiz o vestibular
+    - mudei de ideia depois que fiz o vestibular, quero mudar de curso
+    - mudar de curso, tem como
+    - mudar o curso
+    - mudar meu curso
+    - mudança de curso
+    - posso trocar de curso
+    - posso trocar de curso depois de prestar o vestibular
+    - posso mudar meu curso
+    - posso trocar meu curso
+    - posso eu trocar meu curso
     - posso trocar o curso depois de ter prestado o vestibular
+    - posso mudar de curso depois que ja fiz o vestibular
+    - posso escolher outro curso depois de ter feito o vestibular
+    - posso mudar o curso que pretendo fazer depois de ter feito o vestibular
+    - posso mudar de curso mesmo depois de ter feito o vestibular
+    - pode mudar de curso depois de fazer o vestibular
+    - poderia trocar de curso
+    - poderia mudar meu curso
+    - queria trocar de curso
+    - queria mudar meu curso
+    - queria mudar o curso que escolhi, mas ja fiz o vestibular
+    - quero trocar de curso, tem como
+    - trocar de curso
+    - trocar meu curso
+    - troca de cursos
 
 - intent: faq/ask_aproveitamento_de_disciplinas        
   examples: |
+    - aproveitamento das disciplinas
     - como faço o aproveitamento de disciplinas
     - como faço o aproveitamento das disciplinas que ja fiz
     - como faço o aproveitamento das materias que ja fiz
-    - posso reaproveitar diciplinas que ja cursei
-    - posso eliminar as materias que ja cursei
-    - aproveitamento das disciplinas
-    - e o aproveitamento das disciplinas
-    - fale aproveitamento das disciplinas
-    - diga aproveitamento das disciplinas
     - como aproveitamento das disciplinas
-    - sobre aproveitamento das disciplinas
-    - quero aproveitamento das disciplinas
-    - mais sobre aproveitamento das disciplinas
     - como faço o aproveitamento das disciplinas
-    - me fale sobre apoveitamento das disciplinas
-    - dizer sobre o aproveitamento das disciplinas
     - como funciona o proveitamento da disciprina
-    - me conte sobre aproveitamento das disciplinas
-    - me diga sobre o aproveitamento das disciplinas
-    - fale mais sobre aproveitamento das disciplinas
-    - quero saber sobre aproveitamento das disciplinas
-    - e o que voce sabe sobre aproveitamento das disciplinas
-    - gostaria de saber sobre aproveitamento das disciplinas
-    - queria saber como faço o aproveitamento das disciplinas
-    - poderia me informar sobre o aproveitamento das disciplinas
-    - o que voce tem a dizer sobre aproveitamento das disciplinas
     - como faço o aproveitamento de disciplinas
-    - posso aproveitar as disciplinas que ja cursei
     - como faço para aproveitar as disciplinas que ja cursei
-    - gostaria de saber se posso fazer o aproveitamento de diciplinas
+    - como faço o aproveitamento de materias
+    - como faço para aproveitar as materias que ja cursei
+    - diga aproveitamento das disciplinas
+    - dizer sobre o aproveitamento das disciplinas
+    - e o aproveitamento das disciplinas
+    - e o que voce sabe sobre aproveitamento das disciplinas
+    - e possivel aproveitar as disciplinas
+    - e possivel aproveitar as disciplinas que ja cursei
+    - e possivel aproveitar as materias
+    - e possivel aproveitar as materias que ja cursei
     - eu consigo aproveitar as disciplinas que ja cursei
     - eu posso fazer o aproveitamento de disciplinas
-    - queria me informar sobre o aproveitamento de disciplinas
-    - e possivel aproveitar as disciplinas
-    - tem como aproveitar as disciplinas
-    - e possivel aproveitar as disciplinas que ja cursei
-    - como faço o aproveitamento de materias
-    - posso aproveitar as materias que ja cursei
-    - como faço para aproveitar as materias que ja cursei
-    - gostaria de saber se posso fazer o aproveitamento de materias
     - eu consigo aproveitar as materias que ja cursei
     - eu posso fazer o aproveitamento de materias
+    - eliminar materia
+    - fale aproveitamento das disciplinas
+    - fale mais sobre aproveitamento das disciplinas
+    - gostaria de saber sobre aproveitamento das disciplinas
+    - gostaria de saber se posso fazer o aproveitamento de diciplinas
+    - gostaria de saber se posso fazer o aproveitamento de materias
+    - mais sobre aproveitamento das disciplinas
+    - matar materia
+    - me fale sobre apoveitamento das disciplinas
+    - me conte sobre aproveitamento das disciplinas
+    - me diga sobre o aproveitamento das disciplinas
+    - o que voce tem a dizer sobre aproveitamento das disciplinas
+    - posso reaproveitar diciplinas que ja cursei
+    - posso eliminar as materias que ja cursei
+    - posso aproveitar as disciplinas que ja cursei
+    - posso aproveitar as materias que ja cursei
+    - poderia me informar sobre o aproveitamento das disciplinas
+    - queria saber como faço o aproveitamento das disciplinas
+    - queria me informar sobre o aproveitamento de disciplinas
     - queria me informar sobre o aproveitamento de materias
-    - e possivel aproveitar as materias
-    - tem como aproveitar as materias
-    - e possivel aproveitar as materias que ja cursei
+    - quero aproveitamento das disciplinas
     - quero aproveitar materias de outra faculdade
     - quero aproveitar de outra faculdade
     - quero eliminar materia
-    - eliminar materia
-    - matar materia
+    - quero saber sobre aproveitamento das disciplinas
+    - sobre aproveitamento das disciplinas
+    - tem como aproveitar as materias
+    - tem como aproveitar as disciplinas
 
 - intent: faq/ask_matricula_sem_historico 
   examples: |
-    - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
-    - ja terminei o ensino médio e ainda não tenho o Histórico Escolar, vou ter algum problema na matrícula
-    - terminei o ensino médio no ano passado e ainda não tenho o Histórico, posso fazer a matrícula
+    - a escola ainda não deu o histórico, posso fazer a matricula
+    - ainda não recebi o histórico escolar
+    - ainda não recebi o histórico da escola
+    - ainda não recebi o histórico escolar da escola
+    - como proceder sem o histórico escolar
+    - como faço a matricula sem ter o histórico
     - consigo fazer a matricula sem ter recebido o Histórico Escolar
-    - posso fazer a matricula sem o Histórico
+    - consigo me matricular sem o histórico escolar
+    - consigo fazer a matricula sem ter o histórico
+    - consigo usar um comprovante no lugar do histórico escolar
+    - consigo matricular-me sem possuir o historico escolar
+    - estou sem meu historico escolar terei problemas na matricula
+    - ja terminei o ensino médio e ainda não tenho o Histórico Escolar, vou ter algum problema na matrícula
+    - ja terminei o terceiro ano do ensino medio e ainda não peguei o historico escolar
+    - matricula problema historico escolar
     - nao tenho historico escolar
     - nao consegui meu historico escolar
-    - matricula problema historico escolar
-    - problemas matricula sem historico escolar
-    - posso fazer matricula sem historico escolar
-    - tem problema matricula sem historico escolar
-    - sem historico escolar tem problema matricula
-    - problemas na matricula sem o historico escolar
-    - posso realizar matricula sem historico escolar
-    - terei problemas se nao tenho o historico escolar
-    - terei problemas na matricula sem o historico escolar
-    - terei problemas caso nao tenha meu historico escolar
-    - problema caso efetue matricula sem historico escolar
-    - consigo matricular-me sem possuir o historico escolar
-    - se eu nao possuo meu historico escolar posso matricular
-    - tem problema caso faça matricula sem o historico escolar
-    - estou sem meu historico escolar terei problemas na matricula
     - nao arranjei meu historico escolar terei problemas na matricula
     - nao consegui meu historico escolar terei problemas na matricula
     - nao consegui encontrar meu historico escolar terei problemas na matricula
+    - nao tenho o histórico escolar
+    - não possuo o histórico escolar
+    - não tenho o documento da escola
+    - posso fazer a matricula sem o Histórico
+    - problemas matricula sem historico escolar
+    - posso fazer matricula sem historico escolar
+    - problemas na matricula sem o historico escolar
+    - posso realizar matricula sem historico escolar
+    - problema caso efetue matricula sem historico escolar
+    - posso me matricular sem ter o histórico
+    - posso fazer a matricula sem o histórico escolar
+    - posso fazer a matricula sem ter o histórico escolar
+    - sem historico escolar tem problema matricula
+    - se eu nao possuo meu historico escolar posso matricular
+    - sem histórico é possivel se matricular
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
+    - terminei o ensino médio no ano passado e ainda não tenho o Histórico, posso fazer a matrícula
+    - tem problema matricula sem historico escolar
+    - terei problemas se nao tenho o historico escolar
+    - terei problemas na matricula sem o historico escolar
+    - terei problemas caso nao tenha meu historico escolar
+    - tem problema caso faça matricula sem o historico escolar
     - terminei o ensino médio no ano passado e ainda não tenho o Histórico Escolar, terei problema na realização da matrícula
     - terminei o ensino medio no ano passado e não possuo o historico escolar
     - terminei o ensino medio no ano passado e não possuo o historico escolar, vou ter algum problema
     - terminei o ensino medio no ano passado e não tenho o historico escolar, como faço
-    - ja terminei o terceiro ano do ensino medio e ainda não peguei o historico escolar
-    - nao tenho o histórico escolar
-    - não possuo o histórico escolar
-    - como proceder sem o histórico escolar
-    - ainda não recebi o histórico escolar
-    - posso fazer a matricula sem o histórico escolar
-    - consigo me matricular sem o histórico escolar
-    - posso fazer a matricula sem ter o histórico escolar
-    - como faço a matricula sem ter o histórico
-    - consigo fazer a matricula sem ter o histórico
-    - a escola ainda não deu o histórico, posso fazer a matricula
-    - ainda não recebi o histórico da escola
-    - ainda não recebi o histórico escolar da escola
-    - sem histórico é possivel se matricular
-    - posso me matricular sem ter o histórico
-    - consigo usar um comprovante no lugar do histórico escolar
-    - não tenho o documento da escola
-
 
 - intent: faq/ask_escolaridade_publica
   examples: |
+    - caso eu queira comprovar escolaridade publica
     - como eu comprovo escolaridade pública
     - como posso comprovar que estudei em escola pública
-    - qual documento preciso para comprovar que estudei em escola pública
-    - de que forma comprovo que estudei em escola pública
-    - no meu histórico não consta os nomes das escolas, como comprovo que estudei em escola pública
-    - escolaridade publica
-    - comprovação de escolaridade publica
-    - comprovação de que tenho escolaridade publica
-    - sobre escolaridade publica
-    - sobre a comprovacao de escolaridade publica
-    - ter escolaridade publica
-    - eu comprovar escolaridade publica
     - como comprovo escolaridade publica
-    - quero comprovar escolaridade publica
-    - eu queria comprovar esclaridade publica
     - como eu comprovo escolaridade publica
-    - e para eu comprovar escolaridade publica
-    - me diga como comprovo escolaridade publica
-    - me diga como comprovar escolaridade publica
-    - se eu quiser comprovar escolaridade publica
     - como faço para comprovar escolaridade publica
-    - caso eu queira comprovar escolaridade publica
-    - quero saber como comprovo escolaridade publica
-    - fale-me como posso comprovar escolaridade publica
-    - eu quero saber como comprovar escolaridade publica
-    - gostaria de saber como comprovo escolaridade publica
     - como posso fazer para comprovar escolaridade publica
-    - gostaria de saber como comprovar escolaridade publica
-    - e no caso de eu querer comprovar escolaridade publica
-    - me diga como posso fazer para comprovar escolaridade publica
-    - quero saber como posso fazer para comprovar escolaridade publica
     - como eu comprovo escolaridade pública
     - como devo comprovar a escolaridade publica
     - como comprovo que estudei em escola publica
-    - estudei em escola pública, como consigo comprovar
-    - qual a forma de comprar que vim de escola publica
-    - qual o metodo para comprovar que estudei em escola publica
+    - como comprovar que estudei em escola pública
+    - como consigo comprovar que sou de escola pública
+    - como posso estar comprovando a escolaridade pública
+    - comprovação de escolaridade publica
+    - comprovação de que tenho escolaridade publica
+    - de qual forma consigo comprovar minha escolaridade pública
+    - de que forma comprovo a escolaridade pública
+    - de que forma comprovo que estudei em escola pública
+    - e para eu comprovar escolaridade publica
+    - e no caso de eu querer comprovar escolaridade publica
+    - eu comprovar escolaridade publica
+    - eu queria comprovar esclaridade publica
+    - eu quero saber como comprovar escolaridade publica
+    - escolaridade publica
     - estudei os ultimos anos em escola pública, o que preciso para comprovar
     - estudei a vida inteira em escola pública, o que preciso para comprovar
-    - como comprovar que estudei em escola pública
-    - que documento preciso para comprovar que estudei em escola publica
+    - estudei em escola pública, como consigo comprovar
+    - fale-me como posso comprovar escolaridade publica
+    - gostaria de saber como comprovo escolaridade publica
+    - gostaria de saber como comprovar escolaridade publica
     - informações sobre escolaridade pública
-    - preciso me informar sobre a questão da escolaridade pública
-    - sobre escolaridade pública
+    - me diga como comprovo escolaridade publica
+    - me diga como comprovar escolaridade publica
+    - me diga como posso fazer para comprovar escolaridade publica
+    - no meu histórico não consta os nomes das escolas, como comprovo que estudei em escola pública
     - o que preciso para comprovar a escolaridade pública
     - o que preciso para comprovar que sou de escola pública
-    - como consigo comprovar que sou de escola pública
+    - preciso me informar sobre a questão da escolaridade pública
+    - qual documento preciso para comprovar que estudei em escola pública
+    - qual a forma de comprar que vim de escola publica
+    - qual o metodo para comprovar que estudei em escola publica
     - qual a regra para escolaridade pública
-    - de qual forma consigo comprovar minha escolaridade pública
-    - como posso estar comprovando a escolaridade pública
-    - de que forma comprovo a escolaridade pública
+    - quero comprovar escolaridade publica
+    - quero saber como comprovo escolaridade publica
+    - quero saber como posso fazer para comprovar escolaridade publica
+    - que documento preciso para comprovar que estudei em escola publica
+    - sobre escolaridade publica
+    - sobre a comprovacao de escolaridade publica
+    - se eu quiser comprovar escolaridade publica
+    - sobre escolaridade pública
+    - ter escolaridade publica
 
 - intent: faq/ask_vestibular_novamente
   examples: |
     - cursava um curso na Fatec e parei, posso fazer o vestibular novamente
     - cursei na Fatec e parei, tem algum problema em fazer o vestibular outra vez
-    - ja fiz um curso na Fatec, posso fazer o vestibular novamente
-    - posso fazer o vestibular novamente, mesmo ja tendo feito um curso na fatec sem terminar
-    - tem problema em prestar novamente o vestibular mesmo tendo cursado na fatec anteriormente
     - cursava fatec vestibular novamente
-    - refazer o vestibular cursava curso fatec
     - cursava na fatec posso vestibular novamente
     - cursava curso fatec quero refazer vestibular
-    - posso fazer vestibular novamente cursava na fatec
-    - posso vestibular novamente se eu cursava na fatec
-    - quero fazer o vestibular novamente cursava na fatec
     - cursava eu um curso na fatec quero refazer vestibular
     - cursava curso na fatec posso fazer vestibular novamente
     - cursava na fatec e agora quero fazer o vestibular novamente
-    - posso eu fazer o vestibular novamente se eu cursava na fatec
-    - eu cursava na fatec um curso quero fazer vestibular novamente
-    - eu cursava um curso na fatec posso fazer novamente o vestibular
-    - posso eu fazer o vestibular novamente se eu cursava um curso na fatec
-    - quero saber se posso fazer o vestibular novamente tendo cursado na fatec
     - cursava eu um curso na fatec, mas agora quero fazer o vestibular novamente
     - cursava um curso na fatec e agora quero fazer o vestibular novamente, posso
     - cursava um curso na fatec e agora quero fazer o vestibular novamente, tem como
-    - eu cursava na fatec e agora eu quero saber se eu posso fazer o vestibular novamente
-    - quero saber se eu posso realizar o vestibular novamente tendo cursado um curso na fatec
     - cursava um curso na Fatec e parei, posso fazer o vestibular novamente
-    - ja cursei na fatec anteriormente e parei, posso fazer o vestibular novamente
     - cursava um curso na fatec antes e parei, posso fazer o vestibular novamente
-    - ja cursei antes na fatec, posso fazer o vestibular denovo
-    - consigo fazer o vestibular mesmo ja tendo feito um curso na FATEC antes
-    - posso fazer o vestibular mesmo se ja cursei na Fatec anteriormente
-    - consigo prestar o vestibular mesmo se ja cursei antes na Fatec
-    - cursava um curso na fatec e parei, consigo fazer o vestibular de novo
-    - ja cursei antes na FATEC, mas não cheguei a terminar o curso, posso fazer o vestibular mesmo assim?
-    - serei impedido de fazer o vestibular se eu ja cursei antes na FATEC
-    - terei problema em prestar o vestibular sendo que ja cursei na fatec antes
-    - cursava um curso na fate e parei, posso prestar novamente o vestibular
-    - ja cursei na fatec anteriormente e parei, consigo fazer o vestibular mesmo assim
-    - cursava na FATEC e parei, tem problema em fazer prestar outro vestibular
-    - consigo fazer a prova para entrar na fatec mesmo ja tendo cursado anteriormente
-    - posso tentar entrar em um curso da FATEC mesmo tendo cursado e parado antes
-    - parei meu curso na Fatec, posso fazer o vestibular de novo
-    - não terminei o meu curso da fatec anterior, posso prestar o vestibular para outro
-    - não completei o curso da fatec mas queria fazer outro vestibular
-    - posso fazer o vestibular tendo parado com um curso da fatec no passado
-    - posso fazer o vestibular denovo
     - cursava um curso na fatec, quero continuar
     - cursava na fatec, parei, mas quero continuar
+    - cursava um curso na fatec e parei, consigo fazer o vestibular de novo
+    - cursava na FATEC e parei, tem problema em fazer prestar outro vestibular
+    - cursava um curso na fate e parei, posso prestar novamente o vestibular
+    - consigo fazer o vestibular mesmo ja tendo feito um curso na FATEC antes
+    - consigo prestar o vestibular mesmo se ja cursei antes na Fatec
+    - consigo fazer a prova para entrar na fatec mesmo ja tendo cursado anteriormente
+    - eu cursava na fatec um curso quero fazer vestibular novamente
+    - eu cursava um curso na fatec posso fazer novamente o vestibular
+    - eu cursava na fatec e agora eu quero saber se eu posso fazer o vestibular novamente
+    - ja fiz um curso na Fatec, posso fazer o vestibular novamente
+    - ja cursei na fatec anteriormente e parei, posso fazer o vestibular novamente
+    - ja cursei antes na fatec, posso fazer o vestibular denovo
+    - ja cursei antes na FATEC, mas não cheguei a terminar o curso, posso fazer o vestibular mesmo assim?
+    - ja cursei na fatec anteriormente e parei, consigo fazer o vestibular mesmo assim
+    - não terminei o meu curso da fatec anterior, posso prestar o vestibular para outro
+    - não completei o curso da fatec mas queria fazer outro vestibular
+    - parei meu curso na Fatec, posso fazer o vestibular de novo
+    - posso fazer o vestibular novamente, mesmo ja tendo feito um curso na fatec sem terminar
+    - posso fazer vestibular novamente cursava na fatec
+    - posso vestibular novamente se eu cursava na fatec
+    - posso eu fazer o vestibular novamente se eu cursava na fatec
+    - posso eu fazer o vestibular novamente se eu cursava um curso na fatec
+    - posso fazer o vestibular mesmo se ja cursei na Fatec anteriormente
+    - posso tentar entrar em um curso da FATEC mesmo tendo cursado e parado antes
+    - posso fazer o vestibular tendo parado com um curso da fatec no passado
+    - posso fazer o vestibular denovo
+    - quero fazer o vestibular novamente cursava na fatec
+    - quero saber se posso fazer o vestibular novamente tendo cursado na fatec
+    - quero saber se eu posso realizar o vestibular novamente tendo cursado um curso na fatec
+    - refazer o vestibular cursava curso fatec
+    - serei impedido de fazer o vestibular se eu ja cursei antes na FATEC
+    - terei problema em prestar o vestibular sendo que ja cursei na fatec antes
+    - tem problema em prestar novamente o vestibular mesmo tendo cursado na fatec anteriormente
 
 - intent: faq/ask_dois_cursos
   examples: |
-    - posso cursar dois cursos da Fatec
-    - pode cursar dois cursos da Fatec
-    - e se eu cursar dois cursos na fatec
-    - tem como cursar dois cursos na fatec
-    - é possivel cursar dois cursos da Fatec
-    - tem algum problema em cursar dois cursos da Fatec
-    - pode cursar dois cursos simultâneamente
+    - a fatec permite que eu faça dois cursos
+    - a fatec possibilita que eu faça dois cursos
+    - caso eu queria fazer dois cursos
+    - caso eu queira fazer dois cursos, a fatec permite
+    - consigo cursar dois cursos da fatec
+    - consigo estudar simultaneamente em duas fatecs diferentes
+    - dois cursos é possivel
+    - dois cursos, posso fazer
     - dois cursos pode
+    - é possivel cursar dois cursos da Fatec
+    - e se eu cursar dois cursos na fatec
+    - e possivel fazer dois cursos
+    - é possivel fazer dois cursos da fatec 
+    - eu queria saber se posso fazer dois cursos
+    - existe a possibilidade de entrar em dois cursos ao mesmo tempo
+    - gostaria de saber se posso fazer dois cursos
+    - me responda, posso fazer dois cursos
+    - pode cursar dois cursos simultâneamente
     - pode dois cursos
     - permite dois cursos
-    - dois cursos é possivel
     - pode fazer dois cursos
     - posso fazer dois cursos
     - quero dois cursos da fatec
     - quero fazer dois cursos na fatec
     - quero saber em fazer dois cursos na fatec
-    - dois cursos, posso fazer
-    - e possivel fazer dois cursos
-    - tem como eu fazer dois cursos
-    - se eu quiser fazer dois cursos
-    - teria como eu fazer dois cursos
-    - caso eu queria fazer dois cursos
-    - quiser dois cursos, a fatec permite
-    - me responda, posso fazer dois cursos
-    - a fatec permite que eu faça dois cursos
-    - eu queria saber se posso fazer dois cursos
-    - a fatec possibilita que eu faça dois cursos
-    - gostaria de saber se posso fazer dois cursos
-    - caso eu queira fazer dois cursos, a fatec permite
+    - posso cursar dois cursos da Fatec
+    - pode cursar dois cursos da Fatec
     - posso cursar dois cursos da Fatec
     - posso fazer dois cursos da fatec simultâneamente
-    - consigo cursar dois cursos da fatec
-    - tem problema em cursar dois cursos da FATEC
-    - existe a possibilidade de entrar em dois cursos ao mesmo tempo
     - posso cursar dois cursos da FATEC em periodos diferentes
     - posso cursar dois cursos da FATEC mesmo sendo em períodos diferentes
-    - queria saber se pode cursar dois cursos da fatec
-    - posso cursar um curso da fatec de manhã e outro a noite
-    - posso cursar um curso da fatec de tarde e outro de noite
     - posso cursar un curso da fatec de manhã e outro de tarde
     - posso cursar na fatec em dois cursos ao mesmo tempo
-    - consigo estudar simultaneamente em duas fatecs diferentes
+    - posso cursar um curso da fatec de tarde e outro de noite
     - posso fazer dois cursos da fatec ao mesmo tempo
     - posso começar um curso na fatec mesmo ainda estando em outro
-    - é possivel fazer dois cursos da fatec 
-    - sou aluno matriculado em um curso, gostaria de saber se posso me matricular em outro, em um periodo diferente 
+    - posso cursar um curso da fatec de manhã e outro a noite
     - posso ser matriculado em outro curso diferente na mesma fatec mesmo sendo aluno da mesma
-    - tem problema estudar em dois cursos diferentes ao mesmo tempo
     - posso estudar em quantos cursos ao mesmo tempo
     - posso cursar outro curso
+    - quiser dois cursos, a fatec permite
+    - queria saber se pode cursar dois cursos da fatec
+    - se eu quiser fazer dois cursos
+    - sou aluno matriculado em um curso, gostaria de saber se posso me matricular em outro, em um periodo diferente 
+    - tem como cursar dois cursos na fatec
+    - tem algum problema em cursar dois cursos da Fatec
+    - teria como eu fazer dois cursos
+    - tem como eu fazer dois cursos
+    - tem problema em cursar dois cursos da FATEC
+    - tem problema estudar em dois cursos diferentes ao mesmo tempo
 
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
-    - posso fazer outra faculdade mesmo cursando na Fatec
-    - tenho que fazer somente uma faculdade na fatec
-    - posso estar cursando outra faculdade na fatec
-    - posso cursar outro curso na fatec
-    - posso fazer outra faculdade que não seja fatec
-    - estou fazendo outra faculdade alem da fatec, posso continuar
-    - posso fazer duas faculdades em lugares diferentes
+    - alem da fatec outra faculdade
+    - alem da fatec posso fazer outra faculdade
+    - a fatec permite que o aluno seja matriculado em outra instituição
+    - consigo fazer matricula em outra instituição
+    - consigo fazer matricula em outra faculdade
     - duas faculdades
-    - outra faculdade
+    - duas faculdades posso fazer
+    - e sobre outra faculdade 
+    - é possivel estudar em outra faculdade também
+    - é possivel me matricular em uma faculdade diferente
+    - estou fazendo outra faculdade alem da fatec, posso continuar
     - fazer duas faculdades
     - fazer outra faculdade
-    - posso outra faculdade
-    - e sobre outra faculdade 
-    - outra faculdade alem dessa
-    - quero fazer outra faculdade
-    - posso fazer outra faculdade
-    - duas faculdades posso fazer
     - fatec e outra faculdade pode
-    - alem da fatec outra faculdade
     - fazer outra faculdade alem dessa
     - gostaria de fazer outra faculdade
-    - se eu quiser fazer outra faculdade
-    - sobre outra faculdade, posso fazer
-    - alem da fatec posso fazer outra faculdade
     - gostaria de saber se posso fazer outra faculdade alem dessa
     - gostaria de saber se poderia fazer outra faculdade alem dessa
     - gostaria de saber se posso fazer duas faculdades, a fatec e outra
+    - gostaria de me matricular em uma instituição diferente 
+    - outra faculdade alem dessa
+    - outra faculdade
+    - posso fazer outra faculdade
+    - posso outra faculdade
     - posso fazer outra faculdade mesmo cursando na Fatec
-    - tem problema em fazer uma faculdade diferente, mesmo matriculado na FATEC
+    - posso estar cursando outra faculdade na fatec
+    - posso cursar outro curso na fatec
+    - posso fazer outra faculdade que não seja fatec
+    - posso fazer duas faculdades em lugares diferentes
     - posso fazer outra faculade estando na fatec
-    - terei problema se fizer outra faculdade mesmo estando na fatec?
     - posso me matricular em outra faculdade 
-    - tem algum problema em cursar na fatec e em outra faculdade ao mesmo tempo
-    - sou aluno da fatec, posso me matricular também em outra faculdade
-    - sou aluno de outra faculdade, posso me matricular na fatec
-    - a fatec permite que o aluno seja matriculado em outra instituição
     - posso estudar em outra instituição diferente
     - posso me matricular em outra faculdade em paralelo
-    - gostaria de me matricular em uma instituição diferente 
     - posso fazer matricula em uma faculdade privada sendo aluno da fatec
     - posso estudar em uma faculdade diferente da fatec 
     - posso me matricular em uma faculdade privada
-    - consigo fazer matricula em outra instituição
-    - consigo fazer matricula em outra faculdade
-    - é possivel estudar em outra faculdade também
-    - é possivel me matricular em uma faculdade diferente
     - posso fazer uma matricula em outra faculdade
+    - posso fazer outra faculdade mesmo cursando na Fatec
+    - quero fazer outra faculdade
     - quero fazer matricula em outra faculdade e continuar estudando na fatec
+    - se eu quiser fazer outra faculdade
+    - sobre outra faculdade, posso fazer
+    - sou aluno da fatec, posso me matricular também em outra faculdade
+    - sou aluno de outra faculdade, posso me matricular na fatec
+    - tem problema em fazer uma faculdade diferente, mesmo matriculado na FATEC
+    - terei problema se fizer outra faculdade mesmo estando na fatec?
+    - tenho que fazer somente uma faculdade na fatec
+    - tem algum problema em cursar na fatec e em outra faculdade ao mesmo tempo
     
-
 - intent: faq/ask_posso_usar_cnh
   examples: |
-    - Posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
-    - qual documento posso utilizar para matricula
-    - qual documento e necessario para matricula
-    - posso utilizar outro documento para matricula
-    - qual documento eu nao posso utilizar para matricula
+    - a cnh pode subistituir o rg
+    - caso eu utilize cnh no lugar do rg
     - cnh no lugar do rg
+    - consigo usar a carteira de motorista no lugar do rg
+    - consigo usar a habilitação como documento na matricula
+    - conseguirei fazer a matricula com a habilitação
+    - conseguirei fazer a matricula com a carteira de motorista
     - e cnh no lugar do rg
     - e se cnh no lugar do rg
-    - sobre cnh no lugar do rg
-    - posso cnh no lugar do rg
+    - e se eu usasse cnh no lugar do rg
+    - e possivel usar a cnh na matricula
+    - é possivel usar a habilitação para fazer a matricula
+    - é possivel substituir o RG pela habilitação
+    - posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
+    - posso utilizar outro documento para matricula
     - permite cnh no lugar do rg
     - poderia cnh no lugar do rg
-    - tem como cnh no lugar do rg
+    - posso cnh no lugar do rg
     - posso usar cnh no lugar do rg
     - quero usar cnh no lugar do rg
     - permite usar cnh no lugar do rg
     - poderia usar cnh no lugar do rg
-    - tem como usar cnh no lugar do rg
     - posso utilizar cnh no lugar do rg
-    - e se eu usasse cnh no lugar do rg
-    - caso eu utilize cnh no lugar do rg
     - poderia utilizar cnh no lugar do rg
-    - queria saber se posso usar cnh no lugar do rg
     - poderia me responder sobre usar cnh no lugar do rg
-    - queria saber se e permitido usar cnh no lugar do rg
     - posso utilizar a carteira de habilitação (CNH) no lugar do RG para a matrícula
     - posso utilizar a habilitação de motorista no lugar do RG para a matricula
     - posso usar a cnh para realizar a matricula
     - posso usar a habilitação para fazer a matrícula
-    - consigo usar a carteira de motorista no lugar do rg
-    - e possivel usar a cnh na matricula
-    - é possivel usar a habilitação para fazer a matricula
-    - a cnh pode subistituir o rg
-    - consigo usar a habilitação como documento na matricula
     - posso fazer a matricula com a habilitação
     - posso fazer a matricula com a carteira de motorista
     - posso fazer a matricula com a carteira de habilitação
     - posso fazer a matricula com a CNH
-    - se eu usar a CNH no lugar do rg consigo fazer a matricula
     - posso substituir o rg pela habilitação na matricula
     - posso subtistuir o RG pela carteira de habilitação
+    - qual documento posso utilizar para matricula
+    - qual documento e necessario para matricula
+    - qual documento eu nao posso utilizar para matricula
+    - queria saber se posso usar cnh no lugar do rg
+    - queria saber se e permitido usar cnh no lugar do rg
+    - sobre cnh no lugar do rg
+    - se eu usar a CNH no lugar do rg consigo fazer a matricula
+    - tem como cnh no lugar do rg
+    - tem como usar cnh no lugar do rg
     - vou ter problemas se trocar o RG pela CNH
-    - conseguirei fazer a matricula com a habilitação
-    - conseguirei fazer a matricula com a carteira de motorista
-    - é possivel substituir o RG pela habilitação
 
 - intent: faq/ask_perdi_meu_rg
   examples: |
-    - Perdi meu RG, como faço
-    - estou sem rg, o que faço
-    - o que posso fazer sem rg
-    - como faço sem rg
     - aceita um comprovante do rg para matricula
-    - perdi meu rg
+    - como faço sem rg
+    - caso eu tenha perdido meu rg
+    - como faço se perdi meu rg
+    - como fazer apos ter perdido meu rg
+    - como proceder em caso de perda do RG
+    - estou sem rg, o que faço
     - e perdi meu rg
     - eu perdi meu rg
     - e se perdi meu rg
-    - perdi meu rg e ai
     - e se eu perdi meu rg
-    - perdi meu rg tem como
-    - perdi meu rg como faço
-    - fazer como perdi meu rg
-    - eu perdi meu rg como faço
-    - como faço se perdi meu rg
-    - perdi meu rg e ai tem como
-    - sobre eu ter perdido meu rg
-    - perdi meu rg como continuar
-    - perdi meu rg e ai como faço
-    - perdi meu rg como prosseguir
-    - caso eu tenha perdido meu rg
-    - perdi meu rg tem como continuar
-    - perdi meu rg tem como presseguir
-    - como fazer apos ter perdido meu rg
-    - perdi meu RG, como faço
-    - não sei onde está meu rg
-    - não tenho mais o rg
-    - como proceder em caso de perda do RG
-    - não possuo o rg, como faço
-    - não consegui achar meu rg, o que posso fazer
-    - perdi o rg, como devo processeguir
-    - o que fazer quando não tem o rg
-    - o que fazer quando a pessoa perdeu o documento rg
     - estou sem o rg, como faço
     - estou sem o rg, tem problema
-    - o que fazer em casos de falta de rg
-    - perdi meu RG, o que fazer
-    - não acho meu RG, e agora
-    - serei prejudicado por não ter o RG
     - estou sem o RG, como faço
     - estou sem o rg, o que devo fazer
     - estou sem o RG, como devo prosseguir
+    - eu perdi meu rg como faço
+    - fazer como perdi meu rg
+    - não sei onde está meu rg
+    - não tenho mais o rg
+    - não possuo o rg, como faço
+    - não consegui achar meu rg, o que posso fazer
+    - não acho meu RG, e agora
+    - o que fazer quando não tem o rg
+    - o que fazer quando a pessoa perdeu o documento rg
+    - o que fazer em casos de falta de rg
+    - o que posso fazer sem rg
+    - perdi meu RG, o que fazer
+    - perdi meu rg
+    - Perdi meu RG, como faço
+    - perdi meu rg e ai
+    - perdi meu rg tem como
+    - perdi meu rg como faço
+    - perdi meu rg e ai tem como
+    - perdi meu rg como continuar
+    - perdi meu rg e ai como faço
+    - perdi meu rg como prosseguir
+    - perdi meu rg tem como continuar
+    - perdi meu rg tem como presseguir
+    - perdi meu RG, como faço
+    - perdi o rg, como devo processeguir
     - perdi o meu RG, tem problema
     - perdi meu rg, o que faço agora
-
+    - sobre eu ter perdido meu rg
+    - serei prejudicado por não ter o RG
 
 - intent: faq/ask_perdi_meu_cpf
   examples: |
-    - Perdi meu CPF ou não tenho o cartão do CPF, como faço na matrícula
-    - quais documentos posso usaar para matricula
-    - estou sem cpf, e agora como faço a matricula
-    - perdi cpf como faço a matricula
-    - no caso de perda do cpf, o que posso fazer
-    - perdi meu cpf
-    - e perdi meu cpf
-    - eu perdi meu cpf
-    - e se perdi meu cpf
-    - perdi meu cpf e ai
-    - e se eu perdi meu cpf
-    - perdi meu cpf tem como
-    - perdi meu cpf como faço
-    - fazer como perdi meu cpf
-    - eu perdi meu cpf como faço
-    - como faço se perdi meu cpf
-    - perdi meu cpf e ai tem como
-    - sobre eu ter perdido meu cpf
-    - perdi meu cpf como continuar
-    - perdi meu cpf e ai como faço
-    - perdi meu cpf como prosseguir
     - caso eu tenha perdido meu cpf
-    - perdi meu cpf tem como continuar
-    - perdi meu cpf tem como presseguir
+    - como faço se perdi meu cpf
     - como fazer apos ter perdido meu cpf
-    - não tenho o cartão do CPF, como faço a matrícula
-    - perdi meu CPF, como faço a matricula
-    - não tenho o cpf, o que devo fazer 
-    - preciso fazer a matricula e não tenho o cpf
-    - não tenho o documento de cpf, posso fazer a matricula 
-    - não possuo o CPF
-    - não possuo o CPF, posso fazer a matricula sem
-    - posso fazer a matricula sem o CPF
+    - como faço a matricula sem cpf
     - consigo fazer a matricula sem o cpf
     - da pra fazer a matricula sem o cpf
     - daria pra fazer a matricula sem ter o cpf
-    - não sei onde está meu cpf, posso fazer a matricula
-    - como faço a matricula sem cpf
+    - estou sem cpf, e agora como faço a matricula
+    - e perdi meu cpf
+    - eu perdi meu cpf
+    - e se perdi meu cpf
+    - e se eu perdi meu cpf
+    - eu perdi meu cpf como faço
     - é possível fazer a matricula sem ter o CPF
-    - em caso da ausencia do CPF, poderá ser feita a matricula
-    - quem não tem o cpf consegue fazer a matricula
-    - se eu perdi meu cpf, terei problemas para fazer a matricula
-    - terei problemas em fazer a matricula se eu perdi o cpf
     - eu perdi meu cpf, posso fazer a matricula
     - eu não tenho o cpf, tem problema em fazer a matricula sem ele
+    - em caso da ausencia do CPF, poderá ser feita a matricula
+    - fazer como perdi meu cpf
+    - não tenho o cartão do CPF, como faço a matrícula
+    - não tenho o cpf, o que devo fazer 
+    - não tenho o documento de cpf, posso fazer a matricula 
+    - não possuo o CPF
+    - não possuo o CPF, posso fazer a matricula sem
+    - não sei onde está meu cpf, posso fazer a matricula
+    - no caso de perda do cpf, o que posso fazer
+    - perdi cpf como faço a matricula
+    - perdi meu cpf
+    - perdi meu cpf e ai
+    - perdi meu cpf tem como
+    - perdi meu CPF ou não tenho o cartão do CPF, como faço na matrícula
+    - perdi meu cpf como faço
+    - perdi meu cpf e ai tem como
+    - perdi meu cpf como continuar
+    - perdi meu cpf e ai como faço
+    - perdi meu cpf como prosseguir
+    - perdi meu cpf tem como continuar
+    - perdi meu cpf tem como presseguir
+    - perdi meu CPF, como faço a matricula
+    - preciso fazer a matricula e não tenho o cpf
+    - posso fazer a matricula sem o CPF
+    - quem não tem o cpf consegue fazer a matricula
+    - quais documentos posso usaar para matricula
+    - sobre eu ter perdido meu cpf
+    - se eu perdi meu cpf, terei problemas para fazer a matricula
+    - terei problemas em fazer a matricula se eu perdi o cpf
 
 - intent: faq/ask_como_serao_as_aulas_por_conta_da_pandemia
   examples: |
+    - a pandemia vai influenciar as aulas
+    - as aulas serão remotas
+    - as aulas serão como
+    - as aulas serao como
+    - as aulas serao online
+    - as aulas serao presencias
+    - as aulas serão presenciais
+    - as aulas serão online
+    - as aulas são pelo computador
+    - as aulas são remotas
+    - as aulas serão presenciais ou onlines
+    - as aulas serão remotas na pandemia
+    - as aulas estão sendo home office
+    - as aulas são feitas pela internet
+    - as aulas são pelo computador
+    - aulas corona virus como serao
+    - aulas covid-19
     - aulas por conta da pandemia
     - aulas por conta do covid
     - aulas por conta do corona
     - aulas por conta do virus
-    - covid 19
-    - covid-19
-    - aula presencial
+    - aulas corona virus
     - aulas presenciais
-    - aulas onlines
-    - aula
-    - aulas
-    - covid
-    - pandemia
-    - corona
-    - virus
-    - aula covid
+    - aulas pandemia
+    - aulas presenciais
     - aulas serão presenciais
     - aulas serão onlines
-    - as aulas serão remotas
-    - as aulas serão como
-    - como aulas serão
+    - aulas online
+    - aulas na pandemia
+    - aulas na pandemia como serao
+    - aulas
+    - aula
+    - aula covid
     - aula corona
     - aula covid
+    - aula presencial
     - aula pandemia
     - aula presencial ou online
-    - online ou presencial
-    - o covid vai influenciar as aulas
-    - a pandemia vai influenciar as aulas
-    - o corona vai influenciar as aulas
-    - o virus vai influenciar as aulas
-    - vai ter aula presencial
-    - vai ter aula remota
-    - vai ter aula online
     - aula vai ter
-    - vai ter aula
-    - por conta da pandemia teremos aula presencial
-    - por conta do covid teremos aula presencial
-    - por conta do corona teremos aula presencial
-    - por conta do virus teremos aula presencial
-    - teremos aula presencial
-    - em relação as aulas como serão
-    - em relação as aulas elas serão presenciais
-    - nao teremos aulas presenciais
-    - por conta da pandemia nao teremos aulas presenciais
-    - por conta do covid nao teremos aulas presenciais
-    - por conta do corona nao teremos aulas presenciais
-    - por conta do virus nao teremos aulas presenciais
-    - aulas 
-    - aulas online
-    - aulas pandemia
-    - aulas covid-19
-    - aulas na pandemia
-    - aulas presenciais
-    - aulas corona virus
+    - covid 19
+    - covid-19
+    - covid
+    - corona
+    - como aulas serão
     - como serao as aulas
-    - as aulas serao como
-    - as aulas serao online
-    - as aulas serao presencias
-    - aulas na pandemia como serao
-    - aulas corona virus como serao
-    - poderia me dizer como serao as aulas
-    - gostaria de saber como serao as aulas
     - como serao as aulas por conta da covid
     - como serao as aulas por conta da pandemia
-    - por causa da pandemia como serao as aulas
-    - por causa da covid-19 como serao as aulas
-    - por causa do corona virus como serao as aulas
     - como serão as aulas por conta da pandemia Covid-19
-    - as aulas serão presenciais
-    - as aulas serão online
     - como são feita as aulas na pandemia
     - como são feitas as aulas na quarentena
     - como vão ser feitas as aulas durante a pandemia
     - como vão ser feitas as aulas durante a quarentena
-    - as aulas são pelo computador
-    - as aulas são remotas
+    - como funciona as aulas
+    - como são as aulas
+    - como vai ser as aulas
+    - em relação as aulas como serão
+    - em relação as aulas elas serão presenciais
+    - gostaria de saber como serao as aulas
+    - online ou presencial
+    - o covid vai influenciar as aulas
+    - o corona vai influenciar as aulas
+    - o virus vai influenciar as aulas
+    - pandemia
+    - por conta da pandemia teremos aula presencial
+    - por conta do covid teremos aula presencial
+    - por conta do corona teremos aula presencial
+    - por conta do virus teremos aula presencial
+    - por conta da pandemia nao teremos aulas presenciais
+    - por conta do covid nao teremos aulas presenciais
+    - por conta do corona nao teremos aulas presenciais
+    - por conta do virus nao teremos aulas presenciais
+    - poderia me dizer como serao as aulas
+    - por causa da pandemia como serao as aulas
+    - por causa da covid-19 como serao as aulas
+    - por causa do corona virus como serao as aulas
+    - teremos aula presencial
+    - virus
+    - vai ter aula presencial
+    - vai ter aula remota
+    - vai ter aula online
+    - vai ter aula
+    - nao teremos aulas presenciais
     - vai ter aula com a pandemia
     - vai ter aula remota
     - vai ter aula presencial
-    - as aulas serão presenciais ou onlines
-    - as aulas serão remotas na pandemia
-    - como funciona as aulas
-    - as aulas estão sendo home office
-    - como são as aulas
-    - as aulas são feitas pela internet
-    - as aulas são pelo computador
-    - como vai ser as aulas
 
 - intent: faq/ask_tem_idade_minima 
   examples: |
-    - idade
-    - qual a idade minima
-    - qual a idade máxima
-    - tem idade máxima
-    - tem idade mínima
-    - qualquer idade
-    - preciso ter quantos anos para fazer
-    - qual idade que posso fazer
-    - posso fazer com qual idade
-    - com quantos anos pode participar
-    - qual idade para participar
-    - quantos anos preciso ter para participar 
     - até qual idade pode participar
-    - qual idade nao posso participar
-    - quando nao consigo participar
+    - com quantos anos pode participar
     - com qual idade nao participo
-    - quando nao consigo inscrever
+    - com quantos anos preciso estar para entrar na fatec
+    - com quantos anos posso entrar na fatec
+    - com quantos anos pode se matricular
     - idade
-    - tem idade
     - idade minima
-    - limite de idade
-    - tem idade minima
     - idade para entrar
     - idade entrar fatec
     - idade para ingressar
@@ -721,95 +701,108 @@ nlu:
     - idade minima para fazer o curso
     - idade minima ingressar na fatec
     - idade minima para entrar na fatec
-    - tem idade minima para fazer o curso
     - idade minima para ingressar na fatec
+    - limite de idade
+    - menores de idade podem se matricular
+    - preciso ter quantos anos para fazer
+    - posso fazer com qual idade
+    - posso ter menos de 18 anos para prestar o vestibular
+    - posso fazer o curso com menos de 18 anos
+    - preciso de qual idade para me matricular nos cursos
+    - posso ingressar com quantos anos
+    - para ingressar na fatec preciso ser maior de idade
+    - qualquer idade
+    - qual a idade minima
+    - qual a idade máxima
+    - qual idade que posso fazer
+    - qual idade para participar
+    - qual idade nao posso participar
+    - qual a idade minima para entrar na Fatec
+    - qual a idade minima para entrar em um curso
+    - qual a idade minima para me matricular
+    - qual a idade certa para cursar na fatec
+    - qual idade preciso para entrar em um curso
+    - qual idade preciso para entrar na FATEC
+    - qual idade certa
+    - qual idade preciso ter
+    - qual a idade que necessito para ingressar
+    - quando nao consigo participar
+    - quando nao consigo inscrever
+    - quantos anos preciso ter para participar 
+    - tem idade máxima
+    - tem idade mínima
+    - tem idade
+    - tem idade minima para fazer o curso
     - tem idade minima parar fazer o curso
     - tem idade minima para entrar na fatec
     - tem idade minima para ingressar na fatec
     - tem que ser maior de 18 anos para prestar o vestibular
-    - posso ter menos de 18 anos para prestar o vestibular
+    - tem idade minima
     - tem idade mínima para fazer o curso
     - tem idade certa para fazer o curso
-    - posso fazer o curso com menos de 18 anos
-    - qual idade preciso para entrar em um curso
-    - qual idade preciso para entrar na FATEC
-    - com quantos anos posso entrar na fatec
-    - preciso de qual idade para me matricular nos cursos
-    - qual a idade minima para entrar na Fatec
-    - qual a idade minima para entrar em um curso
-    - qual a idade minima para me matricular
-    - com quantos anos preciso estar para entrar na fatec
-    - qual a idade certa para cursar na fatec
     - tem idade certa
     - tem cursos para todas as idades
-    - menores de idade podem se matricular
-    - qual idade certa
-    - qual idade preciso ter
-    - com quantos anos pode se matricular
-    - qual a idade que necessito para ingressar
-    - posso ingressar com quantos anos
-    - para ingressar na fatec preciso ser maior de idade
 
 - intent: faq/ask_quem_pode_fazer_vestibular
   examples: |
-    - quem pode fazer o vestibular
-    - eu posso fazer o vestibular
     - como posso fazer curso da fatec
-    - eu posso fazer curso da fatec
-    - posso cursar na fatec
-    - posso fazer qualquer curso da fatec
-    - quero fazer um curso na fatec
-    - quero fazer o vestibular
     - como posso estudar na fatec
-    - quero estudar na fatec
-    - quero fazer o vestibular
     - conclui o ensino médio, posso fazer o vestibular
+    - eu posso fazer o vestibular
+    - eu posso fazer curso da fatec
     - terminei o ensino médio
-    - pessoa PCD pode fazer vestibular
-    - qualquer um pode fazer vestibular
     - não terminei o ensino médio, posso fazer o vestibular
     - não terminei o ensino médio
     - não terminei meus estudos
     - não fiz o ensino médio
     - não fiz ensino fundamental
+    - fazer curso quem pode
+    - qualquer um pode fazer vestibular
+    - quero fazer um curso na fatec
+    - quero fazer o vestibular
+    - quero estudar na fatec
+    - quero fazer o vestibular
+    - quem pode fazer o vestibular
     - quem vestibular pode
     - quem faz o vestibular
-    - fazer curso quem pode
     - quem pode o vestibular
-    - pode quem curso da fatec
     - quem pode fazer um curso
     - quem fazer curso fatec pode
-    - o vestibular quem e que faz
     - quem pode fazer o vestibular
-    - pode quem fazer o vestibular
-    - o curso da fatec quem e que pode
     - quem fazer pode um curso da fatec
     - quem e que pode fazer o vestibular
-    - o vestibular quem e que pode fazer
-    - o que e necessario para fazer curso fatec
-    - pra fazer um curso da fatec quem pode fazer
-    - o que e necessario para fazer o curso da fatec
-    - o que preciso fazer para fazer um curso da fatec
-    - o que e preciso fazer para fazer o curso da fatec
-    - para fazer um curso da fatec quem e que pode fazer
-    - quem pode fazer o vestibular
-    - o que é preciso para fazer o curso da Fatec
     - quem pode prestar o vestibular
     - quem pode participar do processo seletivo
     - quem pode participar da seleção 
+    - o vestibular quem e que faz
+    - o curso da fatec quem e que pode
+    - o vestibular quem e que pode fazer
+    - o que e necessario para fazer curso fatec
+    - o que e necessario para fazer o curso da fatec
+    - o que preciso fazer para fazer um curso da fatec
+    - o que e preciso fazer para fazer o curso da fatec
+    - o que é preciso para fazer o curso da Fatec
     - o que preciso ter para fazer o curso
     - o que necessito para fazer o curso da FATEC
+    - o que é preciso para ingressar na fatec
+    - o que preciso ter para me candidatar ao vestibular
+    - quem pode fazer o vestibular
     - qualquer pessoa pode tentar o vestibular
     - qualquer pessoa pode participar do vestibular
     - qualquer pessoa poderá ingressar na fatec
-    - o que é preciso para ingressar na fatec
     - qualquer um pode tentar o vestibular
     - qualquer um pode prestar o vestibular 
     - quem podera fazer o vestibular
     - quem poderá se candidatar ao vestibular
     - quem vai poder fazer o vestibular
-    - o que preciso ter para me candidatar ao vestibular
     - qualquer um vai poder fazer o vestibular
+    - para fazer um curso da fatec quem e que pode fazer
+    - pra fazer um curso da fatec quem pode fazer
+    - pode quem fazer o vestibular
+    - pode quem curso da fatec
+    - pessoa PCD pode fazer vestibular
+    - posso cursar na fatec
+    - posso fazer qualquer curso da fatec
     - requisitos para fazer o vestibular
     - requisitos para cursar na fatec
 
@@ -1687,12 +1680,12 @@ nlu:
     - quero o linkedin da fatec
     - quero o instagram da fatec
 
-- intent: fallback_intent
-  examples: |
-    - 18123384
-    - 0
-    - 19
-    - oqiweoiqwenmwdoiqmeoimqwoem
-    - coisasaleatórias
-    - nadaacontecefeijoada
-    - 8/465984165498
+#- intent: fallback_intent
+#  examples: |
+#    - 18123384
+#    - 0
+#    - 19
+#    - oqiweoiqwenmwdoiqmeoimqwoem
+#    - coisasaleatórias
+#    - nadaacontecefeijoada
+#    - 8/465984165498

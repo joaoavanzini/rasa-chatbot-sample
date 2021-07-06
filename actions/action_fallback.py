@@ -4,13 +4,15 @@
 #==================================================================
 from .__init__ import *
 
+from random import choice
+from rasa_sdk.events import UserUtteranceReverted
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 from rasa_sdk.forms import FormValidationAction
 from rasa_sdk.types import DomainDict
-
+from rasa_sdk.events import SlotSet 
 
 
 class ActionDefaultFallback(Action):
@@ -28,13 +30,7 @@ class ActionDefaultFallback(Action):
             ) -> List[Dict[Text, Any]]:
         
         text = tracker.latest_message['text']
-        is_str = False
-        for i in text:
-            is_str = True
         
-        if is_str is not True:
-            dispatcher.utter_message('Ainda não consigo me comunicar por emoji 😔')
-            return [UserUtteranceReverted()]
 
         variacao = choice(
             [

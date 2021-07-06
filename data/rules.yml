@@ -24,12 +24,5 @@ rules:
 
 - rule: nlu fallback
   steps:
-  - or:
-    - intent: fallback_intent
-    - intent: nlu_fallback
-  - action: action_default_fallback
-
-#- rule: fallback
-#  steps:
-#  
-#  - action: utter_fallback_intent
+  - intent: nlu_fallback
+  - action: utter_retorno
