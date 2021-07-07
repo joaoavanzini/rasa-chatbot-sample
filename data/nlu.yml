@@ -808,47 +808,47 @@ nlu:
 
 - intent: faq/ask_quanto_paga_fazer_curso
   examples: |
-    - quanto paga para fazer o curso da fatec
-    - o curso da fatec tem valor
-    - valor do curso da fatec
-    - o curso é gratuito
-    - pagamento do curso
-    - quanto eu vou pagar para fazer o curso
-    - qual o valor para o curso
-    - tem valor
-    - o curso é caro
-    - o curso tem valor
-    - quanto eu posso pagar
-    - quanto eu vou pagar
+    - devo pagar
+    - e pago
+    - e de graça
+    - e gratuito
+    - mensalidade dos cursos
+    - mensalidade dos cursos da fatec
     - não quero pagar o curso da fatec
     - não vou pagar o curso
     - não vou pagar
     - não vou pagar a mensalidade
     - não quero pagar mensalidade
-    - quais são as mensalidades
-    - quais são os planos de mensalidade
-    - devo pagar
+    - o curso é gratuito
+    - o curso da fatec tem valor
+    - o curso é caro
+    - o curso tem valor
     - os cursos da fatec são pagos
-    - e pago
-    - e de graça
-    - e gratuito
-    - quanto paga
-    - tem mensalidade
-    - pago ou gratuito
-    - quanto e que paga
-    - qual a mensalidade
     - os cursos sao pagos
-    - qual e a mensalidade
-    - mensalidade dos cursos
     - os cursos sao de graça
     - os cursos sao gratuitos
     - os curso da fatec sao pagos
-    - mensalidade dos cursos da fatec
     - os cursos da fatec sao gratuitos
-    - qual que e a mensalidade dos cursos
     - os cursos sao gratuitos ou sao pagos
+    - pagamento do curso
+    - pago ou gratuito
+    - quais são os planos de mensalidade
+    - quais são as mensalidades
+    - qual o valor para o curso
+    - qual e a mensalidade
+    - qual a mensalidade
+    - qual que e a mensalidade dos cursos
     - qual e a mensalidade dos cursos da fatec
+    - quanto eu vou pagar para fazer o curso
+    - quanto paga para fazer o curso da fatec
+    - quanto eu posso pagar
+    - quanto eu vou pagar
+    - quanto e que paga
     - quanto eu preciso pagar para os cursos da fatec
+    - quanto paga
+    - tem valor
+    - tem mensalidade
+    - valor do curso da fatec
 
 - intent: faq/ask_tem_mensalidade
   examples: |
@@ -945,8 +945,7 @@ nlu:
     - queria saber se são cursos tecnicos
     - queria saber se são cursos tecnólogos
     - queria saber se são cursos técnicos ou tecnólogos 
-    
-    
+     
 - intent: faq/ask_candidato_estrangeiro
   examples: |
     - sou estrangeiro
@@ -1022,7 +1021,6 @@ nlu:
     - como faço o pagamento da taxa de inscrição
     - quero pagar a inscrição
     - quero pagar a inscricao
-    - pagamento da taxa
     - pagar o vestibular
     - pagamento em dinheiro
     - como faço para pagar

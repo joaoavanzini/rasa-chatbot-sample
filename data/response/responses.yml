@@ -2,51 +2,65 @@ version: "2.0"
 
 responses:
   utter_saudacao:
-  - text: "Olá, tudo bem?! Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! 😀\nEscreva a sua dúvida abaixo."
+  - text: |-
+      Olá, tudo bem?! Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! 😀 Escreva a sua dúvida abaixo.
   
   utter_adeus:
   - text: "Tchau"
   - text: "Até mais!"
   
   utter_perguntar_se_e_bot:
-  - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! 😀"
+  - text: |-
+      Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! 😀
 
   utter_retorno:
-  - text: "Não entendi o que você disse. Poderia repetir?"
+  - text: |- 
+      Não entendi o que você disse. Poderia repetir?
 
   utter_faq/ask_trocar_curso:
-  - text: "Infelizmente não, somente prestando o vestibular novamente para o curso que deseja."
+  - text: |-
+      Infelizmente não, somente prestando o vestibular novamente para o curso que deseja.
 
   utter_faq/ask_aproveitamento_de_disciplinas:
-  - text: " O candidato que pretenda obter 
-      aproveitamento de estudos em disciplina(s) já realizada(s) em outro curso superior deverá fazer o upload 
-      da documentação referente à carga horária, ementa e programa da(s) disciplina(s) cursada(s) e histórico 
-      escolar da instituição de ensino superior de origem."
+  - text: |-
+      Para eliminar matérias que já cursou anteriormente, você deverá fazer o upload da documentação refente à 
+      carga horária, ementa e programa das disciplinas cursadas, além do histórico escolar da instituição de 
+      ensino superior de origem.
+     
 
   utter_faq/ask_matricula_sem_historico:
-  - text: "No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o 
-  Histórico fique pronto."
+  - text: |-
+      No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o 
+      Histórico fique pronto.
 
   utter_faq/ask_escolaridade_publica:
-  - text: "Caso o seu histórico não tenha o detalhamento dos três anos do ensino médio com o nome de cada escola, solicite,\n 
-  da última escola em que concluiu o ensino médio, uma Declaração de Escolaridade Pública."
+  - text: |-
+      Você pode obter uma declaração de Escoláridade Pública na escola em que você tenha concluído o ensino médio.
   
   utter_faq/ask_vestibular_novamente:
-  - text: "Sim, você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula."
+  - text: |-
+      Você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula.
 
   utter_faq/ask_dois_cursos:
-  - text: "Não pode cursar dois cursos da Fatec simultaneamente, também não pode trancar um e iniciar o outro."
+  - text: |-
+      Não pode cursar dois cursos da Fatec simultaneamente, também não pode trancar um e iniciar o outro.
 
   utter_faq/ask_cursar_outra_faculdade:
-  - text: "Se for instituição particular sim, se for pública não."
+  - text: |-
+      Se for instituição particular sim, se for pública não.
 
   utter_faq/ask_posso_usar_cnh:
-  - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de 
-      Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional 
-      (exemplo: OAB, Crea, Coren, CRC e outros)."
+  - text: |-
+      Carteira Nacional de Habilitação e outros documentos expedidos por Ordem ou Concelho Profissional,
+      como por exemplo, OAB e CRC, não serão aceitos como documento de identidade.
+
+# Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de 
+# Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional 
+# (exemplo: OAB, Crea, Coren, CRC e outros).
   
   utter_faq/ask_perdi_meu_rg:
-  - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
+  - text: |-
+      Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto.
       
   utter_faq/ask_perdi_meu_cpf:
   - text: |- 
@@ -56,29 +70,37 @@ responses:
       - Carteira Nacional de Habilitação CNH.
         
   utter_faq/ask_como_serao_as_aulas_por_conta_da_pandemia:
-  - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
+  - text: |-
+      Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
       até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das 
-      aulas de forma presencial nas Fatecs."
+      aulas de forma presencial nas Fatecs.
   
   utter_faq/ask_tem_idade_minima: 
-  - text: Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula.
+  - text: |-
+      Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos 
+      na data de Matrícula.
 
   utter_faq/ask_quem_pode_fazer_vestibular:
-  - text: "Quem concluiu o Ensino Médio."
+  - text: |-
+      Todos que já tenham concluído o Ensino Médio podem fazer o vestibular.
 
   utter_faq/ask_quanto_paga_fazer_curso:
-  - text: "Os cursos da Fatec são gratuitos."
+  - text: |-
+      Os cursos da Fatec são gratuitos.
 
   utter_faq/ask_tem_mensalidade:
-  - text: "Não tem mensalidade, pois são cursos gratuitos."
+  - text: |-
+      Não tem mensalidade, pois são cursos gratuitos.
 
   utter_faq/ask_curso_tecnico_ou_tecnologo:
-  - text: "Não são cursos técnicos e sim tecnólogos, ou seja são cursos superiores de tecnologia."
+  - text: |-
+      Todos os cursos da Fatec são cursos tecnólogos e não técnicos, ou seja, são cursos de tecnologia    
+#Não são cursos técnicos e sim tecnólogos, ou seja são cursos superiores de tecnologia.
 
   utter_faq/ask_candidato_estrangeiro:
   - text: |-
-        No que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
-        DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
+      No que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
+      DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
         
         •	Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico 
         Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de 
@@ -87,37 +109,36 @@ responses:
 
         •	Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; 
 
-        OU
+      OU
         •	Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; 
 
-        OU 
+      OU 
         •	Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; 
 
-        OU
+      OU
         •	 As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, 
         com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos 
         documentos.
 
   utter_faq/ask_pagamento_taxa_inscricao:
-  - text: |- 
-        O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, mediante a apresentação do boleto 
-        ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet 
-        disponível no site https://www.vestibularfatec.com.br.
+  - text: |-
+      O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, mediante a apresentação do boleto 
+      ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet 
+      disponível no site https://www.vestibularfatec.com.br.
 
   utter_faq/ask_o_que_e_o_vestibular:
   - text: |-
-        É um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, 
-        o processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
-        Não será aplicada prova presencial para o presente Processo Seletivo.
+      Vestibular é um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, 
+      o processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
+      Não será aplicada prova presencial para o presente Processo Seletivo.
 
   utter_faq/ask_como_faco_inscricao_vestibular:
   - text: |- 
-        Pelo site https://www.vestibularfatec.com.br. É preciso preencher a ficha de inscrição pela internet, 
-        fazer upload dos documentos solicitados e pagar a taxa de inscrição.
+      Você pode fazer a inscrição para o vestibular diretamente no site, basta seguir os passos informados, acesse: https://www.vestibularfatec.com.br
 
   utter_faq/ask_quando_comecam_inscricoes_vestibular:
   - text: |-
-        Verificar no site https://www.vestibularfatec.com.br.
+      Para saber quando as inscrições começam basta conferir no site: https://www.vestibularfatec.com.br.
 
   utter_faq/ask_upload:
   - text: |- 
@@ -126,20 +147,20 @@ responses:
 
   utter_faq/ask_pagamento_efetivado:
   - text: |-
-        A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. 
+      A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. 
 
-      # Thiago
   utter_faq/ask_segunda_via_boleto:
   - text: |-
-        Acesse o site https://www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, 
-        clique no link “2ª via do boleto bancário”.
+      Acesse o site https://www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, 
+      clique no link “2ª via do boleto bancário”.
 
 
   utter_faq/ask_segunda_chamada:
-  - text: "A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os 
-  candidatos aptos em 1ª opção da 1ª lista de convocação.\n
-  A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados dentro do limite de vagas fixados 
-  para o curso escolhido em 1ª opção."
+  - text: |-
+      A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os 
+      candidatos aptos em 1ª opção da 1ª lista de convocação.
+      A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados dentro do limite de vagas fixados 
+      para o curso escolhido em 1ª opção.
 
 
   utter_faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo:
@@ -174,20 +195,24 @@ responses:
         
         Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
 
-      # Thiago
   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
-  - text: "Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
-      Médio."
+  - text: |-
+      O candidato que concluiu o Ensino Médio e que possua o Histórico Escolar com Certificado de conclusão do Ensino Médio.
+# Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
+# Médio.
 
   utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
-  - text: "Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
-  “curso e período” e no Sistema de Pontuação Acrescida."
+  - text: |-
+      Você não pode alterar o curso escolhido depois de ter feito a inscrição, nenhuma alteração nos campos "Fatec", "Curso e Período"
+      e no Sistema de Pontuação Acrescida são permitidas. 
+# Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
+# “curso e período” e no Sistema de Pontuação Acrescida.
 
-      # Thiago
   utter_faq/ask_vai_ter_prova:
-  - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da 
+  - text: |-
+      Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da 
       análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das 
-      disciplinas de português e matemática da 2ª série do Ensino Médio."
+      disciplinas de português e matemática da 2ª série do Ensino Médio.
 
   utter_faq/ask_redes_sociais:
   - text: |-
