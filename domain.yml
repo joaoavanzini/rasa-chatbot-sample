@@ -7,16 +7,11 @@ intents:
 
 
 entities:
-  - trocar_curso_entity
   - aproveitamento_entity
   - historico_entity
   - escolaridade_entity
   - vestibular_novamente_entity
-  - dois_cursos_entity
   - outra_faculdade_entity
-  - cnh_entity
-  - rg_entity
-  - cpf_entity
   - aulas_remotas_entity
   - idade_minima_entity
   - quem_pode_fazer_curso_entity
@@ -36,6 +31,10 @@ entities:
   - mudar_curso_entity
   - prova_entity
   - redes_sociais_entity
+  - sobre_o_curso_entity
+  - sobre_documentos_entity
+
+
   - faq:
       is_retrieval_intent: true
       

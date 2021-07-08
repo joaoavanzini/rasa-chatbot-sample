@@ -7,7 +7,7 @@ responses:
   utter_adeus:
   - text: "Tchau"
   - text: "Até mais!"
-  
+
   utter_perguntar_se_e_bot:
   - text: "Sou o bot da FATEC, criado para resolver problemas relacionados ao vestibular! 😀"
 
@@ -40,20 +40,20 @@ responses:
   utter_faq/ask_cursar_outra_faculdade:
   - text: "Se for instituição particular sim, se for pública não."
 
-  utter_faq/ask_posso_usar_cnh:
-  - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de 
-      Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional 
-      (exemplo: OAB, Crea, Coren, CRC e outros)."
+#   utter_faq/ask_posso_usar_cnh:
+#   - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de 
+#       Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional 
+#       (exemplo: OAB, Crea, Coren, CRC e outros)."
   
-  utter_faq/ask_perdi_meu_rg:
-  - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
+#   utter_faq/ask_perdi_meu_rg:
+#   - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
       
-  utter_faq/ask_perdi_meu_cpf:
-  - text: |- 
-      Arquivos com os seguintes documentos que comprovem o número do CPF:
-      - CPF documento exclusivo;
-      - RG, desde que contenha o número do CPF;
-      - Carteira Nacional de Habilitação CNH.
+#   utter_faq/ask_perdi_meu_cpf:
+#   - text: |- 
+#       Arquivos com os seguintes documentos que comprovem o número do CPF:
+#       - CPF documento exclusivo;
+#       - RG, desde que contenha o número do CPF;
+#       - Carteira Nacional de Habilitação CNH.
         
   utter_faq/ask_como_serao_as_aulas_por_conta_da_pandemia:
   - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
@@ -128,7 +128,7 @@ responses:
   - text: |-
         A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. 
 
-      # Thiago
+      
   utter_faq/ask_segunda_via_boleto:
   - text: |-
         Acesse o site https://www.vestibularfatec.com.br e clique na seção “Área do Candidato”. Em seguida, 
@@ -174,7 +174,7 @@ responses:
         
         Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
 
-      # Thiago
+      
   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
   - text: "Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
       Médio."
@@ -183,7 +183,7 @@ responses:
   - text: "Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
   “curso e período” e no Sistema de Pontuação Acrescida."
 
-      # Thiago
+    
   utter_faq/ask_vai_ter_prova:
   - text: "Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da 
       análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das 
@@ -200,3 +200,25 @@ responses:
 
          
          • Instagram - https://www.instagram.com/fatecmogimirim/
+
+  utter_faq/ask_sobre_o_curso:
+  - text: |- 
+      Sobre os cursos da Fatec é importante lembrar que:
+	      • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
+	      
+            
+            • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
+ 
+  utter_faq/ask_sobre_documentos:
+  - text: |- 
+      Sobre documentos é importante lembrar que:
+	      • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
+	      
+          
+            • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
+	      
+            
+            • Em caso da perda do CPF, você pode usar;
+	         - CPF documento exclusivo;
+	         - RG, desde que contenha o número do CPF;
+	         - Carteira Nacional de Habilitação CNH.

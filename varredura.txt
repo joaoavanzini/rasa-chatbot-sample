@@ -1,0 +1,226 @@
+ask_aproveitamento_de_disciplinas:
+- aproveitar
+- aproveitamento
+- eliminar
+
+ask_matricula_sem_historico:
+- sem historico
+- perdi historico
+- nao tem historico
+- nao tem documento escolar
+
+ask_escolaridade_publica:
+- escola publica
+- escola pública
+- escolaridade publica
+- escolaridade pública
+
+ask_vestibular_novamente:
+- vestibular denovo
+- vestibular de novo
+- refazer vestibular
+- vestibular novamente
+- fazer o vestibular de novo
+
+ask_cursar_outra_faculdade:
+- outra faculdade
+- outra instituição
+- outra instiuiçao
+- mais de uma faculdade
+- segunda faculdade
+- duas faculdades
+
+ask_documentos:
+- cnh 
+- carteira de motorista
+- habilitação
+- habilitacao
+- carta de motorista
+- carteira nacional de habilitação
+- carteira nacional de habilitaçao 
+- rg
+- registro geral
+- cpf
+- cadstro de pessoa física
+- documentos
+- documento
+
+ask_como_serao_as_aulas_por_conta_da_pandemia:
+- aula
+- aulas 
+- pandemia
+- remota
+- remotas
+- remoto
+- presencial
+- presenciais
+- online
+- covid
+- covid-19
+- corona
+- virus
+- vírus
+
+ask_tem_idade_minima:
+- idade
+- anos
+- minima
+- mínima
+- maxima
+- máxima
+ 
+ask_quem_pode_fazer_vestibular:
+- participar
+- ingressar
+- adentrar
+- fazer
+- associar-se
+- inserir-se
+- prestar
+- estabelecer-se
+- tentar
+
+ask_quando_comecam_inscricoes_vestibular:
+- começam  
+- comecam 
+- incia
+- iniciam
+- acontecem
+- abrem 
+- abrir
+
+ask_como_faco_inscricao_vestibular:
+- inscrição
+- inscriçao
+- inscricão
+- inscricao
+- inscrever 
+
+ask_o_que_e_o_vestibular:
+- como funciona
+- o que é
+- o que e
+- oque é
+- oque e
+- oq e
+- oq é
+- o que seria
+- vestibular
+- seleção
+- como é
+
+
+ask_fiz_minha_inscricao_vestibular_quero_mudar_curso
+- curso
+- cursos
+
+ask_pagamento_taxa_inscricao
+- taxa
+ 
+ask_pagamento_efetivado
+- efetivado
+- efetuado
+- efetuei
+- paguei
+- paga
+- pagamento
+
+ask_tem_mensalidade
+- custa
+- mensalidade
+- mensal
+- valor
+
+ask_curso_tecnico_ou_tecnologo
+- tecnico
+- técnico
+- tecnologo 
+- tecnólogo
+- tipo
+- superior
+- superiores
+
+ask_candidato_estrangeiro
+- estrangeiro
+- 
+
+ask_upload:
+- upload   
+- arquivos
+- subir
+- enviar
+
+
+ask_segunda_via_boleto
+- boleto 
+- bancario
+- via
+
+ask_segunda_chamada
+- chamada
+- convocação
+- convocaçao
+- lista
+
+ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo 
+- etapas
+- etapa 
+- seletiva
+- seletivo
+- processo
+
+ask_vai_ter_prova
+- prova
+- provas
+- prova presencial
+- prova online
+
+ask_redes_sociais
+- facebook
+- instagram
+- linkedin
+- redes sociais
+
+{trocar o dois cursos e trocar de curso por uma nova intent e uma nova utter
+
+    
+    utter_faq/ask_sobre_o_curso:
+    - text: |- 
+        Sobre os cursos da Fatec é importante lembrar que:
+	    • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
+	    • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
+
+
+    (ask_dois_cursos:
+    - dois cursos
+    - segundo curso
+    - outro curso 
+    - mais de um curso)
+
+    (ask_trocar_curso:
+    - troca
+    - trocar
+    - mudar
+    - mudança
+    - muda
+    - alterar
+    - substituir)
+    }
+
+
+{trocar todas as intents de documentos por uma intent única
+ ask_documentos:
+    - cnh 
+    - carteira de motorista
+    - habilitação
+    - habilitacao
+    - carta de motorista
+    - carteira nacional de habilitação
+    - carteira nacional de habilitaçao 
+    - rg
+    - registro geral
+    - cpf
+    - cadstro de pessoa física
+    - documentos
+    - documento
+  }

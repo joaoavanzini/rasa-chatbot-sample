@@ -95,6 +95,13 @@ nlu:
 # Caio
 - intent: faq/ask_trocar_curso        
   examples: |
+    - quero trocar o curso
+    - queria troca de curso
+    - gostaria de mudar o curso
+    - pode muda de curso
+    - fazer mudança de curso
+    - quero alterar o curso
+    - posso substituir o curso
     - [trocar curso](trocar_curso_entity)
     - [mudar o curso](trocar_curso_entity)
     - [mudar meu curso](trocar_curso_entity)
@@ -114,59 +121,37 @@ nlu:
     - [trocar de curso, tem como](trocar_curso_entity)
     - gostaria de [mudar de curso](trocar_curso_entity)
     - [mudar de curso, teria como](trocar_curso_entity)
-    - quero [trocar de curso, tem como](trocar_curso_entity)
+    - quero [trocar de curso](trocar_curso_entity), tem como
 
 - intent: faq/ask_aproveitamento_de_disciplinas        
   examples: |
-    - [eliminar materia](aproveitamento_entity)
-    - quero [eliminar materia](aproveitamento_entity)
-    - queria [eliminar materia](aproveitamento_entity)
-    - [aproveitamento das disciplinas](aproveitamento_entity)
-    - e possivel [aproveitar as materias](aproveitamento_entity)
-    - e o [aproveitamento das disciplinas](aproveitamento_entity)
-    - tem como [aproveitar as disciplinas](aproveitamento_entity)
-    - como [aproveitamento das disciplinas](aproveitamento_entity)
-    - diga [aproveitamento das disciplinas](aproveitamento_entity)
-    - fale [aproveitamento das disciplinas](aproveitamento_entity)
-    - e possivel [aproveitar as disciplinas](aproveitamento_entity)
-    - quero [aproveitamento das disciplinas](aproveitamento_entity)
-    - sobre [aproveitamento das disciplinas](aproveitamento_entity)
-    - como faço o [aproveitamento de materias](aproveitamento_entity)
-    - como faço o [aproveitamento de disciplinas](aproveitamento_entity)
-    - mais sobre [aproveitamento das disciplinas](aproveitamento_entity)
-    - como faço o [aproveitamento das disciplinas](aproveitamento_entity)
-    - eu posso fazer o [aproveitamento de materias](aproveitamento_entity)
-    - me fale sobre [apoveitamento das disciplinas](aproveitamento_entity)
-    - dizer sobre o [aproveitamento das disciplinas](aproveitamento_entity)
+    - quero [aproveitar](aproveitamento_entity)
+    - quero fazer o [aproveitamento](aproveitamento_entity)
+    - posso [eliminar](aproveitamento_entity) disciplinas
+    - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
+    - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
+    - gostaria de [eliminar](aproveitamento_entity) disciplinas
+    - fazer o [aproveitamento](aproveitamento_entity) de matérias
+    - eu quero fazer o [aproveitamento](aproveitamento_entity) de disciplinas
 
 - intent: faq/ask_matricula_sem_historico 
   examples: |
-    - nao tenho [historico escolar](historico_entity)
-    - nao tenho o [histórico escolar](historico_entity)
-    - não possuo o [histórico escolar](historico_entity)
-    - não tenho o [documento da escola](historico_entity)
-    - nao consegui meu [historico escolar](historico_entity)
-    - ainda não recebi o [histórico escolar](historico_entity)
-    - matricula [problema historico escolar](historico_entity)
-    - como proceder sem o [histórico escolar](historico_entity)
-    - ainda não recebi o [histórico da escola](historico_entity)
-    - [sem histórico](historico_entity) é possivel se matricular
-    - posso fazer a [matricula sem o Histórico](historico_entity)
-    - posso me matricular [sem ter o histórico](historico_entity)
-    - como faço a matricula [sem ter o histórico](historico_entity)
-    - [problemas matricula sem historico escolar](historico_entity)
-    - posso fazer [matricula sem historico escolar](historico_entity)
-    - [sem historico escolar tem problema matricula](historico_entity)
-    - tem [problema matricula sem historico escolar](historico_entity)
-    - consigo fazer a [matricula sem ter o histórico](historico_entity)
-    - consigo me [matricular sem o histórico escolar](historico_entity)
-    - ainda [não recebi o histórico escolar da escola](historico_entity)
+    - estou [sem o histórico](historico_entity) escolar
+    - é possível fazer matrícula [sem o historico](historico_entity) escolar
+    - posso fazer matrícula [sem histórico](historico_entity)
+    - da pra fazer matrícula [sem historico](historico_entity)
+    - [perdi meu histórico](historico_entity) escolar, posso fazer matrícula
+    - [perdi meu historico](historico_entity), posso fazer matrícula
+    - [não tenho histórico] escolar, posso fazer matrícula
+    - [nao tenho histórico] da escola, da pra fazer matrícula
+    - [nao tenho histórico] escolar, é possivel fazer matricula
+    - [nao tem historico] escolar, da pra fazer matricula
 
 - intent: faq/ask_escolaridade_publica
   examples: |
     - [escolaridade publica](escolaridade_entity)
-    - ter [escolaridade publica](escolaridade_entity)
-    - sobre [escolaridade publica](escolaridade_entity)
+    - ter [escola publica](escolaridade_entity)
+    - sobre [escola pública](escolaridade_entity)
     - eu comprovar [escolaridade publica](escolaridade_entity)
     - como comprovo [escolaridade publica](escolaridade_entity)
     - comprovação de [escolaridade publica](escolaridade_entity)
@@ -188,7 +173,7 @@ nlu:
 - intent: faq/ask_vestibular_novamente
   examples: |
     - cursava fatec [vestibular novamente](vestibular_novamente_entity)
-    - cursava na fatec posso [vestibular novamente](vestibular_novamente_entity)
+    - cursava na fatec posso [vestibular denovo](vestibular_novamente_entity)
     - posso fazer [vestibular novamente](vestibular_novamente_entity) cursava na fatec
     - posso [vestibular novamente](vestibular_novamente_entity) se eu cursava na fatec
     - quero fazer o [vestibular novamente](vestibular_novamente_entity) cursava na fatec
@@ -208,125 +193,20 @@ nlu:
     - eu cursava na fatec e agora eu quero saber se eu posso fazer o [vestibular novamente](vestibular_novamente_entity)
     - posso fazer o [vestibular novamente](vestibular_novamente_entity), mesmo ja tendo feito um curso na fatec sem terminar
 
-- intent: faq/ask_dois_cursos
-  examples: |
-    - a fatec permite que eu faça [dois cursos](dois_cursos_entity)
-    - caso eu queria fazer [dois cursos](dois_cursos_entity)
-    - posso cursar em [dois cursos](dois_cursos_entity)
-    - [dois cursos](dois_cursos_entity) é possivel
-    - é aceitável fazer [dois cursos](dois_cursos_entity) da fatec 
-    - é possivel cursar [dois cursos]() da Fatec
-    - é permitido cursar [dois curso](dois_cursos_entity)
-    - existe a possibilidade de entrar em [dois cursos](dois_cursos_entity) ao mesmo tempo
-    - gostaria de saber se posso fazer [dois cursos](dois_cursos_entity)
-    - gostaria de fazer [dois cursos](dois_cursos_entity) da fatec
-    - pode cursar [dois cursos](dois_cursos_entity) simultâneamente
-    - pode fazer [dois cursos](dois_cursos_entity)
-    - posso cursar [dois cursos](dois_cursos_entity) em horários diferentes
-    - posso ser matriculado em [dois cursos](dois_cursos_entity) diferentes na mesma fatec
-    - posso estudar em [quantos cursos](dois_cursos_entity) ao mesmo tempo
-    - queria saber se pode [cursar dois](dois_cursos_entity) cursos da fatec
-    - se eu quiser fazer [dois cursos](dois_cursos_entity)
-    - sou aluno da FATEC, posso fazer [outro curso](dois_cursos_entity) ao mesmo tempo 
-    - tem como fazer [dois cursos](dois_cursos_entity)
-    - tem problema em cursar [dois cursos](dois_cursos_entity) da FATEC
-
-# Bassi
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
-    - alem da fatec posso fazer [outra faculdade](outra_faculdade_entity)
-    - a fatec permite que o aluno seja matriculado em [outra instituição](outra_faculdade_entity)
-    - consigo fazer matricula em [outra instituição](outra_faculdade_entity)
-    - [duas faculdades](outra_faculdade_entity)
-    - é possivel me matricular em [outra faculdade](outra_faculdade_entity) diferente
-    - estou fazendo [outra faculdade](outra_faculdade_entity) alem da fatec, posso continuar
-    - fazer [outra faculdade](outra_faculdade_entity) alem dessa
-    - gostaria de fazer [outra faculdade](outra_faculdade_entity)
-    - gostaria de saber se poderia fazer [outra faculdade](outra_faculdade_entity) alem dessa
-    - gostaria de me matricular em uma [outra instituição](outra_faculdade_entity)
-    - posso fazer [outra faculdade](outra_faculdade_entity)
-    - posso fazer[ outra faculdade](outra_faculdade_entity) mesmo cursando na Fatec
-    - posso cursar [outra faculdade](outra_faculdade_entity)
-    - posso fazer [duas faculdades](outra_faculdade_entity) em lugares diferentes
-    - posso me matricular em [outra faculdade](outra_faculdade_entity) em paralelo
-    - quero fazer [outra faculdade](outra_faculdade_entity)
-    - sobre [outra faculdade](outra_faculdade_entity), posso fazer
-    - sou aluno de [outra faculdade](outra_faculdade_entity), posso me matricular na fatec
-    - tem problema em fazer uma [outra faculdade](outra_faculdade_entity) diferente, mesmo matriculado na FATEC
-    - terei problema se fizer [outra faculdade](outra_faculdade_entity) mesmo estando na fatec?
+    - posso cursar [outra faculdade](outra_faculdade_entity) também
+    - estudo em [outra instituição](outra_faculdade_entity) também
+    - posso estudar em [outra instituição](outra_faculdade_entity)
+    - estou estudando em [outra instiuicao](outra_faculdade_entity)
+    - posso cursar [mais de uma faculdade](outra_faculdade_entity)
+    - também estou cursando [outra faculdade](outra_faculdade_entity)
+    - quero estudar em [outra instituicao](outra_faculdade_entity) alem dessa
+    - posso cursar [duas faculdades](outra_faculdade_entity)
+    - posso estudar em [duas faculdades](outra_faculdade_entity)
+    - estou estudando em [duas faculdades](outra_faculdade_entity)
+    - vou estudar em [duas faculdades](outra_faculdade_entity)
   
-- intent: faq/ask_posso_usar_cnh
-  examples: |
-    - a [cnh](cnh_entity) pode subistituir o rg
-    - caso eu utilize [cnh](cnh_entity) no lugar do rg
-    - [cnh](cnh_entity) no lugar do rg
-    - consigo usar a [carteira de motorista](cnh_entity) no lugar do rg
-    - conseguirei fazer a matricula com a [carteira de motorista](cnh_entity)
-    - e [cnh](cnh_entity) no lugar do rg
-    - e se eu usasse [cnh](cnh_entity) no lugar do rg
-    - é possivel usar a [habilitação](cnh_entity) para fazer a matricula
-    - posso utilizar a carteira de [habilitação](cnh_entity) (CNH) no lugar do RG para a matrícula
-    - posso utilizar a [carteira de motorista](cnh_entity) para matricula
-    - posso utilizar [cnh](cnh_entity) no lugar do rg
-    - poderia utilizar [cnh](cnh_entity) no lugar do rg
-    - poderia me responder sobre usar [cnh](cnh_entity) no lugar do rg
-    - posso utilizar a carteira nacional de [habilitação](cnh_entity) na matricula
-    - posso usar a [cnh](cnh_entity) para realizar a matricula
-    - posso usar a [habilitação](cnh_entity) para fazer a matrícula
-    - posso substituir o rg pela [habilitação](cnh_entity) na matricula
-    - posso subtistuir o RG pela carteira de [habilitação](cnh_entity)
-    - usar [cnh](cnh_entity) na matricula
-    - pode mudar o rg pelo [cnh](cnh_entity)
-
-
-- intent: faq/ask_perdi_meu_rg
-  examples: |
-    - aceita um comprovante do [rg](rg_entity) para matricula
-    - caso eu tenha perdido meu [rg](rg_entity)
-    - como faço se perdi meu [rg](rg_entity)
-    - como fazer apos ter perdido meu [rg](rg_entity)
-    - estou [sem rg](rg_entity), o que faço
-    - e perdi meu [rg](rg_entity)
-    - [perdi rg](rg_entity)
-    - e se eu perdi meu [rg](rg_entity)
-    - estou sem o [RG](rg_entity), como devo prosseguir
-    - fazer como perdi meu [rg](rg_entity)
-    - não tenho mais o [rg](rg_entity)
-    - não consegui achar meu [rg](rg_entity), o que posso fazer
-    - o que fazer quando não tem o [rg](rg_entity)
-    - o que fazer em casos de falta de [rg](rg_entity)
-    - perdi meu [RG](rg_entity), o que fazer
-    - não sei onde o meu [rg](rg_entity) está
-    - acabei perdendo meu documento [rg](rg_entity)
-    - o que posso fazer quando perdi o [rg](rg_entity)
-    - perdi meu [rg](rg_entity) como faço
-    - perdi meu [rg](rg_entity) como continuar
-
-
-- intent: faq/ask_perdi_meu_cpf
-  examples: |
-    - caso eu tenha perdido meu [cpf](cpf_entity)
-    - como faço se perdi meu [cpf](cpf_entity)
-    - como fazer apos ter perdido meu [cpf](cpf_entity)
-    - como faço a matricula sem [cpf](cpf_entity)
-    - consigo fazer a matricula sem o [cpf](cpf_entity)
-    - da pra fazer a matricula sem o [cpf](cpf_entity)
-    - eu perdi meu [cpf](cpf_entity)
-    - e se perdi meu [cpf](cpf_entity)
-    - eu [perdi meu cpf](cpf_entity) como faço
-    - é possível fazer a matricula sem ter o [CPF](cpf_entity)
-    - eu perdi meu [cpf](cpf_entity), posso fazer a matricula
-    - fazer como perdi meu [cpf](cpf_entity)
-    - não tenho o [cpf](cpf_entity), o que devo fazer 
-    - não tenho o documento de [cpf](cpf_entity), posso fazer a matricula 
-    - não possuo o [CPF](cpf_entity)
-    - não sei onde está meu [cpf](cpf_entity), posso fazer a matricula
-    - perdi [cpf](cpf_entity) como faço a matricula
-    - perdi meu [cpf](cpf_entity)
-    - perdi meu [cpf](cpf_entity) tem como
-    - não tenho o cartão do [CPF](cpf_entity), como faço na matrícula
-
-
 - intent: faq/ask_como_serao_as_aulas_por_conta_da_pandemia
   examples: |
     - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
@@ -368,12 +248,10 @@ nlu:
     - [quantos anos preciso](idade_minima_entity) ter para participar 
     - tem [idade certa](idade_minima_entity)
 
-# Palhares
 - intent: faq/ask_quem_pode_fazer_vestibular
   examples: |
     - como [posso fazer curso](quem_pode_fazer_curso_entity) da fatec
     - como [posso estudar na fatec](quem_pode_fazer_curso_entity)
-    - conclui o ensino médio, [posso fazer o vestibular](quem_pode_fazer_curso_entity)
     - [terminei o ensino médio](quem_pode_fazer_curso_entity)
     - não [terminei meus estudos](quem_pode_fazer_curso_entity)
     - não fiz [ensino fundamental](quem_pode_fazer_curso_entity)
@@ -389,15 +267,11 @@ nlu:
 - intent: faq/ask_tem_mensalidade
   examples: |
     - qual é o [valor da mensalidade](valor_mensalidade_entity)
-    - o [curso é pago](valor_mensalidade_entity)
-    - os cursos da fatec [são gratuitos](valor_mensalidade_entity)
     - [quanto custa](valor_mensalidade_entity) um curso na fatec
-    - os [cursos são gratuitos](valor_mensalidade_entity)
     - os cursos [são de graça](valor_mensalidade_entity)
     - qual o [valor da mensalidade](valor_mensalidade_entity)
     - [tem mensalidade](valor_mensalidade_entity)
     - qual o [custo do curso](valor_mensalidade_entity)
-    - quanto [paga por mês](valor_mensalidade_entity)
     - quanto [irei pagar](valor_mensalidade_entity) por mês
     - [mensalidade dos cursos](valor_mensalidade_entity)
     - [qual o valor](valor_mensalidade_entity) dos cursos da fatec
@@ -405,9 +279,7 @@ nlu:
     - [preço dos cursos](valor_mensalidade_entity)
     - [valor mensal](valor_mensalidade_entity)
     - [valor pago](valor_mensalidade_entity) pelos cursos
-    - [quanto pago por mes](valor_mensalidade_entity) nos cursos
     - qual é a mensalidade da fatec
-    - [quanto pagarei no curso](valor_mensalidade_entity)
     - [mensalidade](valor_mensalidade_entity)
     - [preço mensal](valor_mensalidade_entity)
     - cursos sao [pagos ou gratuitos](valor_mensalidade_entity)
@@ -416,7 +288,6 @@ nlu:
   examples: |
     - os cursos da fatec são [cursos técnicos](curso_tecnico_entity)
     - são [cursos técnicos](curso_tecnico_entity)
-    - os cursos da fatec [são técnicos](curso_tecnico_entity) ou [tecnólogos](curso_tecnologo_entity)
     - o curso da fatec é [técnico](curso_tecnico_entity) ou [tecnólogo](curso_tecnologo_entity)
     - o curso da fatec é [técnico](curso_tecnico_entity)
     - o curso da fatec é [tecnólogo](curso_tecnologo_entity)
@@ -432,326 +303,150 @@ nlu:
     - cursos [técnicos](curso_tecnico_entity)
     - os cursos [tecnicos](curso_tecnico_entity)
     - cursos sao [tecnicos](curso_tecnico_entity)
-    - fatec [cursos tecnicos](curso_tecnico_entity)
-    - cursos [fatec tecnicos](curso_tecnico_entity)
-    
+
 - intent: faq/ask_candidato_estrangeiro
   examples: |
-    - [sou estrangeiro](candidato_estrangeiro_entity)
-    - vim de [outro país](candidato_estrangeiro_entity)
-    - como faço para ingressar se sou [estrangeiro](candidato_estrangeiro_entity)
+    - sou [estrangeiro](candidato_estrangeiro_entity)
     - sou [gringo](candidato_estrangeiro_entity)
-    - [gringo](candidato_estrangeiro_entity)
-    - sou um [candidato estrangeiro](candidato_estrangeiro_entity)
-    - [ensino exterior](candidato_estrangeiro_entity)
-    - histórico escolar de [outro país](candidato_estrangeiro_entity)
-    - método [estrangeiro](candidato_estrangeiro_entity)
-    - [estudar no exterior](candidato_estrangeiro_entity)
-    - o que preciso fazer para [estudar vindo do exterior](candidato_estrangeiro_entity)
-    - [requisitos do exterior](candidato_estrangeiro_entity)
-    - [idioma estrangeiro](candidato_estrangeiro_entity)
-    - exigência de [requisitos para estrangeiros](candidato_estrangeiro_entity)
-    - obrigação de [históricos estrangeiros](candidato_estrangeiro_entity)
-    - [sou de outro país](candidato_estrangeiro_entity) e quero fazer fatec
-    - sou de [outro país e quero fazer o curso](candidato_estrangeiro_entity)
-    - [idioma fluente](candidato_estrangeiro_entity)
-    - o curso é pago para quem [vem de outro país](candidato_estrangeiro_entity)
+    - eu [não moro](candidato_estrangeiro_entity) no Brasil
+    - eu [nao moro](candidato_estrangeiro_entity) nesse país
+    - [gringo](candidato_estrangeiro_entity) pode estudar na fatec
+    - venho de [outro país](candidato_estrangeiro_entity)
+    - nasci em [outro pais](candidato_estrangeiro_entity)
+    
 
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
-    - como faço o pagamento da [taxa de inscrição](taxa_inscricao_entity)
-    - quero [pagar a inscrição](taxa_inscricao_entity)
-    - quero [pagar a inscricao](taxa_inscricao_entity)
-    - [pagamento da taxa](taxa_inscricao_entity)
-    - [pagar o vestibular](taxa_inscricao_entity)
-    - qual é o [valor da inscrição](taxa_inscricao_entity)
-    - [pagamento da taxa](taxa_inscricao_entity)
-    - pagamento em [boleto inscrição](taxa_inscricao_entity)
-    - [pagamento da prova](taxa_inscricao_entity)
-    - preciso [pagar a prova](taxa_inscricao_entity)
-    - qual é a [taxa do pagamento](taxa_inscricao_entity)
-    - [taxa vestibular](taxa_inscricao_entity)
-    - [taxa prova](taxa_inscricao_entity)
-    - [valor da prova](taxa_inscricao_entity)
-    - [taxa inscriçao](taxa_inscricao_entity)
-    - [inscriçao taxa](taxa_inscricao_entity)
-    - de qual forma faço o [pagamento da inscrição](taxa_inscricao_entity)
-    - [pagamento da inscrição](taxa_inscricao_entity)
-    - sobre da taxa de inscrição
-    - [sobre a taxa](taxa_inscricao_entity)
+    - como faço o pagamento da [taxa](taxa_inscricao_entity) de inscrição
+    - quero pagar a [taxa](taxa_inscricao_entity) de inscrição
+    - sobre a [taxa](taxa_inscricao_entity) de inscrição
+    - como pago a [taxa](taxa_inscricao_entity) de inscrição
+    - como faco o pagamento da [taxa](taxa_inscricao_entity) de inscricao
+    - como farei o pagamento da [taxa](taxa_inscricao_entity) de inscrição
+    - eu quero fazer o pagamento da [taxa](taxa_inscricao_entity)
 
 - intent: faq/ask_o_que_e_o_vestibular
   examples: |
-    - [o que é vestibular](o_que_vestibular_entity)
+    - [o que é](o_que_vestibular_entity) vestibular
     - [vestibular fatec](o_que_vestibular_entity)
     - [como é o vestibular](o_que_vestibular_entity)
     - como [funciona o vestibular](o_que_vestibular_entity)
-    - vai [ter vestibular](o_que_vestibular_entity)
-    - preciso saber [sobre o vestibular](o_que_vestibular_entity)
-    - me conte [sobre o vestibular](o_que_vestibular_entity)
-    - me diga [sobre o vestibular](o_que_vestibular_entity)
-    - [sobre o processo classificatório](o_que_vestibular_entity)
-    - me diga [sobre o processo classificatório](o_que_vestibular_entity)
     - [sobre vestibular](o_que_vestibular_entity)
     - [sobre o vestibular](o_que_vestibular_entity)
     - [vestibular como funciona](o_que_vestibular_entity) 
     - como [funciona o vestibular](o_que_vestibular_entity)
-    - sobre [o que e o vestibular]
+    - sobre [o que e o vestibular](o_que_vestibular_entity)
     - me diga [sobre o vestibular](o_que_vestibular_entity)
-    - [explique-me sobre vestibular](o_que_vestibular_entity)
-    - [vestibular é o que](o_que_vestibular_entity) exatamente
-    - [vestibular e o que](o_que_vestibular_entity) exatamente
-    - [vestibular me explique](o_que_vestibular_entity) por favor
     - o que [seria vestibular](o_que_vestibular_entity)
-    - não sei o que seria vestibular
 
-# Victor
 - intent: faq/ask_como_faco_inscricao_vestibular
   examples: |
-    - [como faço a inscrição do vestibular](como_faco_inscricao_vestibular_entity)
-    - quero me [inscrever para a prova](como_faco_inscricao_vestibular_entity)
-    - [quero fazer a prova](como_faco_inscricao_vestibular_entity)
-    - quero [fazer a inscrição da prova](como_faco_inscricao_vestibular_entity)
-    - [quero fazer o vestibular](como_faco_inscricao_vestibular_entity)
-    - [como faço para me inscrever na prova](como_faco_inscricao_vestibular_entity)
-    - [como faço para me inscrever no vestibular](como_faco_inscricao_vestibular_entity)
-    - quero me inscrever
-    - quero fazer o vestibular
-    - preenchimento de [ficha de inscrição](como_faco_inscricao_vestibular_entity)
-    - [preencher ficha](como_faco_inscricao_vestibular_entity) de inscrição
-    - como [faço o vestibular](como_faco_inscricao_vestibular_entity)
-    - quero me [inscrever na fatec](como_faco_inscricao_vestibular_entity)
-    - quero [fazer a prova da fatec](como_faco_inscricao_vestibular_entity)
-    - quero [fazer o vestibular](como_faco_inscricao_vestibular_entity) da fatec
-    - quero me qualificar 
-    - prova da fatec
-    - prova do vestibular
-    - como faço a [inscrição do vestibular](como_faco_inscricao_vestibular_entity)
-    - como faço a [inscrição para o vestibular](como_faco_inscricao_vestibular_entity)
+    - como faço a [inscrição](como_faco_inscricao_vestibular_entity) do vestibular
+    - quero me [inscrever](como_faco_inscricao_vestibular_entity) para a prova
+    - preenchimento de ficha de [inscriçao](como_faco_inscricao_vestibular_entity)
+    - como faço a [inscricao](como_faco_inscricao_vestibular_entity) para o vestibular
+    - como faço a [inscricão](como_faco_inscricao_vestibular_entity) do vestibular
 
 - intent: faq/ask_quando_comecam_inscricoes_vestibular
-  examples: |
-    - quando [inscriçao vestibular](inscricao_vestibular_entity)       
-    - [começa inscriçao] vestibular(inscricao_vestibular_entity)
-    - [inscriçao vestibular] começa(inscricao_vestibular_entity)
-    - inscriçao [vestibular quando](inscricao_vestibular_entity)  
-    - saber [quando inscriçao] vestibular(inscricao_vestibular_entity)
-    - [começa quando] inscriçao vestibular(inscricao_vestibular_entity)
-    - começam inscriçoes para vestibular](inscricao_vestibular_entity)
-    - inscriçao [vestibular começa quando](inscricao_vestibular_entity)
-    - inscriçao [vestibular quando começa](inscricao_vestibular_entity)
-    - gostaria [saber inscriçao] vestibular(inscricao_vestibular_entity)
-    - quando [começam inscriçoes] vestibular(inscricao_vestibular_entity)
-    - quando começam [inscriçoes vestibular](inscricao_vestibular_entity)
-    - as incriçoes [vestibular começam quando](inscricao_vestibular_entity)
-    - [saber inscriçao vestibular] quando começa(inscricao_vestibular_entity)
-    - quando [inscriçao para o vestibular] começa(inscricao_vestibular_entity)
-    - quando [começam as inscriçoes] para o vestibular(inscricao_vestibular_entity)
-    - [quando as inscriçoes] para o vestibular começam(inscricao_vestibular_entity)
-    - começam as inscriçoes para o [vestibular quando](inscricao_vestibular_entity)
-    - as inscriçoes para o [vestibular começam quando](inscricao_vestibular_entity)
+  examples: |    
+    - [começa](inscricao_vestibular_entity) inscriçao vestibular
+    - [começam](inscricao_vestibular_entity) inscriçoes para vestibular
+    - as incriçoes vestibular [inicia](inscricao_vestibular_entity) quando
+    - saber inscriçao vestibular quando [iniciam](inscricao_vestibular_entity)
+    - quando inscriçao para o vestibular [acontecem](inscricao_vestibular_entity)
+    - quando as inscriçoes para o vestibular [abrem](inscricao_vestibular_entity)
+    - as inscriçoes para o vestibular [abrir](inscricao_vestibular_entity) quando
 
 - intent: faq/ask_upload
   examples: |
-    - [upload](upload_entity)
-    - [faz upload](upload_entity)
-    - [como upload](upload_entity)
-    - o [que upload](upload_entity)
-    - [fazer upload](upload_entity)
-    - [quero upload](upload_entity)
-    - [duvida upload](upload_entity)
-    - [preciso upload](upload_entity)
-    - [nao sei upload](upload_entity)
-    - [como faz upload](upload_entity)
-    - [explicar upload](upload_entity)
-    - [explique upload](upload_entity)
-    - [me explica upload](upload_entity)
-    - o [que seria upload](upload_entity)
-    - [nao entendi upload](upload_entity)
-    - o que e [fazer upload](upload_entity)
-    - [nao sei fazer upload](upload_entity)
-    - duvidas [acerca upload](upload_entity)
-    - [o upload e feito como](upload_entity)
+    - fazer [upload](upload_entity)
+    - [enviar arquivos](upload_entity)
+    - [subir arquivos](upload_entity)
+    - [arquivos](upload_entity)
 
-# pagamento efetivado / pagamento da inscrição / pagamento da taxa
+
 - intent: faq/ask_pagamento_efetivado
   examples: |
-    - [paguei a taxa](pagamento_efetivado_entity)
-    - [taxa de inscriçao](pagamento_efetivado_entity)
+    - [paguei](pagamento_efetivado_entity) a taxa
     - [pagamento efetivado](pagamento_efetivado_entity)
-    - [taxa de inscriçao paga](pagamento_efetivado_entity)
-    - [efetuei taxa](pagamento_efetivado_entity) inscriçao
-    - [taxa de inscriçao paguei](pagamento_efetivado_entity)
-    - [pagamento taxa inscriçao](pagamento_efetivado_entity)
-    - o [pagamento foi realizado](pagamento_efetivado_entity)
-    - [paguei a taxa](pagamento_efetivado_entity) de inscriçao
-    - a [taxa de inscriçao foi paga](pagamento_efetivado_entity)
-    - eu [paguei a taxa](pagamento_efetivado_entity) de inscriçao
-    - quero [saber taxa de inscriçao](pagamento_efetivado_entity)
-    - [taxa de inscriçao foi efetivado](pagamento_efetivado_entity)
-    - com saber se [paguei a taxa de inscriçao](pagamento_efetivado_entity)
-    - [efetuei o pagamento da taxa](pagamento_efetivado_entity) de inscriçao
-    - como saber se a [taxa de inscriçao foi paga](pagamento_efetivado_entity)
-    - gostaria de [saber se a taxa de inscriçao foi paga](pagamento_efetivado_entity)
-    - quero saber se [consegui pagar a taxa de inscriçao](pagamento_efetivado_entity)
-    - poderia me dizer se [consegui pagar a taxa](pagamento_efetivado_entity) de inscriçao
-    - como sei quando o [pagamento da taxa de inscriçao](pagamento_efetivado_entity) foi efetivado
+    - taxa de inscriçao [paga](pagamento_efetivado_entity)
+    - [efetuei] taxa(pagamento_efetivado_entity) inscriçao
+    - taxa de inscriçao foi [efetivado](pagamento_efetivado_entity)
     
-  # segunda via boleto / boleto / boleto bancário
 - intent: faq/ask_segunda_via_boleto
   examples: |
-    - como posso [imprimir a segunda via](segunda_via_boleto_entity) do [boleto bancario](boleto_bancario_entity)
-    - [segunda via boleto](segunda_via_boleto_entity)
-    - [segunda via boleto bancario](segunda_via_boleto_entity)
-    - boleto bancario
-    - [imprimir boleto](boleto_bancario_entity)
-    - [imprimir segunda via boleto](segunda_via_boleto_entity)
-    - imprimir boleto bancario
-    - imprimir [segunda via boleto bancario](segunda_via_boleto_entity)
-    - [imprimir via boleto](boleto_bancario_entity)
-    - [2 via boleto bancario](segunda_via_boleto_entity)
-    - [2º via boleto bancario](segunda_via_boleto_entity)
-    - [segunda boleto bancario](segunda_via_boleto_entity)
-    - via [boleto bancario](boleto_bancario_entity)
-    - via [boleto](boleto_bancario_entity)
-    - quero [imprimir 2 via boleto](segunda_via_boleto_entity)
-    - quero [imprimir segunda via boleto](segunda_via_boleto_entity)
-    - como faço para [imprimir segunda via boleto bancario](segunda_via_boleto_entity)
-    - como faço para [imprimir 2 via boleto bancario](segunda_via_boleto_entity)
-    - como faço para [imprimir 2º via boleto bancario](segunda_via_boleto_entity)
-    - como posso imprimir a segunda via do [boleto bancário](boleto_bancario_entity)
+    - como posso imprimir a segunda [via](segunda_via_boleto_entity)
+    - segunda [via boleto](segunda_via_boleto_entity)
+    - [boleto bancario](segunda_via_boleto_entity)
+    - imprimir [boleto](boleto_bancario_entity)
   
-  # segunda chamada / 2 opção / 2 lista
 - intent: faq/ask_segunda_chamada
   examples: |
-    - [segunda opção](segunda_chamada_entity)
-    - [segunda chamada](segunda_chamada_entity)
-    - vai ter a [2 chamada](segunda_chamada_entity)
-    - vai ter a [2ª chamada](segunda_chamada_entity)
-    - como funciona a [2 opção](segunda_chamada_entity)
-    - como funciona a [2ª opção](segunda_chamada_entity)
-    - vai ter a [segunda chamada](segunda_chamada_entity)
-    - como funciona a [segunda opção](segunda_chamada_entity)
-    - vai ter [2 lista](segunda_chamada_entity) de convocação
-    - posso ser chamado para [2 opção](segunda_chamada_entity)
-    - como funcionara a [segunda opção](segunda_chamada_entity)
-    - posso ser chamado para [2ª opção](segunda_chamada_entity)
-    - vai ter a [2 lista](segunda_chamada_entity) de convocação
-    - vai ter a [2ª lista](segunda_chamada_entity) de convocação
-    - posso ser chamado para a [2ª opção](segunda_chamada_entity)
-    - como funciona a [2 lista](segunda_chamada_entity) de convocação
-    - vai ter a [segunda lista](segunda_chamada_entity) de convocação
-    - posso ser chamado para a [segunda opção](segunda_chamada_entity)
-    - posso ser chamado para a [segunda chamada](segunda_chamada_entity)
-    - posso eu ser chamado para a [segunda chamada](segunda_chamada_entity)
+    - segunda [chamada](segunda_chamada_entity)
+    - vai ter 2 [lista](segunda_chamada_entity) de convocação
+    - posso ser [chamado](segunda_chamada_entity) para 2 opção
+    - vai ter a 2ª lista de [convocaçao](segunda_chamada_entity)
+    - vai ter a 2 lista de [convocação](segunda_chamada_entity)
 
-# Thiago  
 - intent: faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo 
   examples: |
     - processo [seletivo](etapas_processo_seletivo_entity)
     - [seletiva](etapas_processo_seletivo_entity)
     - [etapas](etapas_processo_seletivo_entity)
-    - [principais etapas](etapas_processo_seletivo_entity)
-    - [quais são as etapas] do processo seletivo (etapas_processo_seletivo_entity)
-    - [como será o processo] seletivo (etapas_processo_seletivo_entity)
-    - qual o [cronograma do processo seletivo](etapas_processo_seletivo_entity)
-    - [cronograma do processo](etapas_processo_seletivo_entity)
-    - preciso de [informações sobre o processo] seletivo(etapas_processo_seletivo_entity)
-    - [informações sobre o processo seletivo](etapas_processo_seletivo_entity)
-    - [sobre o processo seletivo](etapas_processo_seletivo_entity)
-    - [gostaria de informações] sobre o processo seletivo
-    - gostaria de [informações sobre a seletiva](etapas_processo_seletivo_entity)
-    - [poderia me informar] sobre o processo seletivo(etapas_processo_seletivo_entity)
-    - me [mande as datas do processo] seletivo(etapas_processo_seletivo_entity)
-    - [tenho dúvidas] sobre o processo seletivo(etapas_processo_seletivo_entity)
-    - [quais são as principais datas](etapas_processo_seletivo_entity)
-    - [etapas do Processo Seletivo](etapas_processo_seletivo_entity)
-    - quais são as [principais etapas do processo seletivo](etapas_processo_seletivo_entity)
-    - [gostaria] de saber sobre as principais datas(etapas_processo_seletivo_entity)
-    
-- intent: faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores
-  examples: |
-    - [tentar vagas](quem_pode_superior_entity)
-    - [vaga](quem_pode_superior_entity)
-    - [vagas](quem_pode_superior_entity)
-    - [vagas](quem_pode_superior_entity) quem pode fazer
-    - quem pode [vagas](quem_pode_superior_entity)
-    - quem pode disputar [vaga](quem_pode_superior_entity) nos cursos
-    - para concorrer a uma [vaga](quem_pode_superior_entity) preciso ter ensino medio completo
-    - é necesário ensino médio completo para uma [vaga](quem_pode_superior_entity)
-    - o certificado do ensino médio completo é necessário para a [vaga](quem_pode_superior_entity)
-    - [quero vagas](quem_pode_superior_entity) no curso superior
-    - quero saber sobre as [vagas](quem_pode_superior_entity)
-    - [vagas informações](quem_pode_superior_entity)
-    - quero saber [sobre vagas](quem_pode_superior_entity)
-    - [informação vagas](quem_pode_superior_entity)
-    - gostaria de [informações sobre as vagas](quem_pode_superior_entity)
-    - gostaria de saber [sobre vagas](quem_pode_superior_entity)
-    - quem pode fazer [curso superior](quem_pode_superior_entity) na fatec
-    - posso concorrer a [vagas do curso](quem_pode_superior_entity)
-    - quem pode [tentar uma vaga](quem_pode_superior_entity)
-    - consigo me [candidatar a uma vaga](quem_pode_superior_entity)
+    - principal [etapa](etapas_processo_seletivo_entity)
+    - quais são as [etapas do processo seletivo](etapas_processo_seletivo_entity)
+    - preciso de informações sobre o [processos seletivo](etapas_processo_seletivo_entity)
+    - gostaria de saber sobre as principais [datas](etapas_processo_seletivo_entity) e etapas
+    - [calendario](etapas_processo_seletivo_entity) da fatec
+    - [cronograma](etapas_processo_seletivo_entity) da fatec
 
-  # quero mudar curso / alterar curso
-- intent: faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso
-  examples: |
-    - [mudar o curso](mudar_curso_entity) após concluir a inscrição
-    - [trocar o curso](mudar_curso_entity) depois de fazer a inscrição
-    - [posso mudar de curso](mudar_curso_entity) após concluir a inscrição
-    - [trocar de curso](mudar_curso_entity) depois de concluir a inscrição
-    - posso [alterar o curso](mudar_curso_entity) depois de fazer a inscrição
-    - [mudar de curso](mudar_curso_entity) após fazer a inscrição do vestibular
-    - é possivel [alterar o curso](mudar_curso_entity) depois de ter feito a inscrição
-    - fiz minha inscrição para o vestibular e [quero mudar de curso](mudar_curso_entity)
-    - como faço para [mudar de curso depois](mudar_curso_entity) de ter feito a inscrição
-    - posso [trocar de curso após concluir a inscrição](mudar_curso_entity) do vestibular
-    - [é possivel mudar de curso](mudar_curso_entity) após fazer a inscrição do vestibular
-    - [alterar o curso depois](mudar_curso_entity) de fazer a inscrição para o vestibular
-    - como faço para [alterar o curso depois](mudar_curso_entity) de ter feito a inscrição
-    - [posso mudar de curso depois de fazer a inscrição](mudar_curso_entity) para o vestibular
-    - [como altero o curso depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
-    - conclui minha inscrição para o vestibular, [como faço para mudar o curso](mudar_curso_entity)
-    - tem como [mudar de curso depois de concluir a inscrição](mudar_curso_entity) para o vestibular
-    - tem como [mudar de curso depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
-    - [mudar o curso escolhido depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
-    - é possivel [trocar o curso que escolhi depois de concluir a inscrição](mudar_curso_entity) para o vestibular
 
-# prova / prova online / 
+ 
 - intent: faq/ask_vai_ter_prova
   examples: | 
-    - [prova](prova_entity)
-    - [vai ter prova](prova_entity)
-    - [quando é a prova](prova_entity)
-    - ate [quando vai a prova](prova_entity)
-    - as [provas serão aplicadas](prova_entity) remotamente
+    - vai ter [prova](prova_entity)
     - [prova remota](prova_entity)
-    - as [provas serão aplicadas](prova_entity) presenciais
     - [prova presencial](prova_entity)
     - [prova virtual](prova_entity)
-    - [prova na fatec](prova_entity)
-    - como será [feita a prova](prova_entity)
-    - como [vai ser a prova](prova_entity)
-    - [prova na pandemia](prova_entity)
     - [prova online](prova_entity)
-    - [prova vai ser online](prova_entity)
-    - [provinha](prova_entity)
-    - [provas](prova_entity)
-    - [me fala sobre a prova](prova_entity)
-    - [me diga sobre a prova](prova_entity)
-    - [sobre a prova](prova_entity)
 
-  # redese sociais / facebook / linkedin / instagram
 - intent: faq/ask_redes_sociais
   examples: |
     - [redes sociais](redes_sociais_entity)
-    - [qual o face](redes_sociais_entity) da fatec
-    - [qual o facebook](redes_sociais_entity) da fatec
-    - qual o [insta](redes_sociais_entity) da fatec
+    - qual o [facebook](redes_sociais_entity) da fatec
     - qual o [instagram](redes_sociais_entity) da fatec
     - qual o [linkedin](redes_sociais_entity) da fatec
-    - a fatec [tem facebook](redes_sociais_entity)
-    - quais as redes sociais da fatec
-    - a fatec tem rede social
-    - a fatec tem redes sociais
-    - a fatec tem [página no facebook](redes_sociais_entity)
-    - tem [perfil no instagram](redes_sociais_entity)
+    - quais as [redes](redes_sociais_entity) sociais da fatec
+    - a fatec tem [rede](redes_sociais_entity) social
+    
+- intent: faq/ask_sobre_o_curso
+  examples: |
+    - posso fazer [dois](sobre_o_curso_entity) cursos
+    - posso fazer [segundo](sobre_o_curso_entity) curso
+    - prefiro fazer [outro](sobre_o_curso_entity) curso
+    - quero fazer [mais de um](sobre_o_curso_entity) curso
+    - quero [troca](sobre_o_curso_entity) de curso
+    - queria [trocar](sobre_o_curso_entity) de curso
+    - gostaria de [mudar](sobre_o_curso_entity) de curso
+    - posso fazer uma [mudança](sobre_o_curso_entity) de curso
+    - posso [muda](sobre_o_curso_entity) o curso
+    - tem problema em [alterar](sobre_o_curso_entity) o curso
+    - consigo [substituir](sobre_o_curso_entity) o curso 
+
+- intent: faq/ask_sobre_documentos
+  examples: |
+    - usar [cnh](sobre_documentos_entity)
+    - pode usar [carteira de motorista](sobre_documentos_entity)
+    - consigo usar [habilitação](sobre_documentos_entity)
+    - pode [habilitacao](sobre_documentos_entity)
+    - posso usar a [carta de motorista](sobre_documentos_entity)
+    - é permitido usar a [carteira nacional de habilitação](sobre_documentos_entity)
+    - e permitido usar a [carteira nacional de habilitacao](sobre_documentos_entity)
+    - perdi o meu [rg](sobre_documentos_entity)
+    - perdi minha [identificação civil](sobre_documentos_entity)
+    - perdi meu [registro geral](sobre_documentos_entity)
+    - perdi meu [cpf](sobre_documentos_entity)
+    - estou sem o [cpf](sobre_documentos_entity)
+    - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
+    - perdi meus [documentos](sobre_documentos_entity)
+    - estou sem [documento](sobre_documentos_entity)
