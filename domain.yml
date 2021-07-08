@@ -5,6 +5,26 @@ intents:
   - adeus
   - perguntar_se_e_bot
 
+
+entities:
+  - trocar_curso_entity
+  - aproveitamento_entity
+  - historico_entity
+  - escolaridade_entity
+  - vestibular_novamente_entity
+  - curso_tecnico_entity
+  - curso_superior_entity
+  - aulas_remotas_entity
+  - idade_minima_entity
+  - quem_pode_fazer_curso_entity
+  - valor_mensalidade_entity
+  - redes_sociais_entity
+  - dois_cursos_entity
+  - outra_faculdade_entity
+  - cnh_entity
+  - rg_entity
+  - cpf_entity
+
   - faq:
       is_retrieval_intent: true
       
