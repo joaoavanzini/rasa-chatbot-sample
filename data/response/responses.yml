@@ -204,21 +204,18 @@ responses:
   utter_faq/ask_sobre_o_curso:
   - text: |- 
       Sobre os cursos da Fatec é importante lembrar que:
-	      • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
-	      
-            
-            • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
+
+        • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
+
+
+        • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
  
   utter_faq/ask_sobre_documentos:
   - text: |- 
       Sobre documentos é importante lembrar que:
-	      • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
-	      
-          
-            • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
-	      
-            
-            • Em caso da perda do CPF, você pode usar;
-	         - CPF documento exclusivo;
-	         - RG, desde que contenha o número do CPF;
-	         - Carteira Nacional de Habilitação CNH.
+        • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.  
+        • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
+        • Em caso da perda do CPF, você pode usar;
+        - CPF documento exclusivo;
+        - RG, desde que contenha o número do CPF;
+        - Carteira Nacional de Habilitação CNH.
