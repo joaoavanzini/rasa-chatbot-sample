@@ -12,18 +12,30 @@ entities:
   - historico_entity
   - escolaridade_entity
   - vestibular_novamente_entity
-  - curso_tecnico_entity
-  - curso_superior_entity
-  - aulas_remotas_entity
-  - idade_minima_entity
-  - quem_pode_fazer_curso_entity
-  - valor_mensalidade_entity
-  - redes_sociais_entity
   - dois_cursos_entity
   - outra_faculdade_entity
   - cnh_entity
   - rg_entity
   - cpf_entity
+  - aulas_remotas_entity
+  - idade_minima_entity
+  - quem_pode_fazer_curso_entity
+  - valor_mensalidade_entity
+  - curso_tecnico_entity
+  - candidato_estrangeiro_entity
+  - taxa_inscricao_entity
+  - o_que_vestibular_entity
+  - como_faco_inscricao_vestibular_entity
+  - inscricao_vestibular_entity
+  - upload_entity
+  - pagamento_efetivado_entity
+  - segunda_via_boleto_entity
+  - segunda_chamada_entity
+  - etapas_processo_seletivo_entity
+  - quem_pode_superior_entity
+  - mudar_curso_entity
+  - prova_entity
+  - redes_sociais_entity
 
   - faq:
       is_retrieval_intent: true

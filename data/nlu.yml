@@ -455,176 +455,74 @@ nlu:
 
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
-    - como faço o pagamento da taxa de inscrição
-    - quero pagar a inscrição
-    - quero pagar a inscricao
-    - pagamento da taxa
-    - pagar o vestibular
-    - pagamento em dinheiro
-    - como faço para pagar
-    - qual é o valor da inscrição
-    - quero pagar
-    - pagamento da taxa
-    - preciso pagar em agência bancária
-    - pagamento em boleto
-    - pagamento via internet
-    - pagamento ferramenta getnet
-    - quero pagar via internet
-    - quero pagar via boleto
-    - pagamento da prova
-    - pagamento do vestibular
-    - preciso pagar a prova
-    - como pago a prova
-    - como pago o vestibular
-    - qual é a taxa do pagamento
-    - taxa vestibular
-    - taxa prova
-    - valor da prova
-    - valor do vestibular
-    - taxa inscriçao
-    - inscriçao taxa
-    - taxa de inscriçao
-    - faço taxa de inscriçao
-    - quero taxa de inscriçao
-    - pagamento taxa inscriçao
-    - fazer a taxa de inscriçao
-    - pagamento taxa de inscriçao
-    - como fazer taxa de inscriçao
-    - pagamento da taxa de inscriçao
-    - quero fazer a taxa de inscriçao
-    - faço pagamento taxa de inscriçao
-    - como eu faço a taxa de inscriçao
-    - o pagamento da taxa de inscriçao
-    - fazer o pagamento da taxa de inscriçao
-    - quero fazer o pagamento taxa de inscriçao
-    - como faço o pagamento da taxa de inscriçao
-    - pagamento da taxa de inscriçao quero fazer
-    - como fazer o pagamento da taxa de inscriçao
-    - eu quero fazer o pagamento da taxa de inscriçao
-    - como faço o pagamento da taxa de inscrição
-    - como realizo o pagamento da taxa de inscrição
-    - como posso fazer o pagamento da taxa de inscrição
-    - como devo fazer o pagamento da taxa de inscrição
-    - de qual forma faço o pagamento da taxa de inscrição
-    - como faço o pagamento da taxa
-    - como realizo o pagamento da taxa
-    - como posso fazer o pagamento da taxa
-    - como devo fazert o pagamento da taxa
-    - de qual forma faço o pagamento da taxa 
-    - como faço o pagamento da inscrição
-    - como realizo o pagamento da taxa de inscrição
-    - como devo fazer o pagamento da inscrição
-    - de qual forma faço o pagamento da inscrição
-    - taxa de inscrição
-    - pagamento da inscrição
+    - como faço o pagamento da [taxa de inscrição](taxa_inscricao_entity)
+    - quero [pagar a inscrição](taxa_inscricao_entity)
+    - quero [pagar a inscricao](taxa_inscricao_entity)
+    - [pagamento da taxa](taxa_inscricao_entity)
+    - [pagar o vestibular](taxa_inscricao_entity)
+    - qual é o [valor da inscrição](taxa_inscricao_entity)
+    - [pagamento da taxa](taxa_inscricao_entity)
+    - pagamento em [boleto inscrição](taxa_inscricao_entity)
+    - [pagamento da prova](taxa_inscricao_entity)
+    - preciso [pagar a prova](taxa_inscricao_entity)
+    - qual é a [taxa do pagamento](taxa_inscricao_entity)
+    - [taxa vestibular](taxa_inscricao_entity)
+    - [taxa prova](taxa_inscricao_entity)
+    - [valor da prova](taxa_inscricao_entity)
+    - [taxa inscriçao](taxa_inscricao_entity)
+    - [inscriçao taxa](taxa_inscricao_entity)
+    - de qual forma faço o [pagamento da inscrição](taxa_inscricao_entity)
+    - [pagamento da inscrição](taxa_inscricao_entity)
     - sobre da taxa de inscrição
-    - sobre a taxa
-    - sobre a inscrição
-    - como posso estar fazendo o pagamento da taxa de inscrição
+    - [sobre a taxa](taxa_inscricao_entity)
 
 - intent: faq/ask_o_que_e_o_vestibular
   examples: |
-    - o que é vestibular
-    - vestibular fatec
-    - FATEC
-    - o que é o vestibular da fatec
-    - o que é o vestibular
-    - como é o vestibular
-    - como funciona o vestibular
-    - vai ter vestibular
-    - preciso saber sobre o vestibular
-    - como vai ser o vestibular
-    - vestibular
-    - me conte sobre o vestibular
-    - me diga sobre o vestibular
-    - processo classificatório
-    - sobre o processo classificatório
-    - me diga sobre o processo classificatório
-    - informações sobre o processo classificatório
-    - vestibular
-    - o vestibular
-    - sobre vestibular
-    - o que o vestibular
-    - vestibular me fala
-    - vestibular e o que
-    - sobre o vestibular
-    - vestibular me explica
-    - vestibular como funciona
-    - vestibular sobre o que e 
-    - como funciona o vestibular
-    - sobre o que e o vestibular
-    - fale me sobre o vestibular
-    - me diga sobre o vestibular
-    - explique-me sobre vestibular
-    - me explica sobre o vestibular
-    - vestibular e o que exatamente
-    - quero saber sobre o vestibular
-    - vestibular me explique por favor
-    - por favor me explique sobre o vestibular
-    - o que é vestibular
-    - o que seria vestibular
-    - o que é esse vestibular
-    - não sei o que é vestibular
+    - [o que é vestibular](o_que_vestibular_entity)
+    - [vestibular fatec](o_que_vestibular_entity)
+    - [como é o vestibular](o_que_vestibular_entity)
+    - como [funciona o vestibular](o_que_vestibular_entity)
+    - vai [ter vestibular](o_que_vestibular_entity)
+    - preciso saber [sobre o vestibular](o_que_vestibular_entity)
+    - me conte [sobre o vestibular](o_que_vestibular_entity)
+    - me diga [sobre o vestibular](o_que_vestibular_entity)
+    - [sobre o processo classificatório](o_que_vestibular_entity)
+    - me diga [sobre o processo classificatório](o_que_vestibular_entity)
+    - [sobre vestibular](o_que_vestibular_entity)
+    - [sobre o vestibular](o_que_vestibular_entity)
+    - [vestibular como funciona](o_que_vestibular_entity) 
+    - como [funciona o vestibular](o_que_vestibular_entity)
+    - sobre [o que e o vestibular]
+    - me diga [sobre o vestibular](o_que_vestibular_entity)
+    - [explique-me sobre vestibular](o_que_vestibular_entity)
+    - [vestibular é o que](o_que_vestibular_entity) exatamente
+    - [vestibular e o que](o_que_vestibular_entity) exatamente
+    - [vestibular me explique](o_que_vestibular_entity) por favor
+    - o que [seria vestibular](o_que_vestibular_entity)
     - não sei o que seria vestibular
-    - vestibular, o que é
-    - sobre vestibular
-    - como é um vestibular
-    - não conheço o vestibular
-    - informações sobre vestibular
-    - informação sobre vestibular
-    - vestibular
-    - me fale sobre vestibular
-    - o que seria um vestibular
-    - pode me informar sobre o vestibular
-    - pode me dizer sobre o vestibular
-    - me ensine o que é vestibular
-    - não faço ideia do que seja vestibular
-    - esse vestibular é o que
-    - vestibular é uma prova
-    - oq e fazer vestibular
-    - o q é fazer vestibular
-    - oq eh fazer vestibular
 
 - intent: faq/ask_como_faco_inscricao_vestibular
   examples: |
-    - como faço a inscrição do vestibular
-    - quero me inscrever para a prova
-    - quero fazer a prova
-    - quero fazer a inscrição da prova
-    - quero fazer o vestibular
-    - como faço para me inscrever na prova
-    - como faço para me inscrever no vestibular
+    - [como faço a inscrição do vestibular](como_faco_inscricao_vestibular_entity)
+    - quero me [inscrever para a prova](como_faco_inscricao_vestibular_entity)
+    - [quero fazer a prova](como_faco_inscricao_vestibular_entity)
+    - quero [fazer a inscrição da prova](como_faco_inscricao_vestibular_entity)
+    - [quero fazer o vestibular](como_faco_inscricao_vestibular_entity)
+    - [como faço para me inscrever na prova](como_faco_inscricao_vestibular_entity)
+    - [como faço para me inscrever no vestibular](como_faco_inscricao_vestibular_entity)
     - quero me inscrever
     - quero fazer o vestibular
-    - preenchimento de ficha de inscrição
-    - preencher ficha de inscrição
-    - como faço o vestibular   
-    - quero me inscrever na fatec
-    - quero fazer a prova da fatec
-    - quero fazer o vestibular da fatec
+    - preenchimento de [ficha de inscrição](como_faco_inscricao_vestibular_entity)
+    - [preencher ficha](como_faco_inscricao_vestibular_entity) de inscrição
+    - como [faço o vestibular](como_faco_inscricao_vestibular_entity)
+    - quero me [inscrever na fatec](como_faco_inscricao_vestibular_entity)
+    - quero [fazer a prova da fatec](como_faco_inscricao_vestibular_entity)
+    - quero [fazer o vestibular](como_faco_inscricao_vestibular_entity) da fatec
     - quero me qualificar 
     - prova da fatec
     - prova do vestibular
-    - como faço a inscrição do vestibular
-    - como faço a inscrição para o vestibular
-    - quero me inscrever no vestibular
-    - quero tentar o vestibular
-    - quero fazer o vestibular
-    - gostaria de fazer o vestibular
-    - gostaria de fazer a inscrição
-    - quero me inscrever
-    - quero tentar o processo seletivo 
-    - me fale como me inscrever no vestibular
-    - quero fazer a inscrição
-    - quero me inscrever no vestibular, pode me ajudar
-    - me ajude com a inscrição do vestibular
-    - preciso saber como me inscrever no vestibular
-    - poderia me informar como posso me inscrever
-    - poderia me informar como posso me inscrever no vestibular
-    - poderia me informar como faço a inscrição do vestibular
-    - queria saber como faço a inscrição do vestibular
-    - inscrição do vestibular
-    - me fale sobre a inscrição
+    - como faço a [inscrição do vestibular](como_faco_inscricao_vestibular_entity)
+    - como faço a [inscrição para o vestibular](como_faco_inscricao_vestibular_entity)
 
 - intent: faq/ask_quando_comecam_inscricoes_vestibular
   examples: |
@@ -647,458 +545,194 @@ nlu:
     - [quando as inscriçoes] para o vestibular começam(inscricao_vestibular_entity)
     - começam as inscriçoes para o [vestibular quando](inscricao_vestibular_entity)
     - as inscriçoes para o [vestibular começam quando](inscricao_vestibular_entity)
-    - quero [saber quando começa as inscriçoes] para o vestibular(inscricao_vestibular_entity)
-    - quando começam as [inscrições para o vestibular](inscricao_vestibular_entity)
-    - [quando começam as inscrições](inscricao_vestibular_entity)
-    - quando posso estar me [inscrevendo para o vestibular](inscricao_vestibular_entity)
-    - quando [posso estar me inscrevendo](inscricao_vestibular_entity)
-    - qual dia começa as [inscrições para o vestibular](inscricao_vestibular_entity)
-    - qual dia começa as [inscrições] (inscricao_vestibular_entity)
-    - dia das [inscrições do vestibular](inscricao_vestibular_entity)
-    - em qual dia [começam as inscrições] do vestibular(inscricao_vestibular_entity)
-    - até quando [ocorre as inscrições do vestibular](inscricao_vestibular_entity)
-    - [data das inscrições](inscricao_vestibular_entity)
-    - [data das inscrições] do vestibular(inscricao_vestibular_entity)
-    - [até quando é as inscrições](inscricao_vestibular_entity)
-    - [até quando é a inscrição do vestibular](inscricao_vestibular_entity)
-    - [até quando vai a inscrição do vestibular](inscricao_vestibular_entity)
-    - [período das inscrições do vestibular](inscricao_vestibular_entity)
-    - [período das inscrições](inscricao_vestibular_entity)
-    - me fale sobre a [data das inscrições](inscricao_vestibular_entity)
-    - me fale sobre o [dia da inscrição](inscricao_vestibular_entity)
 
 - intent: faq/ask_upload
   examples: |
     - [upload](upload_entity)
-    - o que e [fazer upload](upload_entity)
-    - [preciso upload](upload_entity)
+    - [faz upload](upload_entity)
+    - [como upload](upload_entity)
+    - o [que upload](upload_entity)
+    - [fazer upload](upload_entity)
     - [quero upload](upload_entity)
     - [duvida upload](upload_entity)
-    - duvidas [acerca upload](upload_entity)
-    - [como faz upload](upload_entity)
-    - [como upload](upload_entity)
-    - [faz upload](upload_entity)
-    - [fazer upload](upload_entity)
+    - [preciso upload](upload_entity)
     - [nao sei upload](upload_entity)
-    - [nao sei fazer upload](upload_entity)
-    - o [que seria upload](upload_entity)
-    - o [que upload](upload_entity)
-    - [nao entendi upload](upload_entity)
+    - [como faz upload](upload_entity)
     - [explicar upload](upload_entity)
-    - [me explica upload](upload_entity)
     - [explique upload](upload_entity)
+    - [me explica upload](upload_entity)
+    - o [que seria upload](upload_entity)
+    - [nao entendi upload](upload_entity)
+    - o que e [fazer upload](upload_entity)
+    - [nao sei fazer upload](upload_entity)
+    - duvidas [acerca upload](upload_entity)
     - [o upload e feito como](upload_entity)
-    - como e [feito o upload](upload_entity)
-    - [feito upload](upload_entity)
-    - [como faço upload](upload_entity)
-    - [faço como o upload](upload_entity)
-    - dá [para fazer upload](upload_entity)
-    - [diga como faço upload](upload_entity)
-    - [o que é fazer upload](upload_entity)
-    - [o que é upload](upload_entity)
-    - [não sei o que é upload](upload_entity)
-    - upload é [igual download](upload_entity)
-    - me [informe sobre upload](upload_entity)
-    - [o que seria upload](upload_entity)
-    - não faço [ideia do que é upload](upload_entity)
-    - [upload?](upload_entity)
-    - como [faço upload](upload_entity)
-    - gostaria de [entender o upload](upload_entity)
-    - tenho [duvidas com o upload](upload_entity)
-    - tenho duvidas em [relação ao upload](upload_entity)
-    - poderia me [explicar sobre upload](upload_entity)
-    - [upload é baixar] arquivos(upload_entity)
-    - me ajude a [intender upload](upload_entity)
-    - upload, [o que é](upload_entity)
-    - [upload, não sei o que é](upload_entity)
-    - preciso de [ajuda com o upload](upload_entity)
-    - preciso [saber o que é upload](upload_entity)
-    - enviar [arquivos é upload](upload_entity)
 
 # pagamento efetivado / pagamento da inscrição / pagamento da taxa
 - intent: faq/ask_pagamento_efetivado
   examples: |
-    - como sei quando o pagamento da taxa de inscriçao foi efetivado
-    - taxa de inscriçao foi efetivado
-    - pagamento efetivado
-    - paguei a taxa 
-    - paguei a taxa de inscriçao
-    - a taxa de inscriçao foi paga
-    - taxa de inscriçao paga
-    - o pagamento foi realizado
-    - eu paguei a taxa de inscriçao
-    - efetuei taxa inscriçao
-    - efetuei o pagamento da taxa de inscriçao
-    - como saber se a taxa de inscriçao foi paga
-    - com saber se paguei a taxa de inscriçao
-    - taxa de inscriçao paguei
-    - gostaria de saber se a taxa de inscriçao foi paga
-    - poderia me dizer se consegui pagar a taxa de inscriçao
-    - quero saber taxa de inscriçao
-    - quero saber se consegui pagar a taxa de inscriçao
-    - pagamento taxa inscriçao
-    - taxa inscriçao
-    - taxa de inscriçao
-    - realizei o pagamento da taxa de inscrição
-    - como funciona a verificação do pagamento
-    - a confirmação do pagamento é enviada por email
-    - como é feita a verificação do pagamento
-    - como fico sabendo se o pagamento foi efetivado
-    - como faço para saber se o pagamento da taxa de inscrição foi efetivado
-    - como sei quando o pagamento da taxa de inscrição foi efetivado
-    - como sei quando o pagamento da inscrição foi efetivado
-    - como sei quando o pagamento da taxa foi efetivado
-    - como vou saber que o pagamento da taxa de inscrição foi confirmado
-    - como vou saber que o pagamento da inscrição foi confirmado
-    - como vou saber que o pagamento da taxa foi confirmado
-    - como sei que está tudo certo com o pagamento
-    - como sei que está tudo certo com o pagamento da taxa de inscrição
-    - como sei que está tudo certo com o pagamento da inscrição
-    - como sei que está tudo certo com o pagamento da taxa
-    - quando o pagamento é confirmado
-    - sobre a confirmação do pagamento
-    - sobre o pagamento
-    - a confirmação do pagamento da inscrição é enviada no email
-    - a confirmação do pagamento da taxa é enviada no email
-    - a confirmação do pagamento da taxa de inscrição é enviada no email
-    - vocês confirmam o pagamento da taxa de inscrição
-    - vocês confirmam o pagamento da taxa
-    - vocês confirmam o pagamento da inscrição
-    - como é feito a confirmação do pagamento
-
+    - [paguei a taxa](pagamento_efetivado_entity)
+    - [taxa de inscriçao](pagamento_efetivado_entity)
+    - [pagamento efetivado](pagamento_efetivado_entity)
+    - [taxa de inscriçao paga](pagamento_efetivado_entity)
+    - [efetuei taxa](pagamento_efetivado_entity) inscriçao
+    - [taxa de inscriçao paguei](pagamento_efetivado_entity)
+    - [pagamento taxa inscriçao](pagamento_efetivado_entity)
+    - o [pagamento foi realizado](pagamento_efetivado_entity)
+    - [paguei a taxa](pagamento_efetivado_entity) de inscriçao
+    - a [taxa de inscriçao foi paga](pagamento_efetivado_entity)
+    - eu [paguei a taxa](pagamento_efetivado_entity) de inscriçao
+    - quero [saber taxa de inscriçao](pagamento_efetivado_entity)
+    - [taxa de inscriçao foi efetivado](pagamento_efetivado_entity)
+    - com saber se [paguei a taxa de inscriçao](pagamento_efetivado_entity)
+    - [efetuei o pagamento da taxa](pagamento_efetivado_entity) de inscriçao
+    - como saber se a [taxa de inscriçao foi paga](pagamento_efetivado_entity)
+    - gostaria de [saber se a taxa de inscriçao foi paga](pagamento_efetivado_entity)
+    - quero saber se [consegui pagar a taxa de inscriçao](pagamento_efetivado_entity)
+    - poderia me dizer se [consegui pagar a taxa](pagamento_efetivado_entity) de inscriçao
+    - como sei quando o [pagamento da taxa de inscriçao](pagamento_efetivado_entity) foi efetivado
+    
   # segunda via boleto / boleto / boleto bancário
 - intent: faq/ask_segunda_via_boleto
   examples: |
-    - como posso imprimir a segunda via do boleto bancario
-    - segunda via boleto
-    - segunda via boleto bancario
+    - como posso [imprimir a segunda via](segunda_via_boleto_entity) do [boleto bancario](boleto_bancario_entity)
+    - [segunda via boleto](segunda_via_boleto_entity)
+    - [segunda via boleto bancario](segunda_via_boleto_entity)
     - boleto bancario
-    - imprimir boleto
-    - imprimir segunda via boleto
+    - [imprimir boleto](boleto_bancario_entity)
+    - [imprimir segunda via boleto](segunda_via_boleto_entity)
     - imprimir boleto bancario
-    - imprimir segunda via boleto bancario
-    - imprimir via boleto
-    - 2 via boleto bancario
-    - 2º via boleto bancario
-    - segunda boleto bancario
-    - via boleto bancario
-    - via boleto
-    - quero imprimir 2 via boleto
-    - quero imprimir segunda via boleto
-    - como faço para imprimir segunda via boleto bancario
-    - como faço para imprimir 2 via boleto bancario
-    - como faço para imprimir 2º via boleto bancerio
-    - imprimir 2 via
-    - imprimir 2º via
-    - 2 via
-    - 2 boleto
-    - 2º via
-    - 2º boleto
-    - segunda via
-    - segundo boleto
-    - como posso imprimir a segunda via do boleto bancário
-    - como posso obter a segunda via do boleto bancário
-    - como consigo a segunda via do boleto bancário
-    - segunda via
-    - segunda via do boleto
-    - preciso da segunda via
-    - preciso de outro boleto
-    - como pego a segunda via 
-    - como pego a segunda via do boleto
-    - é possível pegar a segunda via
-    - preciso gerar o boleto novamente
-    - preciso da segunda via
-    - pode me informar sobre a segunda via
-    - gostaria de informações sobre a segunda via do boleto
-    - como faço para ter a segunda via do boleto
-    - boleto 
-    - outra via do boleto
-    - preciso da segunda via do boleto
-    - gostaria de saber sobre a segunda via
-    - posso ter uma segunda via do boleto
+    - imprimir [segunda via boleto bancario](segunda_via_boleto_entity)
+    - [imprimir via boleto](boleto_bancario_entity)
+    - [2 via boleto bancario](segunda_via_boleto_entity)
+    - [2º via boleto bancario](segunda_via_boleto_entity)
+    - [segunda boleto bancario](segunda_via_boleto_entity)
+    - via [boleto bancario](boleto_bancario_entity)
+    - via [boleto](boleto_bancario_entity)
+    - quero [imprimir 2 via boleto](segunda_via_boleto_entity)
+    - quero [imprimir segunda via boleto](segunda_via_boleto_entity)
+    - como faço para [imprimir segunda via boleto bancario](segunda_via_boleto_entity)
+    - como faço para [imprimir 2 via boleto bancario](segunda_via_boleto_entity)
+    - como faço para [imprimir 2º via boleto bancario](segunda_via_boleto_entity)
+    - como posso imprimir a segunda via do [boleto bancário](boleto_bancario_entity)
   
   # segunda chamada / 2 opção / 2 lista
 - intent: faq/ask_segunda_chamada
   examples: |
-    - posso ser chamado para a segunda opção
-    - posso ser chamado para 2ª opção
-    - posso ser chamado para 2 opção
-    - como funciona a segunda opção
-    - como funciona a 2ª opção
-    - como funciona a 2 opção
-    - posso ser chamado para a segunda chamada
-    - posso ser chamado para 2ª chamada
-    - posso ser chamado para 2 chamada
-    - como funciona a segunda chamada
-    - como funciona a 2ª chamada
-    - como funciona a 2 chamada
-    - posso ser chamado para a segunda lista de convocação
-    - posso ser chamado para 2ª lista de convocação
-    - posso ser chamado para 2 lista de convocação
-    - como funciona a segunda lista de convocação
-    - como funciona a 2ª lista de convocação
-    - como funciona a 2 lista de convocação
-    - vai ter 2ª lista de convocação
-    - vai ter 2 lista de convocação
-    - vai ter a segunda lista de convocação
-    - vai ter a 2ª lista de convocação
-    - vai ter a 2 lista de convocação
-    - vai ter a segunda chamada
-    - vai ter a 2ª chamada
-    - vai ter a 2 chamada
-    - posso ser chamado para a 2ª opção
-    - como funciona a 2ª opção
-    - segunda opção
-    - segunda chamada
-    - posso ser chamado para a segunda chamada
-    - como funciona a segunda chamada
-    - 2 chamada
-    - como funciona a chamada 2
-    - existe segunda chamada
-    - segunda lista de convocação
-    - segunda lista
-    - convocado na segunda lista
-    - não fui classificado na primeira lista
-    - ainda posso ser convocado
-    - como funciona a segunda opção
-    - como é a segunda chamada
-    - como é a segunda opção
-    - chamada 2
-    - lista de reserva
-    - outra lista
+    - [segunda opção](segunda_chamada_entity)
+    - [segunda chamada](segunda_chamada_entity)
+    - vai ter a [2 chamada](segunda_chamada_entity)
+    - vai ter a [2ª chamada](segunda_chamada_entity)
+    - como funciona a [2 opção](segunda_chamada_entity)
+    - como funciona a [2ª opção](segunda_chamada_entity)
+    - vai ter a [segunda chamada](segunda_chamada_entity)
+    - como funciona a [segunda opção](segunda_chamada_entity)
+    - vai ter [2 lista](segunda_chamada_entity) de convocação
+    - posso ser chamado para [2 opção](segunda_chamada_entity)
+    - como funcionara a [segunda opção](segunda_chamada_entity)
+    - posso ser chamado para [2ª opção](segunda_chamada_entity)
+    - vai ter a [2 lista](segunda_chamada_entity) de convocação
+    - vai ter a [2ª lista](segunda_chamada_entity) de convocação
+    - posso ser chamado para a [2ª opção](segunda_chamada_entity)
+    - como funciona a [2 lista](segunda_chamada_entity) de convocação
+    - vai ter a [segunda lista](segunda_chamada_entity) de convocação
+    - posso ser chamado para a [segunda opção](segunda_chamada_entity)
+    - posso ser chamado para a [segunda chamada](segunda_chamada_entity)
+    - posso eu ser chamado para a [segunda chamada](segunda_chamada_entity)
   
 - intent: faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo 
   examples: |
-    - processo seletivo
-    - seletiva
-    - datas
-    - data
-    - data da prova
-    - etapas
-    - etapas do processo seletivo
-    - etapas da seletiva
-    - quais serão as principais datas e etapas do processo seletivo
-    - principais etapas
-    - quais são as etapas do processo seletivo
-    - como será o processo seletivo
-    - como será o processo
-    - como vai ser o cronograma da seletiva
-    - como vai ser o cronograma do processo seletivo
-    - como funciona o processo seletivo
-    - qual o cronograma do processo seletivo
-    - qual o cronograma da seletiva
-    - sobre o cronograma do processo seletivo
-    - sobre o cronograma da seletiva
-    - cronograma do processo
-    - cronograma da seletiva
-    - preciso de informações sobre o processo seletivo
-    - informações sobre o processo seletivo
-    - informações sobre a seletiva
-    - quero datas do processo seletivo
-    - quero datas da seletiva
-    - quero saber sobre o processo seletivo
-    - quero saber mais sobre o processo seletivo
-    - quero saber sobre as etapas do processo seletivo
-    - como o processo seletivo vai ser realizado
-    - sobre o processo seletivo
-    - me conte sobre o processo seletivo
-    - me conte sobre a seletiva
-    - como vai ser a seletiva
-    - como será a seletiva
-    - como vai ser o processo seletivo
-    - como será o processo seletivo
-    - gostaria de informações sobre o processo seletivo
-    - gostaria de informações sobre a seletiva
-    - poderia me informar sobre o processo seletivo
-    - poderia me informar sobre a seletiva
-    - tem datas da seletiva
-    - tem datas do processo seletivo
-    - me mande as datas do processo seletivo
-    - me mande o cronograma do processo seletivo
-    - me fale sobre o processo seletivo
-    - me fale sobre a seletiva
-    - tenho dúvidas sobre o processo seletivo
-    - tenho dúvidas sobre a seletiva
-    - tenho dúvidas sobre o cronograma do processo seletivo
-    - tenho dúvidas sobre as etapas do processo seletivo
-    - tenho dúvidas com o processo seletivo
-    - tenho dúvidas com a seletiva
-    - tenho dúvidas com as etapas do processo seletivo
-    - quais são as principais datas
-    - etapas do Processo Seletivo
-    - quais são as principais etapas do processo seletivo
-    - datas 
-    - gostaria de saber sobre as principais datas
-    - datas principais
-    - gostaria de ssaber sobre as principais etapas
-    - todas as datas
-    - todos as etapas
-    - me conte sobre as datas
-    - me conte sobre as etapas
-    - processo seletivo
-    - datas da seleção
-    - gostaria de saber sobre as datas
-    - gostaria de saber sobre as etapas
-    - etapas do processo seletivo
-    - me informe sobre a seletiva
-    - me informe sobre as datas
-    - quero datas
-    - quero as etapas
-    - qual é o calendário
-    - qual e o calendario
-    - quando é o dia da prova
-    - hrs da prova
-
+    - processo [seletivo](etapas_processo_seletivo_entity)
+    - [seletiva](etapas_processo_seletivo_entity)
+    - [etapas](etapas_processo_seletivo_entity)
+    - [principais etapas](etapas_processo_seletivo_entity)
+    - [quais são as etapas] do processo seletivo (etapas_processo_seletivo_entity)
+    - [como será o processo] seletivo (etapas_processo_seletivo_entity)
+    - qual o [cronograma do processo seletivo](etapas_processo_seletivo_entity)
+    - [cronograma do processo](etapas_processo_seletivo_entity)
+    - preciso de [informações sobre o processo] seletivo(etapas_processo_seletivo_entity)
+    - [informações sobre o processo seletivo](etapas_processo_seletivo_entity)
+    - [sobre o processo seletivo](etapas_processo_seletivo_entity)
+    - [gostaria de informações] sobre o processo seletivo
+    - gostaria de [informações sobre a seletiva](etapas_processo_seletivo_entity)
+    - [poderia me informar] sobre o processo seletivo(etapas_processo_seletivo_entity)
+    - me [mande as datas do processo] seletivo(etapas_processo_seletivo_entity)
+    - [tenho dúvidas] sobre o processo seletivo(etapas_processo_seletivo_entity)
+    - [quais são as principais datas](etapas_processo_seletivo_entity)
+    - [etapas do Processo Seletivo](etapas_processo_seletivo_entity)
+    - quais são as [principais etapas do processo seletivo](etapas_processo_seletivo_entity)
+    - [gostaria] de saber sobre as principais datas(etapas_processo_seletivo_entity)
+    
 - intent: faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores
   examples: |
-    - tentar vagas
-    - vaga
-    - vagas
-    - vagas quem pode fazer
-    - curso superior
-    - quem pode vagas
-    - ensino médio completo
-    - certificado ensino médio
-    - quem pode fazer
-    - quem pode disputar vaga nos cursos
-    - quero vagas
-    - preciso ter ensino medio completo
-    - quantas vagas
-    - as vagas são quantas
-    - para concorrer a uma vaga preciso ter ensino medio completo
-    - é necesário ensino médio completo para uma vaga
-    - o certificado do ensino médio completo é necessário para a vaga
-    - quero vagas no curso superior
-    - quem vagas
-    - quero saber sobre as vagas
-    - sobre as vagas
-    - saber vagas
-    - vagas sobre
-    - quero ver vagas
-    - ver vagas
-    - certificado para vagas
-    - fatec vagas
-    - vestibular vagas
-    - prova vagas
-    - vagas para o vestibular
-    - vagas para a fatec
-    - vagas para a prova
-    - como faço para ver as vagas
-    - como faço para saber sobre as vagas
-    - duvidas relação a vagas
-    - gostaria de informações sobre as vagas
-    - informação vagas
-    - informar vagas
-    - me conte sobre vagas
-    - sobre vagas
-    - vagas informações
-    - vagas informar
-    - poderia informar sobre vagas
-    - poderia me mandar informações sobre vagas
-    - gostaria de saber se preciso ensino médio completo
-    - gostaria de saber sobre vagas
-    - vagas fatec vestibular
+    - [tentar vagas](quem_pode_superior_entity)
+    - [vaga](quem_pode_superior_entity)
+    - [vagas](quem_pode_superior_entity)
+    - [vagas](quem_pode_superior_entity) quem pode fazer
+    - quem pode [vagas](quem_pode_superior_entity)
+    - quem pode disputar [vaga](quem_pode_superior_entity) nos cursos
+    - para concorrer a uma [vaga](quem_pode_superior_entity) preciso ter ensino medio completo
+    - é necesário ensino médio completo para uma [vaga](quem_pode_superior_entity)
+    - o certificado do ensino médio completo é necessário para a [vaga](quem_pode_superior_entity)
+    - [quero vagas](quem_pode_superior_entity) no curso superior
+    - quero saber sobre as [vagas](quem_pode_superior_entity)
+    - [vagas informações](quem_pode_superior_entity)
+    - quero saber [sobre vagas](quem_pode_superior_entity)
+    - [informação vagas](quem_pode_superior_entity)
+    - gostaria de [informações sobre as vagas](quem_pode_superior_entity)
+    - gostaria de saber [sobre vagas](quem_pode_superior_entity)
+    - quem pode fazer [curso superior](quem_pode_superior_entity) na fatec
+    - posso concorrer a [vagas do curso](quem_pode_superior_entity)
+    - quem pode [tentar uma vaga](quem_pode_superior_entity)
+    - consigo me [candidatar a uma vaga](quem_pode_superior_entity)
 
   # quero mudar curso / alterar curso
 - intent: faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso
   examples: |
-    - mudar o curso após concluir a inscrição
-    - trocar o curso depois de fazer a inscrição
-    - posso mudar de curso após concluir a inscrição
-    - trocar de curso depois de concluir a inscrição
-    - posso alterar o curso depois de fazer a inscrição
-    - mudar de curso após fazer a inscrição do vestibular
-    - é possivel alterar o curso depois de ter feito a inscrição
-    - fiz minha inscrição para o vestibular e quero mudar de curso
-    - como faço para mudar de curso depois de ter feito a inscrição
-    - posso trocar de curso após concluir a inscrição do vestibular
-    - é possivel mudar de curso após fazer a inscrição do vestibular
-    - alterar o curso depois de fazer a inscrição para o vestibular
-    - como faço para alterar o curso depois de ter feito a inscrição
-    - posso mudar de curso depois de fazer a inscrição para o vestibular
-    - como altero o curso depois de ter feito a inscrição para o vestibular
-    - conclui minha inscrição para o vestibular, como faço para mudar o curso
-    - tem como mudar de curso depois de concluir a inscrição para o vestibular
-    - tem como mudar de curso depois de ter feito a inscrição para o vestibular
-    - mudar o curso escolhido depois de ter feito a inscrição para o vestibular
-    - é possivel trocar o curso que escolhi depois de concluir a inscrição para o vestibular
-    - fiz minha inscrição para o vestibular. Quero mudar de curso, é possível
-    - quero mudar de curso
-    - fiz minha inscrição mas quero mudar de curso
-    - ja fiz minha inscrição, quero mudar de curso
-    - gostaria de mudar de curso, mas ja fiz a inscrição
-    - pode mudar de curso depois de fazer a inscrição
-    - pode mudar de curso depois da inscrição
-    - ja me inscrevi para o vestibular, posso mudar de curso
-    - escolher outro curso depois da inscrição
-    - escolher outro curso depois de ter feito inscrição
-    - ja fiz a inscrição, posso mudar o curso
-    - ja fiz a inscrição, posso trocar o curso
-    - queria trocar o curso mas ja fiz inscrição
-    - poderia trocar o curso depois de ter feito uma inscrição
-    - se eu me inscrevi para o vestibular, não posso trocar de curso
-    - se eu ja me inscrevi, não posso trocar o curso
-    - mudei de ideia sobre o curso, mas ja fiz a inscrição
-    - gostaria de trocar o curso, mas ja me inscrevi no vestibular
-    - gostaria de trocar o curso, mas ja me inscrevi
-    - pode mudar de curso depois de ter feito a inscrição
-    - quero cursar ADS no lugar de mecatronica, posso
+    - [mudar o curso](mudar_curso_entity) após concluir a inscrição
+    - [trocar o curso](mudar_curso_entity) depois de fazer a inscrição
+    - [posso mudar de curso](mudar_curso_entity) após concluir a inscrição
+    - [trocar de curso](mudar_curso_entity) depois de concluir a inscrição
+    - posso [alterar o curso](mudar_curso_entity) depois de fazer a inscrição
+    - [mudar de curso](mudar_curso_entity) após fazer a inscrição do vestibular
+    - é possivel [alterar o curso](mudar_curso_entity) depois de ter feito a inscrição
+    - fiz minha inscrição para o vestibular e [quero mudar de curso](mudar_curso_entity)
+    - como faço para [mudar de curso depois](mudar_curso_entity) de ter feito a inscrição
+    - posso [trocar de curso após concluir a inscrição](mudar_curso_entity) do vestibular
+    - [é possivel mudar de curso](mudar_curso_entity) após fazer a inscrição do vestibular
+    - [alterar o curso depois](mudar_curso_entity) de fazer a inscrição para o vestibular
+    - como faço para [alterar o curso depois](mudar_curso_entity) de ter feito a inscrição
+    - [posso mudar de curso depois de fazer a inscrição](mudar_curso_entity) para o vestibular
+    - [como altero o curso depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
+    - conclui minha inscrição para o vestibular, [como faço para mudar o curso](mudar_curso_entity)
+    - tem como [mudar de curso depois de concluir a inscrição](mudar_curso_entity) para o vestibular
+    - tem como [mudar de curso depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
+    - [mudar o curso escolhido depois de ter feito a inscrição](mudar_curso_entity) para o vestibular
+    - é possivel [trocar o curso que escolhi depois de concluir a inscrição](mudar_curso_entity) para o vestibular
 
 # prova / prova online / 
 - intent: faq/ask_vai_ter_prova
   examples: | 
-    - prova
-    - vai ter prova
-    - quando é a prova
-    - ate quando vai a prova
-    - as provas serão aplicadas remotamente
-    - prova remota
-    - as provas serão aplicadas presenciais
-    - prova presencial
-    - prova virtual
-    - prova na fatec
-    - como será feita a prova
-    - como vai ser a prova
-    - prova na pandemia
-    - prova online
-    - prova vai ser online
-    - provinha
-    - provas
-    - me fala sobre a prova
-    - me diga sobre a prova
-    - sobre a prova
-    - prov
-    - queria saber a prova
-    - online prova
-    - queria saber sobre a prova
-    - qual e a da prova
-    - prova presencial vai ter
-    - vai ter prova presencial
-    - provitcha
-    - como vai ser a prova
-    - vai ser a prova
-    - tem prova
-    - tera prova
-    - teria prova
-    - a prova
-    - como que vai ser a prova
-    - e a prova
-    - e a prova vai ser como
-    - e a prova vai ter
-    - vai ter prova ou nao
-    - vai ter prova ou n
-    - teremos prova
-    - teremos a prova
-    - poderia dizer se teremos prova
-    - e a prova teremos
-    - prove
-    - provar
-    - prova de conhecimentos
-    - provis
-    - me fala da prova
-    - me fala sobre prova
-    - prova e presencial
-    - prova e online
+    - [prova](prova_entity)
+    - [vai ter prova](prova_entity)
+    - [quando é a prova](prova_entity)
+    - ate [quando vai a prova](prova_entity)
+    - as [provas serão aplicadas](prova_entity) remotamente
+    - [prova remota](prova_entity)
+    - as [provas serão aplicadas](prova_entity) presenciais
+    - [prova presencial](prova_entity)
+    - [prova virtual](prova_entity)
+    - [prova na fatec](prova_entity)
+    - como será [feita a prova](prova_entity)
+    - como [vai ser a prova](prova_entity)
+    - [prova na pandemia](prova_entity)
+    - [prova online](prova_entity)
+    - [prova vai ser online](prova_entity)
+    - [provinha](prova_entity)
+    - [provas](prova_entity)
+    - [me fala sobre a prova](prova_entity)
+    - [me diga sobre a prova](prova_entity)
+    - [sobre a prova](prova_entity)
 
   # redese sociais / facebook / linkedin / instagram
 - intent: faq/ask_redes_sociais
@@ -1115,13 +749,3 @@ nlu:
     - a fatec tem redes sociais
     - a fatec tem [página no facebook](redes_sociais_entity)
     - tem [perfil no instagram](redes_sociais_entity)
-
-#- intent: fallback_intent
-#  examples: |
-#    - 18123384
-#    - 0
-#    - 19
-#    - oqiweoiqwenmwdoiqmeoimqwoem
-#    - coisasaleatórias
-#    - nadaacontecefeijoada
-#    - 8/465984165498
