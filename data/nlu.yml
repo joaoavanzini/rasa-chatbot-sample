@@ -160,8 +160,8 @@ nlu:
     - consigo me [matricular sem o histórico escolar](historico_entity)
     - ainda [não recebi o histórico escolar da escola](historico_entity)
 
-  - intent: faq/ask_escolaridade_publica
-    examples: |
+- intent: faq/ask_escolaridade_publica
+  examples: |
     - [escolaridade publica](escolaridade_entity)
     - ter [escolaridade publica](escolaridade_entity)
     - sobre [escolaridade publica](escolaridade_entity)

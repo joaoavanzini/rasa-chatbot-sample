@@ -36,7 +36,6 @@ entities:
   - mudar_curso_entity
   - prova_entity
   - redes_sociais_entity
-
   - faq:
       is_retrieval_intent: true
       
