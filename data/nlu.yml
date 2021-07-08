@@ -91,6 +91,8 @@ nlu:
     - poderia me contar quem é você
     - estou falando com um robô
 
+
+# Caio
 - intent: faq/ask_trocar_curso        
   examples: |
     - [trocar curso](trocar_curso_entity)
@@ -228,7 +230,8 @@ nlu:
     - sou aluno da FATEC, posso fazer [outro curso](dois_cursos_entity) ao mesmo tempo 
     - tem como fazer [dois cursos](dois_cursos_entity)
     - tem problema em cursar [dois cursos](dois_cursos_entity) da FATEC
-    
+
+# Bassi
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
     - alem da fatec posso fazer [outra faculdade](outra_faculdade_entity)
@@ -365,6 +368,7 @@ nlu:
     - [quantos anos preciso](idade_minima_entity) ter para participar 
     - tem [idade certa](idade_minima_entity)
 
+# Palhares
 - intent: faq/ask_quem_pode_fazer_vestibular
   examples: |
     - como [posso fazer curso](quem_pode_fazer_curso_entity) da fatec
@@ -501,6 +505,7 @@ nlu:
     - o que [seria vestibular](o_que_vestibular_entity)
     - não sei o que seria vestibular
 
+# Victor
 - intent: faq/ask_como_faco_inscricao_vestibular
   examples: |
     - [como faço a inscrição do vestibular](como_faco_inscricao_vestibular_entity)
@@ -639,7 +644,8 @@ nlu:
     - posso ser chamado para a [segunda opção](segunda_chamada_entity)
     - posso ser chamado para a [segunda chamada](segunda_chamada_entity)
     - posso eu ser chamado para a [segunda chamada](segunda_chamada_entity)
-  
+
+# Thiago  
 - intent: faq/ask_quais_sao_as_principais_datas_e_etapas_processo_seletivo 
   examples: |
     - processo [seletivo](etapas_processo_seletivo_entity)
