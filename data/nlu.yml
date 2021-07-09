@@ -2,155 +2,126 @@ version: "2.0"
 nlu:
 - intent: saudacao
   examples: |
-    - oi
-    - olá
-    - ola
-    - hey
-    - fala ae
-    - salve
-    - ei
-    - blz
-    - e ai
-    - oi, tudo bem
-    - eae, blz
-    - eae, tudo bem
-    - olá, tudo bem
-    - ola, beleza
-    - bom dia
-    - boa tarde
-    - boa noite
-    - dia
-    - tarde
-    - noite
-    - manhã
-    - e ae
-    - tudo bom
-    - e ai tudo bom
-    - e ae tudo bom
-    - beleza meu mano bot
-    - beleza meu mano
-    - beleza mano
-    - beleza bot
-    - falae bot
-    - fala ae bot
-    - suave
-    - eai
-    - olar
-    - aoba
-    - alo
-    - como você está
-    - como vc ta
-    - como vc esta
+    - [oi](saudacao_entity)
+    - [ei](saudacao_entity)
+    - [olá](saudacao_entity)
+    - [ola](saudacao_entity)
+    - [hey](saudacao_entity)
+    - [blz](saudacao_entity)
+    - [dia](saudacao_entity)
+    - [eai](saudacao_entity)
+    - [alo](saudacao_entity)
+    - [aoba](saudacao_entity)
+    - [e ai](saudacao_entity)
+    - [e ae](saudacao_entity)
+    - [olar](saudacao_entity)
+    - [tarde](saudacao_entity)
+    - [noite](saudacao_entity)
+    - [salve](saudacao_entity)
+    - [manhã](saudacao_entity)
+    - [suave](saudacao_entity)
+    - [fala ae](saudacao_entity)
+    - [bom dia](saudacao_entity)
+    - [eae](saudacao_entity), blz
+    - [tudo bom](saudacao_entity)
+    - [boa tarde](saudacao_entity)
+    - [boa noite](saudacao_entity)
+    - [falae](saudacao_entity) bot
+    - [beleza](saudacao_entity) bot
+    - [como vc ta](saudacao_entity)
+    - ola, [beleza](saudacao_entity)
+    - beleza [mano](saudacao_entity)
+    - [fala](saudacao_entity) ae bot
+    - oi, [tudo bem](saudacao_entity)
+    - [como vc esta](saudacao_entity)
+    - [e ai](saudacao_entity) tudo bom
+    - [e ae](saudacao_entity) tudo bom
+    - [como você está](saudacao_entity)
+    - beleza [meu mano](saudacao_entity)
+    - beleza [meu mano bot](saudacao_entity)
 
 - intent: adeus
   examples: |
-    - te vejo mais tarde
-    - tchau
-    - flw
-    - falou
-    - até mais
-    - até a próxima
-    - até mais tarde
-    - obrigado, tchau
-    - fui
-    - vou embora
-    - saindo
-    - vou sair
-    - valeu falou
-    - adeus
-    - a deus
-    - não quero saber mais de você
-    - não me importo contigo
-    - não quero mais
-    - cansei de vc
-    - valeu falou
-    - vlw flw
-    - não ligo
-    - abraço
-    - abraco
-    - cancelar
+    - [fui](adeus_entity)
+    - [flw](adeus_entity)
+    - [tchau](adeus_entity)
+    - [falou](adeus_entity)
+    - [adeus](adeus_entity)
+    - [a deus](adeus_entity)
+    - [saindo](adeus_entity)
+    - [abraco](adeus_entity)
+    - [abraço](adeus_entity)
+    - [vlw flw](adeus_entity)
+    - [cancelar](adeus_entity)
+    - [até mais](adeus_entity)
+    - [vou sair](adeus_entity)
+    - [não ligo](adeus_entity)
+    - [vou embora](adeus_entity)
+    - [valeu falou](adeus_entity)
+    - [cansei de vc](adeus_entity)
+    - [até a próxima](adeus_entity)
+    - [até mais tarde](adeus_entity)
+    - [não quero mais](adeus_entity)
+    - obrigado, [tchau](adeus_entity)
+    - [te vejo mais tarde](adeus_entity)
+    - [não me importo contigo](adeus_entity)
+    - [não quero saber mais de você](adeus_entity)
+    - [xau](adeus_entity)
+    - [tcchaau](adeus_entity)
+    - [xxaau](adeus_entity) até depois
+    - [bye](adeus_entity)
+    - [desligar](adeus_entity)
 
 - intent: perguntar_se_e_bot
   examples: |
-    - voce e bot
-    - vc e bot
-    - você é um bot
-    - você é uma humano
-    - estou falando com um bot
-    - de onde você vem
-    - bot
-    - me explique o que vc faz
-    - quem é você
-    - estou falando com quem
-    - com quem estou falando
-    - me explique cara, quem é vc afinal
-    - me explique, quem é vc
-    - quem é vc
-    - me conte mais sobre você
-    - poderia me contar quem é vc
-    - poderia me contar quem é você
-    - estou falando com um robô
+    - [bot](bot_entity)
+    - [vc e bot](bot_entity)
+    - [quem é vc](bot_entity)
+    - [voce e bot](bot_entity)
+    - [quem é você](bot_entity)
+    - [você é um bot](bot_entity)
+    - [você é um humano](bot_entity)
+    - [de onde você vem](bot_entity)
+    - [com quem estou falando](bot_entity)
+    - [estou falando com quem](bot_entity)
+    - [me explique, quem é vc](bot_entity)
+    - [estou falando com um bot](bot_entity)
+    - [me explique o que vc faz](bot_entity)
+    - [me conte mais sobre você](bot_entity)
+    - [estou falando com um robô](bot_entity)
+    - [poderia me contar quem é vc](bot_entity)
+    - [poderia me contar quem é você](bot_entity)
+    - [me explique cara, quem é vc afinal](bot_entity)
 
-
-# Caio
-- intent: faq/ask_trocar_curso        
-  examples: |
-    - quero trocar o curso
-    - queria troca de curso
-    - gostaria de mudar o curso
-    - pode muda de curso
-    - fazer mudança de curso
-    - quero alterar o curso
-    - posso substituir o curso
-    - [trocar curso](trocar_curso_entity)
-    - [mudar o curso](trocar_curso_entity)
-    - [mudar meu curso](trocar_curso_entity)
-    - [mudança de curso](trocar_curso_entity)
-    - como [mudo de curso](trocar_curso_entity)
-    - como [troco de curso](trocar_curso_entity)
-    - posso [mudar meu curso](trocar_curso_entity)
-    - posso [trocar de curso](trocar_curso_entity)
-    - consigo [mudar de curso](trocar_curso_entity)
-    - posso [trocar meu curso](trocar_curso_entity)
-    - queria [trocar de curso](trocar_curso_entity)
-    - queria [mudar meu curso](trocar_curso_entity)
-    - poderia [trocar de curso](trocar_curso_entity)
-    - eu posso [trocar de curso](trocar_curso_entity)
-    - [mudar de curso, tem como](trocar_curso_entity)
-    - [posso eu trocar meu curso](trocar_curso_entity)
-    - [trocar de curso, tem como](trocar_curso_entity)
-    - gostaria de [mudar de curso](trocar_curso_entity)
-    - [mudar de curso, teria como](trocar_curso_entity)
-    - quero [trocar de curso](trocar_curso_entity), tem como
 
 - intent: faq/ask_aproveitamento_de_disciplinas        
   examples: |
     - quero [aproveitar](aproveitamento_entity)
-    - quero fazer o [aproveitamento](aproveitamento_entity)
     - posso [eliminar](aproveitamento_entity) disciplinas
-    - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
-    - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
+    - quero fazer o [aproveitamento](aproveitamento_entity)
     - gostaria de [eliminar](aproveitamento_entity) disciplinas
     - fazer o [aproveitamento](aproveitamento_entity) de matérias
+    - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
+    - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
     - eu quero fazer o [aproveitamento](aproveitamento_entity) de disciplinas
 
 - intent: faq/ask_matricula_sem_historico 
   examples: |
     - estou [sem o histórico](historico_entity) escolar
-    - é possível fazer matrícula [sem o historico](historico_entity) escolar
-    - posso fazer matrícula [sem histórico](historico_entity)
-    - da pra fazer matrícula [sem historico](historico_entity)
-    - [perdi meu histórico](historico_entity) escolar, posso fazer matrícula
-    - [perdi meu historico](historico_entity), posso fazer matrícula
+    - [nao tem historico] escolar, da pra fazer matricula
     - [não tenho histórico] escolar, posso fazer matrícula
     - [nao tenho histórico] da escola, da pra fazer matrícula
+    - posso fazer matrícula [sem histórico](historico_entity)
+    - da pra fazer matrícula [sem historico](historico_entity)
     - [nao tenho histórico] escolar, é possivel fazer matricula
-    - [nao tem historico] escolar, da pra fazer matricula
+    - [perdi meu historico](historico_entity), posso fazer matrícula
+    - é possível fazer matrícula [sem o historico](historico_entity) escolar
+    - [perdi meu histórico](historico_entity) escolar, posso fazer matrícula
 
 - intent: faq/ask_escolaridade_publica
   examples: |
-    - [escolaridade publica](escolaridade_entity)
     - ter [escola publica](escolaridade_entity)
+    - [escolaridade publica](escolaridade_entity)
     - sobre [escola pública](escolaridade_entity)
     - eu comprovar [escolaridade publica](escolaridade_entity)
     - como comprovo [escolaridade publica](escolaridade_entity)
@@ -195,74 +166,74 @@ nlu:
 
 - intent: faq/ask_cursar_outra_faculdade
   examples: |
-    - posso cursar [outra faculdade](outra_faculdade_entity) também
-    - estudo em [outra instituição](outra_faculdade_entity) também
+    - posso cursar [duas faculdades](outra_faculdade_entity)
+    - vou estudar em [duas faculdades](outra_faculdade_entity)
+    - posso estudar em [duas faculdades](outra_faculdade_entity)
     - posso estudar em [outra instituição](outra_faculdade_entity)
-    - estou estudando em [outra instiuicao](outra_faculdade_entity)
+    - estou estudando em [duas faculdades](outra_faculdade_entity)
     - posso cursar [mais de uma faculdade](outra_faculdade_entity)
+    - estudo em [outra instituição](outra_faculdade_entity) também
+    - estou estudando em [outra instiuicao](outra_faculdade_entity)
+    - posso cursar [outra faculdade](outra_faculdade_entity) também
     - também estou cursando [outra faculdade](outra_faculdade_entity)
     - quero estudar em [outra instituicao](outra_faculdade_entity) alem dessa
-    - posso cursar [duas faculdades](outra_faculdade_entity)
-    - posso estudar em [duas faculdades](outra_faculdade_entity)
-    - estou estudando em [duas faculdades](outra_faculdade_entity)
-    - vou estudar em [duas faculdades](outra_faculdade_entity)
   
 - intent: faq/ask_como_serao_as_aulas_por_conta_da_pandemia
   examples: |
-    - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
-    - as [aulas serão remotas](aulas_remotas_entity)
-    - as [aulas serão como](aulas_remotas_entity)
-    - as [aulas serão online](aulas_remotas_entity)
-    - as [aulas serão presencias](aulas_remotas_entity)
-    - as [aulas serão online](aulas_remotas_entity)
-    - as [aulas são pelo computador](aulas_remotas_entity)
-    - [aulas pela internet](aulas_remotas_entity)
-    - [aulas pelo computador](aulas_remotas_entity)
-    - [aulas corona virus](aulas_remotas_entity) como serao
+    - [aula](aulas_remotas_entity)
+    - [aulas](aulas_remotas_entity)
+    - [covid](aulas_remotas_entity)
+    - [corona](aulas_remotas_entity)
+    - [covid 19](aulas_remotas_entity)
+    - [aulas online](aulas_remotas_entity)
     - [aulas covid-19](aulas_remotas_entity)
     - [aulas pandemia](aulas_remotas_entity)
     - [aulas presenciais](aulas_remotas_entity)
-    - [aulas online](aulas_remotas_entity)
-    - [aulas](aulas_remotas_entity)
-    - [aula](aulas_remotas_entity)
-    - [covid 19](aulas_remotas_entity)
-    - [covid](aulas_remotas_entity)
-    - [corona](aulas_remotas_entity)
+    - [aulas pela internet](aulas_remotas_entity)
+    - as [aulas serão como](aulas_remotas_entity)
+    - as [aulas serão online](aulas_remotas_entity)
+    - as [aulas serão online](aulas_remotas_entity)
+    - [aulas pelo computador](aulas_remotas_entity)
+    - as [aulas serão remotas](aulas_remotas_entity)
+    - as [aulas serão presencias](aulas_remotas_entity)
+    - as [aulas são pelo computador](aulas_remotas_entity)
+    - [aulas corona virus](aulas_remotas_entity) como serao
+    - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
 
 - intent: faq/ask_tem_idade_minima 
   examples: |
-    - até [qual idade](idade_minima_entity) pode participar
-    - com [quantos anos](idade_minima_entity) pode participar
-    - com [quantos anos posso entrar](idade_minima_entity) na fatec
     - [idade](idade_minima_entity)
     - [idade minima](idade_minima_entity)
-    - [idade para entrar](idade_minima_entity)
-    - [limite de idade](idade_minima_entity)
-    - [menores de idade](idade_minima_entity) podem se matricular
-    - preciso ter [quantos anos](idade_minima_entity) para fazer
-    - posso ter menos de [18 anos](idade_minima_entity) para prestar o vestibular
-    - posso [ingressar com quantos anos](idade_minima_entity)
-    - para ingressar na fatec preciso ser [maior de idade](idade_minima_entity)
     - [qualquer idade](idade_minima_entity)
-    - [qual a idade máxima](idade_minima_entity)
-    - [quantos anos preciso](idade_minima_entity) ter para participar 
+    - [limite de idade](idade_minima_entity)
     - tem [idade certa](idade_minima_entity)
+    - [idade para entrar](idade_minima_entity)
+    - [qual a idade máxima](idade_minima_entity)
+    - até [qual idade](idade_minima_entity) pode participar
+    - posso [ingressar com quantos anos](idade_minima_entity)
+    - com [quantos anos](idade_minima_entity) pode participar
+    - preciso ter [quantos anos](idade_minima_entity) para fazer
+    - [menores de idade](idade_minima_entity) podem se matricular
+    - com [quantos anos posso entrar](idade_minima_entity) na fatec
+    - [quantos anos preciso](idade_minima_entity) ter para participar 
+    - para ingressar na fatec preciso ser [maior de idade](idade_minima_entity)
+    - posso ter menos de [18 anos](idade_minima_entity) para prestar o vestibular
 
 - intent: faq/ask_quem_pode_fazer_vestibular
   examples: |
-    - como [posso fazer curso](quem_pode_fazer_curso_entity) da fatec
-    - como [posso estudar na fatec](quem_pode_fazer_curso_entity)
+    - [fazer curso](quem_pode_fazer_curso_entity) quem pode
+    - [quero estudar na fatec](quem_pode_fazer_curso_entity)
     - [terminei o ensino médio](quem_pode_fazer_curso_entity)
+    - quero [fazer o vestibular](quem_pode_fazer_curso_entity)
+    - quem pode [fazer um curso](quem_pode_fazer_curso_entity)
     - não [terminei meus estudos](quem_pode_fazer_curso_entity)
     - não fiz [ensino fundamental](quem_pode_fazer_curso_entity)
-    - [fazer curso](quem_pode_fazer_curso_entity) quem pode
-    - quero [fazer o vestibular](quem_pode_fazer_curso_entity)
-    - [quero estudar na fatec](quem_pode_fazer_curso_entity)
-    - quem pode [fazer um curso](quem_pode_fazer_curso_entity)
+    - como [posso estudar na fatec](quem_pode_fazer_curso_entity)
     - quem pode [prestar o vestibular](quem_pode_fazer_curso_entity)
+    - como [posso fazer curso](quem_pode_fazer_curso_entity) da fatec
+    - qualquer pessoa pode [tentar o vestibular](quem_pode_fazer_curso_entity)
     - quem pode [participar do processo seletivo](quem_pode_fazer_curso_entity)
     - o que e [necessario para fazer curso](quem_pode_fazer_curso_entity) fatec
-    - qualquer pessoa pode [tentar o vestibular](quem_pode_fazer_curso_entity)
 
 - intent: faq/ask_tem_mensalidade
   examples: |
@@ -356,6 +327,7 @@ nlu:
     - quando inscriçao para o vestibular [acontecem](inscricao_vestibular_entity)
     - quando as inscriçoes para o vestibular [abrem](inscricao_vestibular_entity)
     - as inscriçoes para o vestibular [abrir](inscricao_vestibular_entity) quando
+    - [quando vai ser](inscricao_vestibular_entity) a prova do vestibular
 
 - intent: faq/ask_upload
   examples: |
@@ -363,6 +335,13 @@ nlu:
     - [enviar arquivos](upload_entity)
     - [subir arquivos](upload_entity)
     - [arquivos](upload_entity)
+    - quero [fazer o upload](upload_entity)
+    - quero [subir os arquivos](upload_entity)
+    - quero [enviar os arquivos](upload_entity)
+    - fazer [upload dos arquivos](upload_entity)
+    - fazer [envio dos arquivos](upload_entity)
+    - como [envio os arquivos](upload_entity)
+    - como [subo os arquivos](upload_entity)
 
 
 - intent: faq/ask_pagamento_efetivado
@@ -399,9 +378,11 @@ nlu:
     - gostaria de saber sobre as principais [datas](etapas_processo_seletivo_entity) e etapas
     - [calendario](etapas_processo_seletivo_entity) da fatec
     - [cronograma](etapas_processo_seletivo_entity) da fatec
+    - qual é o [calendario](etapas_processo_seletivo_entity)
+    - qual é o [calendário](etapas_processo_seletivo_entity) do processo seletivo
+    - quais as principais [datas](etapas_processo_seletivo_entity)
+    - qual a [data](etapas_processo_seletivo_entity)
 
-
- 
 - intent: faq/ask_vai_ter_prova
   examples: | 
     - vai ter [prova](prova_entity)
@@ -409,6 +390,10 @@ nlu:
     - [prova presencial](prova_entity)
     - [prova virtual](prova_entity)
     - [prova online](prova_entity)
+    - quando vai ter [prova](prova_entity)
+    - quando vai ter [vestibular](prova_entity)
+    - o [vestibular](prova_entity) vai ser quando
+    - a [prova](prova_entity) vai ser quando
 
 - intent: faq/ask_redes_sociais
   examples: |
@@ -418,6 +403,9 @@ nlu:
     - qual o [linkedin](redes_sociais_entity) da fatec
     - quais as [redes](redes_sociais_entity) sociais da fatec
     - a fatec tem [rede](redes_sociais_entity) social
+    - a fatec tem [face](redes_sociais_entity)
+    - a fatec tem [insta](redes_sociais_entity)
+    - me passa o [face](redes_sociais_entity)
     
 - intent: faq/ask_sobre_o_curso
   examples: |
@@ -442,7 +430,6 @@ nlu:
     - posso usar a [carta de motorista](sobre_documentos_entity)
     - é permitido usar a [carteira nacional de habilitação](sobre_documentos_entity)
     - e permitido usar a [carteira nacional de habilitacao](sobre_documentos_entity)
-    - perdi o meu [rg](sobre_documentos_entity)
     - perdi minha [identificação civil](sobre_documentos_entity)
     - perdi meu [registro geral](sobre_documentos_entity)
     - perdi meu [cpf](sobre_documentos_entity)
@@ -450,3 +437,13 @@ nlu:
     - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
     - perdi meus [documentos](sobre_documentos_entity)
     - estou sem [documento](sobre_documentos_entity)
+
+
+- intent: fallback_intent
+  examples: |
+    - pizza
+    - 19
+    - alkds
+    - bicicleta
+    - wasd
+    - jogar bola

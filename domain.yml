@@ -7,6 +7,9 @@ intents:
 
 
 entities:
+  - saudacao_entity
+  - adeus_entity
+  - bot_entity
   - aproveitamento_entity
   - historico_entity
   - escolaridade_entity

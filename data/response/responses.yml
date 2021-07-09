@@ -40,20 +40,6 @@ responses:
   utter_faq/ask_cursar_outra_faculdade:
   - text: "Se for instituição particular sim, se for pública não."
 
-#   utter_faq/ask_posso_usar_cnh:
-#   - text: "Não serão aceitos como documento de identidade para efeito de matrícula: Carteira Nacional de 
-#       Habilitação - CNH - ou documentos expedidos por Ordem ou Conselho Profissional 
-#       (exemplo: OAB, Crea, Coren, CRC e outros)."
-  
-#   utter_faq/ask_perdi_meu_rg:
-#   - text: "Para a matrícula você poderá enviar o comprovante de que solicitou a segunda via do RG até que ele fique pronto."
-      
-#   utter_faq/ask_perdi_meu_cpf:
-#   - text: |- 
-#       Arquivos com os seguintes documentos que comprovem o número do CPF:
-#       - CPF documento exclusivo;
-#       - RG, desde que contenha o número do CPF;
-#       - Carteira Nacional de Habilitação CNH.
         
   utter_faq/ask_como_serao_as_aulas_por_conta_da_pandemia:
   - text: "Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
@@ -117,7 +103,7 @@ responses:
 
   utter_faq/ask_quando_comecam_inscricoes_vestibular:
   - text: |-
-        Verificar no site https://www.vestibularfatec.com.br.
+        Dê uma olhada no site: https://www.vestibularfatec.com.br.
 
   utter_faq/ask_upload:
   - text: |- 
