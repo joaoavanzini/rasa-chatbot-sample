@@ -221,9 +221,16 @@ responses:
   utter_faq/ask_sobre_documentos:
   - text: |- 
       Sobre documentos é importante lembrar que:
-        • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.  
+
+        • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros. 
+
         • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
+
+
         • Em caso da perda do CPF, você pode usar;
+
         - CPF documento exclusivo;
+
         - RG, desde que contenha o número do CPF;
+        
         - Carteira Nacional de Habilitação CNH.

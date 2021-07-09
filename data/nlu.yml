@@ -248,12 +248,15 @@ nlu:
     - [qual o valor](valor_mensalidade_entity) dos cursos da fatec
     - [quanto paga](valor_mensalidade_entity) para por mes
     - [preço dos cursos](valor_mensalidade_entity)
+    - [preço]
     - [valor mensal](valor_mensalidade_entity)
     - [valor pago](valor_mensalidade_entity) pelos cursos
     - qual é a mensalidade da fatec
     - [mensalidade](valor_mensalidade_entity)
     - [preço mensal](valor_mensalidade_entity)
     - cursos sao [pagos ou gratuitos](valor_mensalidade_entity)
+    - devo me [preocupar com a mensalidade](valor_mensalidade_entity)
+    - tenho que me [preocupar com a mensalidade](valor_mensalidade_entity)
 
 - intent: faq/ask_curso_tecnico_ou_tecnologo
   examples: |
@@ -285,16 +288,22 @@ nlu:
     - venho de [outro país](candidato_estrangeiro_entity)
     - nasci em [outro pais](candidato_estrangeiro_entity)
     
-
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
-    - como faço o pagamento da [taxa](taxa_inscricao_entity) de inscrição
-    - quero pagar a [taxa](taxa_inscricao_entity) de inscrição
+    - [taxa](taxa_inscricao_entity)
+    - [taxas](taxa_inscricao_entity)
+    - qual a [taxa](taxa_inscricao_entity)
+    - qual e a [taxa](taxa_inscricao_entity)
+    - quero saber da [taxa](taxa_inscricao_entity)
+    - qual e o [preço da taxa](taxa_inscricao_entity)
     - sobre a [taxa](taxa_inscricao_entity) de inscrição
     - como pago a [taxa](taxa_inscricao_entity) de inscrição
+    - quero pagar a [taxa](taxa_inscricao_entity) de inscrição
+    - eu quero fazer o pagamento da [taxa](taxa_inscricao_entity)
+    - como faço o pagamento da [taxa](taxa_inscricao_entity) de inscrição
     - como faco o pagamento da [taxa](taxa_inscricao_entity) de inscricao
     - como farei o pagamento da [taxa](taxa_inscricao_entity) de inscrição
-    - eu quero fazer o pagamento da [taxa](taxa_inscricao_entity)
+    - poderia me explicar mais sobre a [taxa](taxa_inscricao_entity) de inscrição
 
 - intent: faq/ask_o_que_e_o_vestibular
   examples: |
@@ -358,6 +367,9 @@ nlu:
     - segunda [via boleto](segunda_via_boleto_entity)
     - [boleto bancario](segunda_via_boleto_entity)
     - imprimir [boleto](boleto_bancario_entity)
+    - [bolet](boleto_bancario_entity)
+    - [bolheto](boleto_bancario_entity)
+    - [banco](boleto_bancario_entity)
   
 - intent: faq/ask_segunda_chamada
   examples: |
@@ -394,6 +406,13 @@ nlu:
     - quando vai ter [vestibular](prova_entity)
     - o [vestibular](prova_entity) vai ser quando
     - a [prova](prova_entity) vai ser quando
+    - vai ter [avaliacao](prova_entity) esse ano
+    - vai ter [avaliação](prova_entity) esse ano
+    - vai ter [vestibular](prova_entity) esse ano
+    - [avaliacao](prova_entity)
+    - [avaliação](prova_entity)
+    - [prova](prova_entity)
+    - [vestibular](prova_entity)
 
 - intent: faq/ask_redes_sociais
   examples: |
@@ -437,7 +456,12 @@ nlu:
     - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
     - perdi meus [documentos](sobre_documentos_entity)
     - estou sem [documento](sobre_documentos_entity)
-
+    - [documentos](sobre_documentos_entity) necessários para fazer a matrícula
+    - [documentos](sobre_documentos_entity) para fazer a matrícula
+    - quero fazer a matrícula, quais são [os documentos](sobre_documentos_entity) necessários para fazer a matrícula
+    - [documentos necessários](sobre_documentos_entity)
+    - [documentos necessarios](sobre_documentos_entity)
+    - quais [documentos](sobre_documentos_entity) eu preciso
 
 - intent: fallback_intent
   examples: |
@@ -451,3 +475,10 @@ nlu:
     - fshfags
     - 76uy8    
     - ghasdfiashako
+    - :
+    - ;
+    - (
+    - )
+    - 049823904
+    - 129038
+    - 30823fkjld
