@@ -1,4 +1,4 @@
-version: "2.0"
+dsihfrsdjversion: "2.0"
 
 intents:
   - saudacao
@@ -30,8 +30,6 @@ entities:
   - segunda_via_boleto_entity
   - segunda_chamada_entity
   - etapas_processo_seletivo_entity
-  - quem_pode_superior_entity
-  - mudar_curso_entity
   - prova_entity
   - redes_sociais_entity
   - sobre_o_curso_entity

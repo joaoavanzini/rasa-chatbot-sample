@@ -26,5 +26,5 @@ rules:
   steps:
   - or:
     - intent: nlu_fallback
-    - intet: fallback_intent
+    - intent: fallback_intent
   - action: utter_retorno
