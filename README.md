@@ -22,7 +22,7 @@ Este é um trabalho realizado com muito ❤️ pelos bolsistas da Compasso UOL e
 
 
 # 📖 Documentação
-- Documento na [última versão](https://google.com.br).
+- Documento na [última versão](https://github.com/vicpb/rasa-chatbot-sample/blob/main/Documenta%C3%A7%C3%A3o%20do%20ChatBot.pdf).
 
 # 💬 Mais informações
 
